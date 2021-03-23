@@ -1,0 +1,33 @@
+// Sprite Animation
+.img-preview {
+	.runner {
+		&.animate {
+			img {
+				display: inline-block;
+				animation: runCycle infinite;
+				animation-duration: 0.5s;
+				animation-timing-function: steps(16);
+			}
+		}
+	}
+}
+
+.img-library {
+	.runner {
+		&.animate {
+			&:hover {
+				img {
+					display: inline-block;
+					animation: runCycle infinite;
+					animation-duration: 0.5s;
+					animation-timing-function: steps(16);
+				}
+			}
+		}
+	}
+}
+
+@keyframes runCycle {
+	from { transform: translate( 0, 0 ); }
+	  to { transform: translate( -100%, 0 ); }
+}

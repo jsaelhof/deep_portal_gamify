@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, ie=edge">
+        <meta name="google" content="notranslate" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Campaign Preview</title>
+
+        <style>
+            body {
+                width: 100%;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 0;
+                margin: 0;
+                color: #242424;
+                min-width: 1100px;
+            }
+
+            .header {
+                background-color: #242424;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                height: 80px;
+                color: #EEE;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+            }
+
+            .header > div {
+                -webkit-box-flex: 1;
+                    -ms-flex: 1;
+                        flex: 1;
+            }
+
+            .header > .logo {
+                margin-left: 20px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .header > .logo i {
+                font-size: 36px;
+            }
+
+            .header > .nav {
+                text-align: right;
+                margin-right: 20px;
+            }
+
+            .header > .nav > div {
+                display: inline-block;
+                margin: 0 20px;
+            }
+
+            .splash {
+                height: 500px;
+                background: url("splash.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                position: relative;
+                border-bottom: 1px solid #777;
+            }
+
+            .splash-message {
+                position: absolute;
+                top: 50%; left: 50%;
+                -webkit-transform: translate(-50%,-50%);
+                    -ms-transform: translate(-50%,-50%);
+                        transform: translate(-50%,-50%);
+                width: 100%;
+                color: #253246;
+                text-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+            }
+
+            .splash-message h1 {
+                font-size: 50px;
+                margin: 12px 0;
+            }
+            
+            .splash-message h3 {
+                margin: 8px 0;
+            }
+
+            .products {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+
+            .products h1 {
+                color: #253246;
+            }
+
+            .product-row {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+            }
+
+            .product {
+                margin: 35px 50px;
+                width: 200px;
+                height: 200px;
+                background-color: #EEE;
+                border: 1px solid #BBB;
+                position: relative;
+                -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.15);
+                        box-shadow: 3px 3px 5px rgba(0,0,0,0.15);
+            }
+
+            .product-image {
+                position: absolute;
+                left: 50%;
+                top: 40%;
+            }
+
+            .product-image img {
+                -webkit-transform: translate(-50%,-50%);
+                    -ms-transform: translate(-50%,-50%);
+                        transform: translate(-50%,-50%);
+            }
+
+            .product .buy {
+                text-align: right;
+                margin-top: 210px;
+                font-size: 13px;
+                font-weight: bold;
+                position: absolute;
+                right: 5px;
+                bottom: 5px;
+                padding: 5px 10px;
+                background-color: #242424;
+                color: #EEE;
+            }
+
+            .product .label {
+                position: absolute;
+                bottom: 28px;
+                left: 10px;
+                font-size: 0.9em;
+                font-weight: bold;
+                color: #444;
+            }
+
+            .product .price {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                color: #444;
+                font-size: 0.9em;
+            }
+
+            .corner {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 60px 60px 0;
+                border-color: transparent #AA0000 transparent transparent;
+                margin-left: 140px;
+            }
+
+            .sale {
+                position: absolute;
+                top: -5px;
+                right: -5px;
+            }
+
+            .burst {
+                width: 45px;
+                height: 45px;
+                background: #AA0000;
+                -webkit-transform: rotateZ(20deg)   ;
+                -ms-transform: rotate(20deg);
+                    transform: rotateZ(20deg)   ;
+                -webkit-transform-origin: 50% 50% 0;
+                -ms-transform-origin: 50% 50% 0;
+                    transform-origin: 50% 50% 0;
+            }
+
+            .burst:before {
+                width: 45px;
+                height: 45px;
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                background: #AA0000;
+                -webkit-transform: rotateZ(135deg)   ;
+                -ms-transform: rotate(135deg);
+                    transform: rotateZ(135deg)   ;
+                -webkit-transform-origin: 50% 50% 0;
+                -ms-transform-origin: 50% 50% 0;
+                    transform-origin: 50% 50% 0;
+            }
+
+            .burst-text {
+                position: absolute;
+                top: 0;
+                line-height: 45px;
+                -webkit-transform: scaleX(.85);
+                    -ms-transform: scaleX(.85);
+                        transform: scaleX(.85);
+                margin-left: -1px;
+                font-weight: bold;
+                color: #EEE;
+                font-size: 1em;
+                text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+            }
+
+            .summaries {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                margin-bottom: 50px;
+            }
+
+            .summary {
+                margin: 20px 50px;
+                width: 250px;
+            }
+            
+            .summary-title {
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 18px;
+            }
+
+            .summary-desc {
+                font-size: 12px;
+                color: #666;
+            }
+
+            .summary-link {
+                margin-top: 10px;
+                color: #AA0000;
+                font-size: 12px;
+            }
+
+            .summary ul {
+                padding: 0;
+                padding-left: 15px;
+            }
+
+            .footer {
+                font-size: 12px;
+                color: #999;
+                width: 100%;
+                text-align: center;
+                height: 100px;
+                line-height: 100px;
+                margin-bottom: 80px;
+            }
+
+            .footer > div {
+                display: inline-block;
+                margin: 0 30px;
+            }
+
+            .footer > hr {
+                width: 50%;
+                color: #DDD;
+                border-color: #DDD;
+                border-style: solid;
+            }
+
+            .material-icons {
+                font-family: "Material Icons";
+                vertical-align: middle;
+                font-size: 22px;
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <script id="gamify_mainjs" async src="/code/slideout/js/gamify.js"></script>
+
+        <div class="header">
+            <div class="logo"><i class="material-icons">layers</i>YOUR BRAND</div>
+            <div class="nav">
+                <div><i class="material-icons">list</i>Products</div>
+                <div><i class="material-icons">shopping_cart</i>Cart</div>
+                <div><i class="material-icons">search</i>Search</div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="splash">
+                <div class="splash-message">
+                    <h1>Your Website Here</h1>
+                    <h3>This page is only a preview</h3>
+                    <h3>Your campaign will appear on the pages of your own site</h3>
+                </div>
+            </div>
+            <div class="products">
+                <div>
+                    <h1>Featured Products</h1>
+                </div>
+                <div class="product-row">
+                    <div class="product">
+                        <div class="product-image"><img src="laptop.png"/></div>
+                        <div class="sale">
+                            <div class="burst">&nbsp;</div>
+                            <div class="burst-text">SALE!</div>
+                        </div>
+                        <div class="label">Laptop</div>
+                        <div class="price">$999.99</div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image"><img src="phone.png"/></div>
+                        <div class="label">Smartphone</div>
+                        <div class="price">$679.99</div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image"><img src="camera.png"/></div>
+                        <div class="sale">
+                            <div class="burst">&nbsp;</div>
+                            <div class="burst-text">SAVE!</div>
+                        </div>
+                        <div class="label">Camera</div>
+                        <div class="price">$799.99</div>
+                    </div>
+                </div>
+                <div class="product-row">
+                    <div class="product">
+                        <div class="product-image"><img src="watch.png"/></div>
+                        <div class="label">Smartwatch</div>
+                        <div class="price">$299.99</div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image"><img src="monitor.png"/></div>
+                        <div class="label">Monitor</div>
+                        <div class="price">$149.99</div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image"><img src="headphones.png"/></div>
+                        <div class="sale">
+                            <div class="burst">&nbsp;</div>
+                            <div class="burst-text" style="margin-left: 1px">NEW!</div>
+                        </div>
+                        <div class="label">Headphones</div>
+                        <div class="price">$89.99</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="summaries">
+                <div class="summary">
+                    <div class="summary-title"><i class="material-icons">security</i>Warranty Replacement</div>
+                    <div class="summary-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <ul>
+                        <li>Duis aute irure dolor</li>
+                        <li>In reprehenderit in voluptate velit esse</li>
+                        <li>Cillum dolore eu fugiat nulla pariatur</li>
+                        </ul>
+                    </div>
+                    <div class="summary-link">Learn More >></div>
+                </div>
+                <div class="summary">
+                    <div class="summary-title"><i class="material-icons">shopping_cart</i>Price Match Guarantee</div>
+                    <div class="summary-desc">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                    </div>
+                    <div class="summary-link">Learn More >></div>
+                </div>
+                <div class="summary">
+                    <div class="summary-title"><i class="material-icons">autorenew</i>Returns &amp; Exchanges</div>
+                    <div class="summary-desc">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    </div>
+                    <div class="summary-link">Learn More >></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <hr/>
+            <div>&copy; 2018, DeepMarkit</div>
+            <div>Powered by DeepMarkit</div>
+        </div>
+    </body>
+</html>

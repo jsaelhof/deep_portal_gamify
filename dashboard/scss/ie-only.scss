@@ -1,0 +1,13 @@
+.game-custom {
+	.game-assets {
+		.asset-img {
+			img {
+				width: auto;
+			}
+		}
+	}
+}
+
+input[data-switch=default] + label::before {
+	font-size: 0.5em;
+}

@@ -1,0 +1,152 @@
+// Variables
+
+// Basic Colors
+$white:					#fafafa !default;
+$black:					#0a0a0a !default;
+$green:					#6fcf58 !default;
+$red:					#d9534f !default;
+$primary:               #337ab7 !default;
+
+// Neutral Colours
+$dm-gray01:		#eee !default;
+$dm-gray02:		#aaa !default;
+$dm-gray03:		#777 !default;
+$dm-gray04:		#555 !default;
+$dm-gray05:		#333 !default;
+$dm-gray06:		#999 !default;
+
+// FetchBot Site Colors
+$dm-green01:		rgb(118, 220, 93) !default;
+$dm-green02:		rgb(111, 207, 88) !default;
+$dm-green03:		rgb(97, 181, 77) !default;
+$dm-green04:		rgb(77, 143, 61) !default;
+$dm-green05:		rgb(43, 79, 34) !default;
+
+// Gamify Blues
+//$gamify-blue01:		rgb(118, 220, 93) !default;
+$gamify-blue02:		#429eed !default;
+$gamify-blue03:		#337ab7 !default;
+//$gamify-blue04:		rgb(77, 143, 61) !default;
+//$gamify-blue05:		rgb(43, 79, 34) !default;
+
+// Alert and Cancel Colors
+$dm-cancel-text:	$white !default;
+$dm-cancel-color:	#bc566a !default;
+$dm-cancel-bgd:		lighten($dm-cancel-color, 37%) !default;
+
+$portal-bgd:			$white !default;
+
+// Link color
+$link-color:			$gamify-blue03 !default;
+$link-hover-color:		$gamify-blue02 !default;
+
+// Call-to-Action Button
+$btn-cta-color:			$gamify-blue03 !default;
+$btn-cta-bgd:			$gamify-blue03 !default;
+$btn-cta-bgd-hover:		$gamify-blue02 !default;
+
+// Cancel Colors
+$btn-cancel-color:		$black !default;
+$btn-cancel-bgd:		$dm-cancel-color !default;
+
+// Button Outlined Variables
+$btn-default-color:		$dm-gray04 !default;
+//$btn-default-bg:		$dm-green02 !default;
+$btn-default-border:	$dm-gray03 !default;
+// Button Filled Variables
+$btn-primary-color:		#fafafa !default;
+
+// Action Buttons
+$action-button:			$dm-green04;
+$action-button-hover:	$dm-green02;
+
+// Select Buttons
+$select-button:			$dm-gray03;
+$select-button-hover:	$dm-gray01;
+
+// Font Sizes
+// $font-size-base:		14px !default;
+// $font-size-large:		ceil(($font-size-base * 1.25)) !default; // ~18px
+// $font-size-small:		ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:			20px;
+$font-size-h2:			18px;
+$font-size-h3:			16px;
+$font-size-h4:			14px;
+$font-size-h5:			14px;
+$font-size-h6:			14px;
+
+// Font Family
+$font-headings:         'ProximaNova-Semibold', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+$font-body:             'ProximaNova-Regular', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+$font-weight-regular:	500;
+$font-weight-bold:		600;
+
+$font-family-base:		$font-body !default;
+$headings-font-family:	$font-headings !default;
+$headings-small-color:	$dm-green01;
+
+// Dashboard Sidebar
+$body-bg:				$white !default;
+
+$text-color:			#333 !default;
+
+$spacer:				10px;
+
+$hr-border:				$dm-gray04;
+
+$progress-bar-bg:		$dm-gray04 !default;
+
+// Subheader
+$subheader-bgd:			$dm-green03;
+
+// Top Bar
+$top-bar-bgd:			$white;
+$top-bar-height:        60px;
+
+// Action Bar
+$action-bar-height:     60px;
+
+$header-spacer:			105px;
+
+// Dashboard Navigation Sidebar
+$sidebar-width:			300px;
+$sidebar-link:			$dm-gray04;
+$sidebar-bgd:			$white;
+
+// Settings Sidebar
+$settings-width:		280px;
+$settings-link:			$dm-green03;
+$settings-bgd:			#fafafa;
+$settings-bgd-hover:	$dm-gray01;
+$settings-bgd-active:	$dm-gray03;
+
+// Alert Colours
+$state-success-text:		$black !default;
+$state-success-bg:			lighten($btn-cta-bgd, 25%) !default;
+$state-success-border:		$btn-cta-bgd !default;
+
+$state-info-text:			$black !default;
+$state-info-bg:				lighten($btn-cta-bgd, 25%) !default;
+$state-info-border:			darken($btn-cta-bgd, 0%) !default;
+
+$state-warning-text:		$black !default;
+$state-warning-bg:			lighten($btn-cta-bgd, 25%) !default;
+$state-warning-border:		$btn-cta-bgd !default;
+
+// $state-danger-text:			$black !default;
+// $state-danger-bg:			lighten($btn-cta-bgd, 25%) !default;
+// $state-danger-border:		$btn-cta-bgd !default;
+
+$border-radius-base:		0 !default;
+$border-radius-large:		0 !default;
+$border-radius-small:		0 !default;
+
+$gamify-alert-warning-text: #989a17;
+$gamify-alert-warning-background: #fffee0;
+$gamify-alert-warning-border: #efedaf;
+
+$gamify-alert-error-text: #9a1717;
+$gamify-alert-error-background: #efbfbf;
+$gamify-alert-error-border: #d27676;

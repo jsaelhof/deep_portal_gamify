@@ -1,0 +1,275 @@
+{ 
+    "comment": "campaign.features and features are both legacy configurations",
+
+    "campaign": {
+        "features": [
+            "prizes",
+            "leaderboard"
+        ]
+    },
+
+    "features": [ "campaign" ],
+    "integration": {
+        "displayName": "Shopify",
+        "tag": "SXWk5tlCIjF2OfgtWrW3cHfhnMWniPsLtSoxtrlySgzoeY1-4PXv7xNx0GrXBUkIekgNpAGM9fDa5_3F-9Ddmg",
+        "appUrl": "{shopUrl}/admin/apps/{appId}",
+        "iframed": true,
+        "snippetInject": "auto",
+        "allowSubscribe": true
+    },
+
+    "login": {
+        "type": "sso"
+    },
+
+    "livehelp": {
+        "enabled": true
+    },
+
+    "dashboard": {
+        "leadbar": {
+            "enabled": true,
+            "newleads": true,
+            "last30days": true,
+            "alltime": true,
+            "viewleads": true,
+            "mailintegration": true
+        }
+    },
+
+    "topbar": {
+        "nav": {
+            "enabled": true,
+            "menuDisplay": "label_menu_default",
+            "menu": {
+                "myaccount": {
+                    "enabled": true
+                },
+                "tour": {
+                    "enabled": true
+                },
+                "logout": {
+                    "enabled": false
+                },
+                "subscribe": {
+                    "enabled": false
+                },
+                "help": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+
+    "preview": {
+        "useExternalSite": true
+    },
+
+    "permissions": {
+        "campaign": {
+            "create": true,
+            "clone": true,
+            "delete": true
+        },
+        "account": {
+            "user": false,
+            "password": false,
+            "subscription": true
+        }
+    },
+
+    "winnersPage": {
+        "columns": [ "date", "name", "email", "prize" ]
+    },
+
+    "productConfig": {
+        "slideout": {
+            "product": {
+                "enabled": true,
+                "tag": "6ryYLzGtZs5Mm1eTHkTrsJMK4CnHPYfqzZuSKeVAWEAh8yjYPUkfK0O05qYKVpkcx-zxbHaAT_SR0AGLTCXfdQ"
+            },
+
+            "editor": {
+                "project": {
+                    "enabled": true
+                },
+                "theme": {
+                    "enabled": true
+                },
+                "datacollection": {
+                    "enabled": true
+                },
+                "grandprizedraw": {
+                    "enabled": false
+                },
+                "draw": {
+                    "enabled": true
+                },
+                "game": {
+                    "enabled": true
+                },
+                "triggers": {
+                    "enabled": true
+                },
+                "schedule": {
+                    "enabled": true
+                },
+                "integration": {
+                    "enabled": false
+                }
+            },
+
+            "template": {
+                "defaultTemplate": "slideout-01",
+                "defaultTheme": "slideout-01-clean-slate"
+            }
+        },
+
+        "emailbanner": {
+            "product": {
+                "enabled": true,
+                "tag": "SPYpCzH3pHjziJRXU1p4nyAa09bK0jzWwM8QWQOR0UIVZjkMqPrbQOpP8ypXf5IyRctwvhmMYlWMxvr8VooafA"
+            },
+
+            "editor": {
+                "project": {
+                    "enabled": true
+                },
+                "theme": {
+                    "enabled": true
+                },
+                "grandprizedraw": {
+                    "enabled": false
+                },
+                "giveaway": {
+                    "enabled": true
+                },
+                "triggers": {
+                    "enabled": true
+                },
+                "schedule": {
+                    "enabled": true
+                },
+                "integration": {
+                    "enabled": false
+                }
+            },
+            
+            "template": {
+                "defaultTemplate": "slideout-01",
+                "defaultTheme": "slideout-01-clean-slate"
+            }
+        },
+
+        "social": {
+            "product": {
+                "enabled": true,
+                "tag": "u0EppP_Mpj9U46jB7tPA2Dpl4GX2A6xyDxai0wKNYOCl-ijbbBlceNVaKOIHKSCi5Ho8rDjzWFxQmz4hEGW6MQ"
+            },
+        
+            "editor": {
+                "project": {
+                    "enabled": true
+                },
+                "theme": {
+                    "enabled": true
+                },
+                "datacollection": {
+                    "enabled": true
+                },
+                "grandprizedraw": {
+                    "enabled": false
+                },
+                "instant": {
+                    "enabled": true
+                },
+                "giveaway": {
+                    "enabled": true
+                },
+                "draw": {
+                    "enabled": true
+                },
+                "prizedisplay": {
+                    "enabled": true
+                },
+                "game": {
+                    "enabled": true
+                },
+                "socialmedia": {
+                    "enabled": true,
+                    "visiting": {
+                        "enabled": true
+                    },
+                    "sharing": {
+                        "enabled": true
+                    }
+                },
+                "tracking": {
+                    "enabled": true
+                },
+                "schedule": {
+                    "enabled": true
+                },
+                "questions": {
+                    "enabled": false
+                }
+            },
+        
+            "template": {
+                "defaultTemplate": "template-04",
+                "defaultTheme": "template-04-clean-slate"
+            }
+        },
+
+        "survey": {
+            "product": {
+                "enabled": true,
+                "tag": "frjrcN-Mozjs171yJAmU7BvmSW-LIDPCCqEo1uC4bhShyW0VaGdQXMQle4IsYSp8rceUBykZnDBPzDO7zNa3Rg"
+            },
+        
+            "editor": {
+                "project": {
+                    "enabled": true
+                },
+                "theme": {
+                    "enabled": true
+                },
+                "datacollection": {
+                    "enabled": true
+                },
+                "instant": {
+                    "enabled": true
+                },
+                "giveaway": {
+                    "enabled": true
+                },
+                "draw": {
+                    "enabled": true
+                },
+                "prizedisplay": {
+                    "enabled": true
+                },
+                "game": {
+                    "enabled": true
+                },
+                "socialmedia": {
+                    "enabled": true
+                },
+                "tracking": {
+                    "enabled": true
+                },
+                "schedule": {
+                    "enabled": true
+                },
+                "questions": {
+                    "enabled": true
+                }
+            },
+        
+            "template": {
+                "defaultTemplate": "template-04",
+                "defaultTheme": "template-04-clean-slate"
+            }
+        }
+    }
+}

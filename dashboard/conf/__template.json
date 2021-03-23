@@ -1,0 +1,253 @@
+{
+    // Legacy. Ported from old portal because something in the "borrowed" code references it
+    "campaign": {
+        "features": [
+            "prizes",
+            "leaderboard"
+        ]
+    },
+
+    // Legacy. Ported from old portal because something in the "borrowed" code references it
+    "features": [ "campaign" ],
+
+    // Contains specific global information about the integration itself.
+    "integration": {
+        // displayName: used anywhere we need a human-readable name for the integration
+        "displayName": "DeepMarkit",
+        // tag: used in login requests, potentially other places in the future
+        "tag": "c9LaH2AwjnW5Du5mFS7h7EVU86_j25JwNk8UwuuSMzcQFjPBedCHnBCAR7BYL8M-xId6YnVhe25O3JuhyfPvPA",
+        // appUrl: If the app is in an iframe, this is the location of the iframe parent for redirects back to the app.
+        // {shopUrl} is replaced by the shopUrl in the User object. Note shopUrl on User only exists for integrations we can get it from. This token is optional.
+        // {appid} is replaced by the appId retreived from the server. Note appId does not exist for all integrations, only those in iframes. This token is optional.
+        "appUrl": "{shopUrl}/path/path2/{appId}",
+        // iframed: Indicates if the app is being run inside an iframe. Affects redirects back to the app.
+        "iframed": true,
+        // Indicates if we should allow this integration to complete the subscription process
+        "allowSubscribe": false
+    },
+
+    // Login: configures how login functions
+    "login": {
+        // type: [form | sso]
+        //      form: Indicates the login screen is setup to allow logging in through the form.
+        //      sso: Indicates the login is integrated with single-sign-on. In this case login must be performed by passing t=<session> on the query string. When configured for "sso", the login form is always hidden if the page is displayed.
+        "type": "form"
+    },
+
+    // mailintegration: configures mail integrations
+    "mailintegration": {
+        // disabled: an array of strings indicating which mail integration should be disabled. Values hsould be the same as the mail integration key used in the code.
+        "disabled": [ "aweber" ]
+    },
+
+    // livehelp: configures the live help button
+    "livehelp": {
+        // enabled: boolean indicates if the live help button should be shown or not.
+        "enabled": true
+    },
+
+    // dashboard: configures the dashboard.
+    "dashboard": {
+        // leadbar: configures the lead bar on the dashboard.
+        "leadbar": {
+            "enabled": true, // enable or disable the entire leadbar.
+            "newleads": true, // new leads pod
+            "last30days": true, // last 30 days pod
+            "alltime": true, // all time pod
+            "viewleads": false, // view leads pod
+            "mailintegration": false // mail integration pod
+        }
+    },
+
+    // topbar: Configures the top bar
+    "topbar": {
+        // nav: configures the nav menu in the top bar
+        "nav": {
+            // enabled: indicates if the nav should be displayed at all.
+            "enabled": true,
+            // menuDisplay: Optional - the value should indicate a key to look up in the yaml to use as the label for the menu.
+            // By default, the menu uses First Name / Last Initial as the label. In some integrations we won't have this information so an alternate key can be set here to define the label.
+            "menuDisplay": "label_menu_default",
+            // menu: configures the standard menu items. 
+            // The format of each should be:
+            // <menu id>: {
+            //    "enabled": true/false
+            // }
+            "menu": {
+                "myaccount": {
+                    "enabled": true
+                },
+                "tour": {
+                    "enabled": true
+                },
+                "logout": {
+                    "enabled": true
+                },
+                "subscribe": {
+                    "enabled": true
+                },
+                "help": {
+                    "enabled": true
+                }
+            },
+            // customMenuItems: Optional - allows adding custom items to the menu
+            // The code supports the value as an array of objects or as an object with langauge-code keys each containing an array of objects.
+            "customMenuItems": {
+                // en-us: Default custom menu. Also used as a fallback if the current language is not found as a key. 
+                "en-us": [
+                    // Each menu item object must contain a label and a link otherwise it is ignored.
+                    // The "target" key is optional and default s to "_self" if ommitted.
+                    {
+                        "label": "",
+                        "link": "https://www.blah.com",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        }
+    },
+
+    // preview: configures how the preview should function
+    "preview": {
+        // useExternalSite: indicates if our fake store page should be used in previews (false) or if we should look up the store/site url from the User object (true)
+        "useExternalSite": false
+    },
+
+    // permissions: configures what actions a user can take in this integration.
+    // keys directly under permissions must be a module wrapper (ex. campaign) containing a flat list of key/value pairs where the values are booleans.
+    "permissions": {
+        "campaign": {
+            "create": false,
+            "clone": false,
+            "delete": false
+        },
+        "account": {
+            "user": true, // Can the user edit their user info?
+            "password": true, // Can the user change their password?
+            "subscription": true // Can the user view and manage their subscription?
+        }
+    },
+
+    // Configure the winners page display
+    "winnersPage": {
+        "columns": [ "date", "name", "email", "prize" ] // Define which columns should be displayed (Valid values are date, name, email and prize)
+    },
+
+    "productConfig": {
+        "<PRODUCT>": {
+            // Contains specific information about the product
+            "product": {
+                // enabled: Indicates if the product itself is available in the app.
+                "enabled": true,
+                // tag: Used in various requests to indicate the product being used.
+                "tag": "6ryYLzGtZs5Mm1eTHkTrsJMK4CnHPYfqzZuSKeVAWEAh8yjYPUkfK0O05qYKVpkcx-zxbHaAT_SR0AGLTCXfdQ"
+            },
+
+            // editor: configures the editor.
+            "editor": {
+                // configure the project panel
+                "project": {
+                    "enabled": true
+                },
+                // configure the theme editor panel
+                "theme": {
+                    "enabled": true,
+                    "previewUrlParams": {} // Key/value pairs to be passed on the query string to the theme preview. Ex: { "lead": "email,customer@domain.com" }.
+                },
+                // configure the data collection/user entry form panel
+                "datacollection": {
+                    "enabled": true
+                },
+                // configure the instant prize panel
+                "instant": {
+                    "enabled": true
+                },
+                // configure the everyone wins prize panel
+                "giveaway": {
+                    "enabled": true
+                },
+                // configure the draw prize panel
+                "draw": {
+                    "enabled": true
+                },
+                // configure the prize display/order panel
+                "prizedisplay": {
+                    "enabled": true
+                },
+                // configure the game editor panel
+                "game": {
+                    "enabled": true
+                },
+                // configure the social media following panel
+                "socialmedia": {
+                    "enabled": true
+                },
+                // configure the trackng/links panel
+                "tracking": {
+                    "enabled": false
+                },
+                // configure the schedule panel
+                "schedule": {
+                    "enabled": true
+                },
+                "integration": {
+                    "enabled": true
+                },
+                "triggers": {
+                    "enabled": true
+                },
+                "grandprize": {
+                    "enabled": true
+                }
+            },
+
+            // Template: configure things related to the template
+            "template": {
+                "defaultTemplate": "template-03", // Set the default template to pick
+                "defaultTheme": "template-03-clean-slate" // Set the default theme to pick
+            },
+
+            // Configure games
+            // This overrrides the default structure for all games stored in the GameStore. 
+            // It will be merged, overwriting keys in that object.
+            "games": {
+                "<gameId>": { // Create a node for each game to be configured
+                    "displayOrder": 0, // The display order
+                    "defaultSkin": "generic", // Overrides the server's default skin
+                    "excluded": true, // Optional
+                    "skins": {
+                        "<skinId>": {
+                            "displayOrder": 0,
+                            "excluded": true // Optional
+                        }
+                    }
+                }
+            },
+
+            "templates": {
+                "<tempateId>": {
+                    "displayOrder": 0,
+                    "displayName": "Bar",
+                    "excluded": true,
+                    "skins": {
+                        "<skinId>": {
+                            "displayOrder": 0,
+                            "displayName": "Clean Slate",
+                            "excluded": true
+                        }
+                    }
+                }
+            }
+
+            // Configure things related to prizes
+            "prizes": {
+                // Configure messages to be used when creating and displaying prizes
+                "messages": {
+                    "physicalWinnerMessage": "You've won, please come to our booth to claim your prize!",
+                    "couponWinnerMessage": "You've won a discount!",
+                    "drawWinnerMessage": "You've won an entry into the draw!"
+                }
+            }
+        }
+    }
+}

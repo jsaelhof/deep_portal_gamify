@@ -1,0 +1,401 @@
+{
+    "slideout": {
+        "slideout-01": {
+            "defaultSkin": "slideout-01-clean-slate",
+            "displayName": "Slide-Out",
+            "displayOrder": 0,
+            "skins": {
+                "slideout-01-clean-slate": {
+                    "displayOrder": 1,
+                    "displayName": "Clean Slate",
+                    "defaultPrize": "10% Off",
+                    "tags": []
+                },
+                "slideout-01-black": {
+                    "displayOrder": 3,
+                    "displayName": "Black",
+                    "defaultPrize": "10% Off",
+                    "tags": []
+                },
+                "slideout-01-blue-rays": {
+                    "displayOrder": 4,
+                    "displayName": "Blue Rays",
+                    "defaultPrize": "10% Off",
+                    "tags": ["summer"]
+                },
+                "slideout-01-bubbles": {
+                    "displayOrder": 5,
+                    "displayName": "Bubbles",
+                    "defaultPrize": "10% Off",
+                    "tags": []
+                },
+                "slideout-01-flat": {
+                    "displayOrder": 6,
+                    "displayName": "Flat",
+                    "defaultPrize": "10% Off",
+                    "tags": []
+                },
+                "slideout-01-pink-blue": {
+                    "displayOrder": 7,
+                    "displayName": "Pink Blue",
+                    "defaultPrize": "10% Off",
+                    "tags": []
+                },
+                "slideout-01-red-lights": {
+                    "displayOrder": 8,
+                    "displayName": "Red Lights",
+                    "defaultPrize": "10% Off",
+                    "tags": []
+                },
+                "slideout-01-renew": {
+                    "displayOrder": 9,
+                    "displayName": "Renew",
+                    "defaultPrize": "10% Off",
+                    "tags": ["spring","summer"]
+                },
+                "slideout-01-simple-white": {
+                    "displayOrder": 10,
+                    "displayName": "Simple White",
+                    "defaultPrize": "10% Off",
+                    "tags": []
+                },
+                "slideout-01-christmas-01": {
+                    "displayOrder": 11,
+                    "displayName": "Winter Night",
+                    "defaultPrize": "10% Off",
+                    "tags": ["winter", "christmas"]
+                },
+                "slideout-01-christmas-02": {
+                    "displayOrder": 11,
+                    "displayName": "Christmas",
+                    "defaultPrize": "10% Off",
+                    "tags": ["winter", "christmas"]
+                },
+                "slideout-01-winter-01": {
+                    "displayOrder": 12,
+                    "displayName": "Winter Blue",
+                    "defaultPrize": "10% Off",
+                    "tags": ["winter"]
+                },
+                "slideout-01-winter-02": {
+                    "displayOrder": 12,
+                    "displayName": "Night Snow",
+                    "defaultPrize": "10% Off",
+                    "tags": ["winter"]
+                },
+                "slideout-01-newyears-01": {
+                    "displayOrder": 15,
+                    "displayName": "New Years",
+                    "defaultPrize": "10% Off",
+                    "tags": ["newyears"]
+                },
+                "slideout-01-newyears-02": {
+                    "displayOrder": 15,
+                    "displayName": "Fireworks",
+                    "defaultPrize": "10% Off",
+                    "tags": ["newyears"]
+                },
+                "slideout-01-valentines-01": {
+                    "displayOrder": 17,
+                    "displayName": "Valentines",
+                    "defaultPrize": "10% Off",
+                    "tags": ["valentines"]
+                },
+                "slideout-01-valentines-02": {
+                    "displayOrder": 17,
+                    "displayName": "Hearts",
+                    "defaultPrize": "10% Off",
+                    "tags": ["valentines"]
+                },
+                "slideout-01-valentines-03": {
+                    "displayOrder": 17,
+                    "displayName": "Lovely Day",
+                    "defaultPrize": "10% Off",
+                    "tags": ["valentines"]
+                },
+                "slideout-01-easter-01": {
+                    "displayOrder": 18,
+                    "displayName": "Easter Bunny",
+                    "defaultPrize": "10% Off",
+                    "tags": ["easter"]
+                },
+                "slideout-01-easter-02": {
+                    "displayOrder": 18,
+                    "displayName": "Egg Hunt",
+                    "defaultPrize": "10% Off",
+                    "tags": ["easter"]
+                },
+                "slideout-01-spring-01": {
+                    "displayOrder": 19,
+                    "displayName": "Springtime",
+                    "defaultPrize": "10% Off",
+                    "tags": ["spring"]
+                },
+                "slideout-01-spring-02": {
+                    "displayOrder": 19,
+                    "displayName": "Blooming",
+                    "defaultPrize": "10% Off",
+                    "tags": ["spring"]
+                },
+                "slideout-01-summer-01": {
+                    "displayOrder": 20,
+                    "displayName": "Summer",
+                    "defaultPrize": "10% Off",
+                    "tags": ["summer"]
+                },
+                "slideout-01-summer-02": {
+                    "displayOrder": 20,
+                    "displayName": "Sunshine",
+                    "defaultPrize": "10% Off",
+                    "tags": ["summer"]
+                },
+                "slideout-01-autumn-01": {
+                    "displayOrder": 21,
+                    "displayName": "Fall",
+                    "defaultPrize": "10% Off",
+                    "tags": ["autumn"]
+                },
+                "slideout-01-autumn-02": {
+                    "displayOrder": 21,
+                    "displayName": "Fallen Leaves",
+                    "defaultPrize": "10% Off",
+                    "tags": ["autumn"]
+                },
+                "slideout-01-independence-01": {
+                    "displayOrder": 22,
+                    "displayName": "US Flag",
+                    "defaultPrize": "10% Off",
+                    "tags": ["independence"]
+                },
+                "slideout-01-independence-02": {
+                    "displayOrder": 22,
+                    "displayName": "Stars and Stripes",
+                    "defaultPrize": "10% Off",
+                    "tags": ["independence"]
+                },
+                "slideout-01-black-friday-01": {
+                    "displayOrder": 23,
+                    "displayName": "Blackboard",
+                    "defaultPrize": "10% Off",
+                    "tags": ["blackfriday"]
+                },
+                "slideout-01-black-friday-02": {
+                    "displayOrder": 23,
+                    "displayName": "Black Boxes",
+                    "defaultPrize": "10% Off",
+                    "tags": ["blackfriday"]
+                },
+                "slideout-01-halloween-01": {
+                    "displayOrder": 24,
+                    "displayName": "Spooky Nights",
+                    "defaultPrize": "10% Off",
+                    "tags": ["halloween"]
+                },
+                "slideout-01-halloween-02": {
+                    "displayOrder": 24,
+                    "displayName": "Scary Cat",
+                    "defaultPrize": "10% Off",
+                    "tags": ["halloween"]
+                }
+            }
+        },
+        "template-03": {
+            "defaultSkin": "template-03-clean-slate",
+            "displayName": "Template 03",
+            "displayOrder": 1,
+            "excluded": true,
+            "skins": {
+                "template-03-clean-slate": {
+                    "displayOrder": 1,
+                    "displayName": "Clean Slate",
+                    "defaultPrize": "10% Off"
+                }
+            }
+        }
+    },
+    "emailbanner": {
+        "popup-01": {
+            "defaultSkin": "popup-01-clean-slate",
+            "displayName": "Pop-Up",
+            "displayOrder": 0,
+            "skins": {
+                "popup-01-clean-slate": {
+                    "displayOrder": 10000,
+                    "displayName": "Clean Slate",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "popup-01-black": {
+                    "displayOrder": 4,
+                    "displayName": "Black",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "popup-01-blue-rays": {
+                    "displayOrder": 5,
+                    "displayName": "Blue Rays",
+                    "defaultPrize": "15% Off",
+                    "tags": ["summer"]
+                },
+                "popup-01-bubbles": {
+                    "displayOrder": 8,
+                    "displayName": "Bubbles",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "popup-01-flat": {
+                    "displayOrder": 7,
+                    "displayName": "Flat",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "popup-01-pink-blue": {
+                    "displayOrder": 1,
+                    "displayName": "Pink & Blue",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "popup-01-red-lights": {
+                    "displayOrder": 3,
+                    "displayName": "Red Lights",
+                    "defaultPrize": "Free Shipping",
+                    "tags": []
+                },
+                "popup-01-renew": {
+                    "displayOrder": 6,
+                    "displayName": "Renew",
+                    "defaultPrize": "15% Off",
+                    "tags": ["spring","summer"]
+                },
+                "popup-01-simple-white": {
+                    "displayOrder": 2,
+                    "displayName": "Simple White",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                }
+            }
+        },
+        "fullscreen-01": {
+            "defaultSkin": "fullscreen-01-clean-slate",
+            "displayName": "Fullscreen",
+            "displayOrder": 2,
+            "skins": {
+                "fullscreen-01-clean-slate": {
+                    "displayOrder": 10000,
+                    "displayName": "Clean Slate",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "fullscreen-01-black": {
+                    "displayOrder": 4,
+                    "displayName": "Black",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "fullscreen-01-blue-rays": {
+                    "displayOrder": 5,
+                    "displayName": "Blue Rays",
+                    "defaultPrize": "15% Off",
+                    "tags": ["summer"]
+                },
+                "fullscreen-01-bubbles": {
+                    "displayOrder": 8,
+                    "displayName": "Bubbles",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "fullscreen-01-flat": {
+                    "displayOrder": 7,
+                    "displayName": "Flat",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "fullscreen-01-pink-blue": {
+                    "displayOrder": 1,
+                    "displayName": "Pink & Blue",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "fullscreen-01-red-lights": {
+                    "displayOrder": 3,
+                    "displayName": "Red Lights",
+                    "defaultPrize": "Free Shipping",
+                    "tags": []
+                },
+                "fullscreen-01-renew": {
+                    "displayOrder": 6,
+                    "displayName": "Renew",
+                    "defaultPrize": "15% Off",
+                    "tags": ["spring","summer"]
+                },
+                "fullscreen-01-simple-white": {
+                    "displayOrder": 2,
+                    "displayName": "Simple White",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                }
+            }
+        },
+        "bar-01": {
+            "defaultSkin": "bar-01-clean-slate",
+            "displayName": "Banner",
+            "displayOrder": 1,
+            "skins": {
+                "bar-01-clean-slate": {
+                    "displayOrder": 10000,
+                    "displayName": "Clean Slate",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "bar-01-black": {
+                    "displayOrder": 4,
+                    "displayName": "Black",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "bar-01-blue-rays": {
+                    "displayOrder": 5,
+                    "displayName": "Blue Rays",
+                    "defaultPrize": "15% Off",
+                    "tags": ["summer"]
+                },
+                "bar-01-bubbles": {
+                    "displayOrder": 8,
+                    "displayName": "Bubbles",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "bar-01-flat": {
+                    "displayOrder": 7,
+                    "displayName": "Flat",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "bar-01-pink-blue": {
+                    "displayOrder": 1,
+                    "displayName": "Pink & Blue",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                },
+                "bar-01-red-lights": {
+                    "displayOrder": 3,
+                    "displayName": "Red Lights",
+                    "defaultPrize": "Free Shipping",
+                    "tags": []
+                },
+                "bar-01-renew": {
+                    "displayOrder": 6,
+                    "displayName": "Renew",
+                    "defaultPrize": "15% Off",
+                    "tags": ["spring","summer"]
+                },
+                "bar-01-simple-white": {
+                    "displayOrder": 2,
+                    "displayName": "Simple White",
+                    "defaultPrize": "15% Off",
+                    "tags": []
+                }
+            }
+        }
+    }
+}

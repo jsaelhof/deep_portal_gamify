@@ -1,0 +1,1989 @@
+[
+  {
+    "countryName": "Afghanistan",
+    "countryCodeAlpha2": "AF",
+    "countryCodeAlpha3": "AFG",
+    "currencyCode": "AFN",
+    "currencyName": "Afghani",
+    "languages": ["fa-AF", "ps", "uz-AF","tk"]
+  },
+  {
+    "countryName": "Albania",
+    "countryCodeAlpha2": "AL",
+    "countryCodeAlpha3": "ALB",
+    "currencyCode": "ALL",
+    "currencyName": "Lek",
+    "languages": ["sq", "el"]
+  },
+  {
+    "countryName": "Algeria",
+    "countryCodeAlpha2": "DZ",
+    "countryCodeAlpha3": "DZA",
+    "currencyCode": "DZD",
+    "currencyName": "Algerian Dinar",
+    "languages": ["ar-DZ"]
+  },
+  {
+    "countryName": "American Samoa",
+    "countryCodeAlpha2": "AS",
+    "countryCodeAlpha3": "ASM",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["en-AS", "sm", "to"]
+  },
+  {
+    "countryName": "Andorra",
+    "countryCodeAlpha2": "AD",
+    "countryCodeAlpha3": "AND",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["ca"]
+  },
+  {
+    "countryName": "Angola",
+    "countryCodeAlpha2": "AO",
+    "countryCodeAlpha3": "AGO",
+    "currencyCode": "AOA",
+    "currencyName": "Kwanza",
+    "languages": ["pt-AO"]
+  },
+  {
+    "countryName": "Anguilla",
+    "countryCodeAlpha2": "AI",
+    "countryCodeAlpha3": "AIA",
+    "currencyCode": "XCD",
+    "currencyName": "East Caribbean Dollar",
+    "languages": ["en-AI"]
+  },
+  {
+    "countryName": "Antarctica",
+    "countryCodeAlpha2": "AQ",
+    "countryCodeAlpha3": "ATA",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": [""]
+  },
+  {
+    "countryName": "Antigua & Barbuda",
+    "countryCodeAlpha2": "AG",
+    "countryCodeAlpha3": "ATG",
+    "currencyCode": "XCD",
+    "currencyName": "East Caribbean Dollar",
+    "languages": ["en-AG"]
+  },
+  {
+    "countryName": "Argentina",
+    "countryCodeAlpha2": "AR",
+    "countryCodeAlpha3": "ARG",
+    "currencyCode": "ARS",
+    "currencyName": "Argentine Peso",
+    "languages": ["es-AR", "en","it","de","fr","gn"]
+  },
+  {
+    "countryName": "Armenia",
+    "countryCodeAlpha2": "AM",
+    "countryCodeAlpha3": "ARM",
+    "currencyCode": "AMD",
+    "currencyName": "Armenian Dram",
+    "languages": ["hy"]
+  },
+  {
+    "countryName": "Aruba",
+    "countryCodeAlpha2": "AW",
+    "countryCodeAlpha3": "ABW",
+    "currencyCode": "AWG",
+    "currencyName": "Aruban Florin",
+    "languages": ["nl-AW", "es", "en"]
+  },
+  {
+    "countryName": "Australia",
+    "countryCodeAlpha2": "AU",
+    "countryCodeAlpha3": "AUS",
+    "currencyCode": "AUD",
+    "currencyName": "Australian Dollar",
+    "languages": ["en-AU"]
+  },
+  {
+    "countryName": "Austria",
+    "countryCodeAlpha2": "AT",
+    "countryCodeAlpha3": "AUT",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["de-AT", "hr", "hu", "sl"]
+  },
+  {
+    "countryName": "Azerbaijan",
+    "countryCodeAlpha2": "AZ",
+    "countryCodeAlpha3": "AZE",
+    "currencyCode": "AZN",
+    "currencyName": "Azerbaijanian Manat",
+    "languages": ["az","ru","hy"]
+  },
+  {
+    "countryName": "Bahamas",
+    "countryCodeAlpha2": "BS",
+    "countryCodeAlpha3": "BHS",
+    "currencyCode": "BSD",
+    "currencyName": "Bahamian Dollar",
+    "languages": ["en-BS"]
+  },
+  {
+    "countryName": "Bahrain",
+    "countryCodeAlpha2": "BH",
+    "countryCodeAlpha3": "BHR",
+    "currencyCode": "BHD",
+    "currencyName": "Bahraini Dinar",
+    "languages": ["ar-BH","en","fa","ur"]
+  },
+  {
+    "countryName": "Bangladesh",
+    "countryCodeAlpha2": "BD",
+    "countryCodeAlpha3": "BGD",
+    "currencyCode": "BDT",
+    "currencyName": "Taka",
+    "languages": ["bn-BD","en"]
+  },
+  {
+    "countryName": "Barbados",
+    "countryCodeAlpha2": "BB",
+    "countryCodeAlpha3": "BRB",
+    "currencyCode": "BBD",
+    "currencyName": "Barbados Dollar",
+    "languages": ["en-BB"]
+  },
+  {
+    "countryName": "Belarus",
+    "countryCodeAlpha2": "BY",
+    "countryCodeAlpha3": "BLR",
+    "currencyCode": "BYR",
+    "currencyName": "Belarussian Ruble",
+    "languages": ["be","ru"]
+  },
+  {
+    "countryName": "Belgium",
+    "countryCodeAlpha2": "BE",
+    "countryCodeAlpha3": "BEL",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["nl-BE","fr-BE","de-BE"]
+  },
+  {
+    "countryName": "Belize",
+    "countryCodeAlpha2": "BZ",
+    "countryCodeAlpha3": "BLZ",
+    "currencyCode": "BZD",
+    "currencyName": "Belize Dollar",
+    "languages": ["en-BZ","es"]
+  },
+  {
+    "countryName": "Benin",
+    "countryCodeAlpha2": "BJ",
+    "countryCodeAlpha3": "BEN",
+    "currencyCode": "XOF",
+    "currencyName": "CFA Franc BCEAO",
+    "languages": ["fr-BJ"]
+  },
+  {
+    "countryName": "Bermuda",
+    "countryCodeAlpha2": "BM",
+    "countryCodeAlpha3": "BMU",
+    "currencyCode": "BMD",
+    "currencyName": "Bermudian Dollar",
+    "languages": ["en-BM","pt"]
+  },
+  {
+    "countryName": "Bhutan",
+    "countryCodeAlpha2": "BT",
+    "countryCodeAlpha3": "BTN",
+    "currencyCode": "INR",
+    "currencyName": "Indian Rupee",
+    "languages": ["dz"]
+  },
+  {
+    "countryName": "Bolivia",
+    "countryCodeAlpha2": "BO",
+    "countryCodeAlpha3": "BOL",
+    "currencyCode": "BOB",
+    "currencyName": "Boliviano",
+    "languages": ["es-BO","qu","ay"]
+  },
+  {
+    "countryName": "Bosnia",
+    "countryCodeAlpha2": "BA",
+    "countryCodeAlpha3": "BIH",
+    "currencyCode": "BAM",
+    "currencyName": "Convertible Mark",
+    "languages": ["bs","hr-BA","sr-BA"]
+  },
+  {
+    "countryName": "Botswana",
+    "countryCodeAlpha2": "BW",
+    "countryCodeAlpha3": "BWA",
+    "currencyCode": "BWP",
+    "currencyName": "Pula",
+    "languages": ["en-BW","tn-BW"]
+  },
+  {
+    "countryName": "Bouvet Island",
+    "countryCodeAlpha2": "BV",
+    "countryCodeAlpha3": "BVT",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": [""]
+  },
+  {
+    "countryName": "Brazil",
+    "countryCodeAlpha2": "BR",
+    "countryCodeAlpha3": "BRA",
+    "currencyCode": "BRL",
+    "currencyName": "Brazilian Real",
+    "languages": ["pt-BR","es","en","fr"]
+  },
+  {
+    "countryName": "British Indian Ocean Territory",
+    "countryCodeAlpha2": "IO",
+    "countryCodeAlpha3": "IOT",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": ["en-IO"]
+  },
+  {
+    "countryName": "British Virgin Islands",
+    "countryCodeAlpha2": "VG",
+    "countryCodeAlpha3": "VGB",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["en-VG"]
+  },
+  {
+    "countryName": "Brunei",
+    "countryCodeAlpha2": "BN",
+    "countryCodeAlpha3": "BRN",
+    "currencyCode": "BND",
+    "currencyName": "Brunei Dollar",
+    "languages": ["ms-BN","en-BN"]
+  },
+  {
+    "countryName": "Bulgaria",
+    "countryCodeAlpha2": "BG",
+    "countryCodeAlpha3": "BGR",
+    "currencyCode": "BGN",
+    "currencyName": "Bulgarian Lev",
+    "languages": ["bg","tr-BG","rom"]
+  },
+  {
+    "countryName": "Burkina Faso",
+    "countryCodeAlpha2": "BF",
+    "countryCodeAlpha3": "BFA",
+    "currencyCode": "XOF",
+    "currencyName": "CFA Franc BCEAO",
+    "languages": ["fr-BF"]
+  },
+  {
+    "countryName": "Burundi",
+    "countryCodeAlpha2": "BI",
+    "countryCodeAlpha3": "BDI",
+    "currencyCode": "BIF",
+    "currencyName": "Burundi Franc",
+    "languages": ["fr-BI","rn"]
+  },
+  {
+    "countryName": "Cambodia",
+    "countryCodeAlpha2": "KH",
+    "countryCodeAlpha3": "KHM",
+    "currencyCode": "KHR",
+    "currencyName": "Riel",
+    "languages": ["km","fr","en"]
+  },
+  {
+    "countryName": "Cameroon",
+    "countryCodeAlpha2": "CM",
+    "countryCodeAlpha3": "CMR",
+    "currencyCode": "XAF",
+    "currencyName": "CFA Franc BEAC",
+    "languages": ["en-CM","fr-CM"]
+  },
+  {
+    "countryName": "Canada",
+    "mainCountryOrder": 2,
+    "countryCodeAlpha2": "CA",
+    "countryCodeAlpha3": "CAN",
+    "currencyCode": "CAD",
+    "currencyName": "Canadian Dollar",
+    "languages": ["en-CA","fr-CA","iu"]
+  },
+  {
+    "countryName": "Cape Verde",
+    "countryCodeAlpha2": "CV",
+    "countryCodeAlpha3": "CPV",
+    "currencyCode": "CVE",
+    "currencyName": "Cabo Verde Escudo",
+    "languages": ["pt-CV"]
+  },
+  {
+    "countryName": "Caribbean Netherlands",
+    "countryCodeAlpha2": "BQ",
+    "countryCodeAlpha3": "BES",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["nl","pap","en"]
+  },
+  {
+    "countryName": "Cayman Islands",
+    "countryCodeAlpha2": "KY",
+    "countryCodeAlpha3": "CYM",
+    "currencyCode": "KYD",
+    "currencyName": "Cayman Islands Dollar",
+    "languages": ["en-KY"]
+  },
+  {
+    "countryName": "Central African Republic",
+    "countryCodeAlpha2": "CF",
+    "countryCodeAlpha3": "CAF",
+    "currencyCode": "XAF",
+    "currencyName": "CFA Franc BEAC",
+    "languages": ["fr-CF","sg","ln","kg"]
+  },
+  {
+    "countryName": "Chad",
+    "countryCodeAlpha2": "TD",
+    "countryCodeAlpha3": "TCD",
+    "currencyCode": "XAF",
+    "currencyName": "CFA Franc BEAC",
+    "languages": ["fr-TD","ar-TD","sre"]
+  },
+  {
+    "countryName": "Chile",
+    "countryCodeAlpha2": "CL",
+    "countryCodeAlpha3": "CHL",
+    "currencyCode": "CLP",
+    "currencyName": "Chilean Peso",
+    "languages": ["es-CL"]
+  },
+  {
+    "countryName": "China",
+    "countryCodeAlpha2": "CN",
+    "countryCodeAlpha3": "CHN",
+    "currencyCode": "CNY",
+    "currencyName": "Yuan Renminbi",
+    "languages": ["zh-CN","yue","wuu","dta","ug","za"]
+  },
+  {
+    "countryName": "Christmas Island",
+    "countryCodeAlpha2": "CX",
+    "countryCodeAlpha3": "CXR",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": ["en","zh","ms-CC"]
+  },
+  {
+    "countryName": "Cocos (Keeling) Islands",
+    "countryCodeAlpha2": "CC",
+    "countryCodeAlpha3": "CCK",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": ["ms-CC","en"]
+  },
+  {
+    "countryName": "Colombia",
+    "countryCodeAlpha2": "CO",
+    "countryCodeAlpha3": "COL",
+    "currencyCode": "COP",
+    "currencyName": "Colombian Peso",
+    "languages": ["es-CO"]
+  },
+  {
+    "countryName": "Comoros",
+    "countryCodeAlpha2": "KM",
+    "countryCodeAlpha3": "COM",
+    "currencyCode": "KMF",
+    "currencyName": "Comoro Franc",
+    "languages": ["ar","fr-KM"]
+  },
+  {
+    "countryName": "Congo - Brazzaville",
+    "countryCodeAlpha2": "CG",
+    "countryCodeAlpha3": "COG",
+    "currencyCode": "XAF",
+    "currencyName": "CFA Franc BEAC",
+    "languages": ["fr-CG","kg","ln-CG"]
+  },
+  {
+    "countryName": "Congo - Kinshasa",
+    "countryCodeAlpha2": "CD",
+    "countryCodeAlpha3": "COD",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": ["fr-CD","ln","kg"]
+  },
+  {
+    "countryName": "Cook Islands",
+    "countryCodeAlpha2": "CK",
+    "countryCodeAlpha3": "COK",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand Dollar",
+    "languages": ["en-CK","mi"]
+  },
+  {
+    "countryName": "Costa Rica",
+    "countryCodeAlpha2": "CR",
+    "countryCodeAlpha3": "CRI",
+    "currencyCode": "CRC",
+    "currencyName": "Costa Rican Colon",
+    "languages": ["es-CR","en"]
+  },
+  {
+    "countryName": "Croatia",
+    "countryCodeAlpha2": "HR",
+    "countryCodeAlpha3": "HRV",
+    "currencyCode": "HRK",
+    "currencyName": "Croatian Kuna",
+    "languages": ["hr-HR","sr"]
+  },
+  {
+    "countryName": "Cuba",
+    "countryCodeAlpha2": "CU",
+    "countryCodeAlpha3": "CUB",
+    "currencyCode": "CUP",
+    "currencyName": "Cuban Peso",
+    "languages": ["es-CU"]
+  },
+  {
+    "countryName": "Curaçao",
+    "countryCodeAlpha2": "CW",
+    "countryCodeAlpha3": "CUW",
+    "currencyCode": "ANG",
+    "currencyName": "Netherlands Antillean Guilder",
+    "languages": ["nl","pap"]
+  },
+  {
+    "countryName": "Cyprus",
+    "countryCodeAlpha2": "CY",
+    "countryCodeAlpha3": "CYP",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["el-CY","tr-CY","en"]
+  },
+  {
+    "countryName": "Czechia",
+    "countryCodeAlpha2": "CZ",
+    "countryCodeAlpha3": "CZE",
+    "currencyCode": "CZK",
+    "currencyName": "Czech Koruna",
+    "languages": ["cs","sk"]
+  },
+  {
+    "countryName": "Côte d’Ivoire",
+    "countryCodeAlpha2": "CI",
+    "countryCodeAlpha3": "CIV",
+    "currencyCode": "XOF",
+    "currencyName": "CFA Franc BCEAO",
+    "languages": ["fr-CI"]
+  },
+  {
+    "countryName": "Denmark",
+    "countryCodeAlpha2": "DK",
+    "countryCodeAlpha3": "DNK",
+    "currencyCode": "DKK",
+    "currencyName": "Danish Krone",
+    "languages": ["da-DK","en","fo","de-DK"]
+  },
+  {
+    "countryName": "Djibouti",
+    "countryCodeAlpha2": "DJ",
+    "countryCodeAlpha3": "DJI",
+    "currencyCode": "DJF",
+    "currencyName": "Djibouti Franc",
+    "languages": ["fr-DJ","ar","so-DJ","aa"]
+  },
+  {
+    "countryName": "Dominica",
+    "countryCodeAlpha2": "DM",
+    "countryCodeAlpha3": "DMA",
+    "currencyCode": "XCD",
+    "currencyName": "East Caribbean Dollar",
+    "languages": ["en-DM"]
+  },
+  {
+    "countryName": "Dominican Republic",
+    "countryCodeAlpha2": "DO",
+    "countryCodeAlpha3": "DOM",
+    "currencyCode": "DOP",
+    "currencyName": "Dominican Peso",
+    "languages": ["es-DO"]
+  },
+  {
+    "countryName": "Ecuador",
+    "countryCodeAlpha2": "EC",
+    "countryCodeAlpha3": "ECU",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["es-EC"]
+  },
+  {
+    "countryName": "Egypt",
+    "countryCodeAlpha2": "EG",
+    "countryCodeAlpha3": "EGY",
+    "currencyCode": "EGP",
+    "currencyName": "Egyptian Pound",
+    "languages": ["ar-EG","en","fr"]
+  },
+  {
+    "countryName": "El Salvador",
+    "countryCodeAlpha2": "SV",
+    "countryCodeAlpha3": "SLV",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["es-SV"]
+  },
+  {
+    "countryName": "Equatorial Guinea",
+    "countryCodeAlpha2": "GQ",
+    "countryCodeAlpha3": "GNQ",
+    "currencyCode": "XAF",
+    "currencyName": "CFA Franc BEAC",
+    "languages": ["es-GQ","fr"]
+  },
+  {
+    "countryName": "Eritrea",
+    "countryCodeAlpha2": "ER",
+    "countryCodeAlpha3": "ERI",
+    "currencyCode": "ERN",
+    "currencyName": "Nakfa",
+    "languages": ["aa-ER","ar","tig","kun","ti-ER"]
+  },
+  {
+    "countryName": "Estonia",
+    "countryCodeAlpha2": "EE",
+    "countryCodeAlpha3": "EST",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["et","ru"]
+  },
+  {
+    "countryName": "Ethiopia",
+    "countryCodeAlpha2": "ET",
+    "countryCodeAlpha3": "ETH",
+    "currencyCode": "ETB",
+    "currencyName": "Ethiopian Birr",
+    "languages": ["am","en-ET","om-ET","ti-ET","so-ET","sid"]
+  },
+  {
+    "countryName": "Falkland Islands",
+    "countryCodeAlpha2": "FK",
+    "countryCodeAlpha3": "FLK",
+    "currencyCode": "FKP",
+    "currencyName": "Falkland Islands Pound",
+    "languages": ["en-FK"]
+  },
+  {
+    "countryName": "Faroe Islands",
+    "countryCodeAlpha2": "FO",
+    "countryCodeAlpha3": "FRO",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": ["fo","da-FO"]
+  },
+  {
+    "countryName": "Fiji",
+    "countryCodeAlpha2": "FJ",
+    "countryCodeAlpha3": "FJI",
+    "currencyCode": "FJD",
+    "currencyName": "Fiji Dollar",
+    "languages": ["en-FJ","fj"]
+  },
+  {
+    "countryName": "Finland",
+    "countryCodeAlpha2": "FI",
+    "countryCodeAlpha3": "FIN",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fi-FI","sv-FI","smn"]
+  },
+  {
+    "countryName": "France",
+    "countryCodeAlpha2": "FR",
+    "countryCodeAlpha3": "FRA",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr-FR","frp","br","co","ca","eu","oc"]
+  },
+  {
+    "countryName": "French Guiana",
+    "countryCodeAlpha2": "GF",
+    "countryCodeAlpha3": "GUF",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr-GF"]
+  },
+  {
+    "countryName": "French Polynesia",
+    "countryCodeAlpha2": "PF",
+    "countryCodeAlpha3": "PYF",
+    "currencyCode": "XPF",
+    "currencyName": "CFP Franc",
+    "languages": ["fr-PF","ty"]
+  },
+  {
+    "countryName": "French Southern Territories",
+    "countryCodeAlpha2": "TF",
+    "countryCodeAlpha3": "ATF",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": ["fr"]
+  },
+  {
+    "countryName": "Gabon",
+    "countryCodeAlpha2": "GA",
+    "countryCodeAlpha3": "GAB",
+    "currencyCode": "XAF",
+    "currencyName": "CFA Franc BEAC",
+    "languages": ["fr-GA"]
+  },
+  {
+    "countryName": "Gambia",
+    "countryCodeAlpha2": "GM",
+    "countryCodeAlpha3": "GMB",
+    "currencyCode": "GMD",
+    "currencyName": "Dalasi",
+    "languages": ["en-GM","mnk","wof","wo","ff"]
+  },
+  {
+    "countryName": "Georgia",
+    "countryCodeAlpha2": "GE",
+    "countryCodeAlpha3": "GEO",
+    "currencyCode": "GEL",
+    "currencyName": "Lari",
+    "languages": ["ka","ru","hy","az"]
+  },
+  {
+    "countryName": "Germany",
+    "countryCodeAlpha2": "DE",
+    "countryCodeAlpha3": "DEU",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["de"]
+  },
+  {
+    "countryName": "Ghana",
+    "countryCodeAlpha2": "GH",
+    "countryCodeAlpha3": "GHA",
+    "currencyCode": "GHS",
+    "currencyName": "Ghana Cedi",
+    "languages": ["en-GH","ak","ee","tw"]
+  },
+  {
+    "countryName": "Gibraltar",
+    "countryCodeAlpha2": "GI",
+    "countryCodeAlpha3": "GIB",
+    "currencyCode": "GIP",
+    "currencyName": "Gibraltar Pound",
+    "languages": ["en-GI","es","it","pt"]
+  },
+  {
+    "countryName": "Greece",
+    "countryCodeAlpha2": "GR",
+    "countryCodeAlpha3": "GRC",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["el-GR","en","fr"]
+  },
+  {
+    "countryName": "Greenland",
+    "countryCodeAlpha2": "GL",
+    "countryCodeAlpha3": "GRL",
+    "currencyCode": "DKK",
+    "currencyName": "Danish Krone",
+    "languages": ["kl","da-GL","en"]
+  },
+  {
+    "countryName": "Grenada",
+    "countryCodeAlpha2": "GD",
+    "countryCodeAlpha3": "GRD",
+    "currencyCode": "XCD",
+    "currencyName": "East Caribbean Dollar",
+    "languages": ["en-GD"]
+  },
+  {
+    "countryName": "Guadeloupe",
+    "countryCodeAlpha2": "GP",
+    "countryCodeAlpha3": "GLP",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr-GP"]
+  },
+  {
+    "countryName": "Guam",
+    "countryCodeAlpha2": "GU",
+    "countryCodeAlpha3": "GUM",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["en-GU","ch-GU"]
+  },
+  {
+    "countryName": "Guatemala",
+    "countryCodeAlpha2": "GT",
+    "countryCodeAlpha3": "GTM",
+    "currencyCode": "GTQ",
+    "currencyName": "Quetzal",
+    "languages": ["es-GT"]
+  },
+  {
+    "countryName": "Guernsey",
+    "countryCodeAlpha2": "GG",
+    "countryCodeAlpha3": "GGY",
+    "currencyCode": "GBP",
+    "currencyName": "Pound Sterling",
+    "languages": ["en","fr"]
+  },
+  {
+    "countryName": "Guinea",
+    "countryCodeAlpha2": "GN",
+    "countryCodeAlpha3": "GIN",
+    "currencyCode": "GNF",
+    "currencyName": "Guinea Franc",
+    "languages": ["fr-GN"]
+  },
+  {
+    "countryName": "Guinea-Bissau",
+    "countryCodeAlpha2": "GW",
+    "countryCodeAlpha3": "GNB",
+    "currencyCode": "XOF",
+    "currencyName": "CFA Franc BCEAO",
+    "languages": ["pt-GW","pov"]
+  },
+  {
+    "countryName": "Guyana",
+    "countryCodeAlpha2": "GY",
+    "countryCodeAlpha3": "GUY",
+    "currencyCode": "GYD",
+    "currencyName": "Guyana Dollar",
+    "languages": ["en-GY"]
+  },
+  {
+    "countryName": "Haiti",
+    "countryCodeAlpha2": "HT",
+    "countryCodeAlpha3": "HTI",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["ht","fr-HT"]
+  },
+  {
+    "countryName": "Heard & McDonald Islands",
+    "countryCodeAlpha2": "HM",
+    "countryCodeAlpha3": "HMD",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": [""]
+  },
+  {
+    "countryName": "Honduras",
+    "countryCodeAlpha2": "HN",
+    "countryCodeAlpha3": "HND",
+    "currencyCode": "HNL",
+    "currencyName": "Lempira",
+    "languages": ["es-HN"]
+  },
+  {
+    "countryName": "Hong Kong",
+    "countryCodeAlpha2": "HK",
+    "countryCodeAlpha3": "HKG",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": ["zh-HK","yue","zh","en"]
+  },
+  {
+    "countryName": "Hungary",
+    "countryCodeAlpha2": "HU",
+    "countryCodeAlpha3": "HUN",
+    "currencyCode": "HUF",
+    "currencyName": "Forint",
+    "languages": ["hu-HU"]
+  },
+  {
+    "countryName": "Iceland",
+    "countryCodeAlpha2": "IS",
+    "countryCodeAlpha3": "ISL",
+    "currencyCode": "ISK",
+    "currencyName": "Iceland Krona",
+    "languages": ["is","en","de","da","sv","no"]
+  },
+  {
+    "countryName": "India",
+    "countryCodeAlpha2": "IN",
+    "countryCodeAlpha3": "IND",
+    "currencyCode": "INR",
+    "currencyName": "Indian Rupee",
+    "languages": ["en-IN","hi","bn","te","mr","ta","ur","gu","kn","ml","or","pa","as","bh","sat","ks","ne","sd","kok","doi","mni","sit","sa","fr","lus","inc"]
+  },
+  {
+    "countryName": "Indonesia",
+    "countryCodeAlpha2": "ID",
+    "countryCodeAlpha3": "IDN",
+    "currencyCode": "IDR",
+    "currencyName": "Rupiah",
+    "languages": ["id","en","nl","jv"]
+  },
+  {
+    "countryName": "Iran",
+    "countryCodeAlpha2": "IR",
+    "countryCodeAlpha3": "IRN",
+    "currencyCode": "IRR",
+    "currencyName": "Iranian Rial",
+    "languages": ["fa-IR","ku"]
+  },
+  {
+    "countryName": "Iraq",
+    "countryCodeAlpha2": "IQ",
+    "countryCodeAlpha3": "IRQ",
+    "currencyCode": "IQD",
+    "currencyName": "Iraqi Dinar",
+    "languages": ["ar-IQ","ku","hy"]
+  },
+  {
+    "countryName": "Ireland",
+    "countryCodeAlpha2": "IE",
+    "countryCodeAlpha3": "IRL",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["en-IE","ga-IE"]
+  },
+  {
+    "countryName": "Isle of Man",
+    "countryCodeAlpha2": "IM",
+    "countryCodeAlpha3": "IMN",
+    "currencyCode": "GBP",
+    "currencyName": "Pound Sterling",
+    "languages": ["en","gv"]
+  },
+  {
+    "countryName": "Israel",
+    "countryCodeAlpha2": "IL",
+    "countryCodeAlpha3": "ISR",
+    "currencyCode": "ILS",
+    "currencyName": "New Israeli Sheqel",
+    "languages": ["he","ar-IL","en-IL"]
+  },
+  {
+    "countryName": "Italy",
+    "countryCodeAlpha2": "IT",
+    "countryCodeAlpha3": "ITA",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["it-IT","de-IT","fr-IT","sc","ca","co","sl"]
+  },
+  {
+    "countryName": "Jamaica",
+    "countryCodeAlpha2": "JM",
+    "countryCodeAlpha3": "JAM",
+    "currencyCode": "JMD",
+    "currencyName": "Jamaican Dollar",
+    "languages": ["en-JM"]
+  },
+  {
+    "countryName": "Japan",
+    "countryCodeAlpha2": "JP",
+    "countryCodeAlpha3": "JPN",
+    "currencyCode": "JPY",
+    "currencyName": "Yen",
+    "languages": ["ja"]
+  },
+  {
+    "countryName": "Jersey",
+    "countryCodeAlpha2": "JE",
+    "countryCodeAlpha3": "JEY",
+    "currencyCode": "GBP",
+    "currencyName": "Pound Sterling",
+    "languages": ["en","pt"]
+  },
+  {
+    "countryName": "Jordan",
+    "countryCodeAlpha2": "JO",
+    "countryCodeAlpha3": "JOR",
+    "currencyCode": "JOD",
+    "currencyName": "Jordanian Dinar",
+    "languages": ["ar-JO","en"]
+  },
+  {
+    "countryName": "Kazakhstan",
+    "countryCodeAlpha2": "KZ",
+    "countryCodeAlpha3": "KAZ",
+    "currencyCode": "KZT",
+    "currencyName": "Tenge",
+    "languages": ["kk","ru"]
+  },
+  {
+    "countryName": "Kenya",
+    "countryCodeAlpha2": "KE",
+    "countryCodeAlpha3": "KEN",
+    "currencyCode": "KES",
+    "currencyName": "Kenyan Shilling",
+    "languages": ["en-KE","sw-KE"]
+  },
+  {
+    "countryName": "Kiribati",
+    "countryCodeAlpha2": "KI",
+    "countryCodeAlpha3": "KIR",
+    "currencyCode": "AUD",
+    "currencyName": "Australian Dollar",
+    "languages": ["en-KI","gil"]
+  },
+  {
+    "countryName": "Kuwait",
+    "countryCodeAlpha2": "KW",
+    "countryCodeAlpha3": "KWT",
+    "currencyCode": "KWD",
+    "currencyName": "Kuwaiti Dinar",
+    "languages": ["ar-KW","en"]
+  },
+  {
+    "countryName": "Kyrgyzstan",
+    "countryCodeAlpha2": "KG",
+    "countryCodeAlpha3": "KGZ",
+    "currencyCode": "KGS",
+    "currencyName": "Som",
+    "languages": ["ky","uz","ru"]
+  },
+  {
+    "countryName": "Laos",
+    "countryCodeAlpha2": "LA",
+    "countryCodeAlpha3": "LAO",
+    "currencyCode": "LAK",
+    "currencyName": "Kip",
+    "languages": ["lo","fr","en"]
+  },
+  {
+    "countryName": "Latvia",
+    "countryCodeAlpha2": "LV",
+    "countryCodeAlpha3": "LVA",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["lv","ru","lt"]
+  },
+  {
+    "countryName": "Lebanon",
+    "countryCodeAlpha2": "LB",
+    "countryCodeAlpha3": "LBN",
+    "currencyCode": "LBP",
+    "currencyName": "Lebanese Pound",
+    "languages": ["ar-LB","fr-LB","en","hy"]
+  },
+  {
+    "countryName": "Lesotho",
+    "countryCodeAlpha2": "LS",
+    "countryCodeAlpha3": "LSO",
+    "currencyCode": "ZAR",
+    "currencyName": "Rand",
+    "languages": ["en-LS","st","zu","xh"]
+  },
+  {
+    "countryName": "Liberia",
+    "countryCodeAlpha2": "LR",
+    "countryCodeAlpha3": "LBR",
+    "currencyCode": "LRD",
+    "currencyName": "Liberian Dollar",
+    "languages": ["en-LR"]
+  },
+  {
+    "countryName": "Libya",
+    "countryCodeAlpha2": "LY",
+    "countryCodeAlpha3": "LBY",
+    "currencyCode": "LYD",
+    "currencyName": "Libyan Dinar",
+    "languages": ["ar-LY","it","en"]
+  },
+  {
+    "countryName": "Liechtenstein",
+    "countryCodeAlpha2": "LI",
+    "countryCodeAlpha3": "LIE",
+    "currencyCode": "CHF",
+    "currencyName": "Swiss Franc",
+    "languages": ["de-LI"]
+  },
+  {
+    "countryName": "Lithuania",
+    "countryCodeAlpha2": "LT",
+    "countryCodeAlpha3": "LTU",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["lt","ru","pl"]
+  },
+  {
+    "countryName": "Luxembourg",
+    "countryCodeAlpha2": "LU",
+    "countryCodeAlpha3": "LUX",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["lb","de-LU","fr-LU"]
+  },
+  {
+    "countryName": "Macau",
+    "countryCodeAlpha2": "MO",
+    "countryCodeAlpha3": "MAC",
+    "currencyCode": "MOP",
+    "currencyName": "Pataca",
+    "languages": ["zh","zh-MO","pt"]
+  },
+  {
+    "countryName": "Macedonia",
+    "countryCodeAlpha2": "MK",
+    "countryCodeAlpha3": "MKD",
+    "currencyCode": "MKD",
+    "currencyName": "Denar",
+    "languages": ["mk","sq","tr","rmm","sr"]
+  },
+  {
+    "countryName": "Madagascar",
+    "countryCodeAlpha2": "MG",
+    "countryCodeAlpha3": "MDG",
+    "currencyCode": "MGA",
+    "currencyName": "Malagasy Ariary",
+    "languages": ["fr-MG","mg"]
+  },
+  {
+    "countryName": "Malawi",
+    "countryCodeAlpha2": "MW",
+    "countryCodeAlpha3": "MWI",
+    "currencyCode": "MWK",
+    "currencyName": "Kwacha",
+    "languages": ["ny","yao","tum","swk"]
+  },
+  {
+    "countryName": "Malaysia",
+    "countryCodeAlpha2": "MY",
+    "countryCodeAlpha3": "MYS",
+    "currencyCode": "MYR",
+    "currencyName": "Malaysian Ringgit",
+    "languages": ["ms-MY","en","zh","ta","te","ml","pa","th"]
+  },
+  {
+    "countryName": "Maldives",
+    "countryCodeAlpha2": "MV",
+    "countryCodeAlpha3": "MDV",
+    "currencyCode": "MVR",
+    "currencyName": "Rufiyaa",
+    "languages": ["dv","en"]
+  },
+  {
+    "countryName": "Mali",
+    "countryCodeAlpha2": "ML",
+    "countryCodeAlpha3": "MLI",
+    "currencyCode": "XOF",
+    "currencyName": "CFA Franc BCEAO",
+    "languages": ["fr-ML","bm"]
+  },
+  {
+    "countryName": "Malta",
+    "countryCodeAlpha2": "MT",
+    "countryCodeAlpha3": "MLT",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["mt","en-MT"]
+  },
+  {
+    "countryName": "Marshall Islands",
+    "countryCodeAlpha2": "MH",
+    "countryCodeAlpha3": "MHL",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["mh","en-MH"]
+  },
+  {
+    "countryName": "Martinique",
+    "countryCodeAlpha2": "MQ",
+    "countryCodeAlpha3": "MTQ",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr-MQ"]
+  },
+  {
+    "countryName": "Mauritania",
+    "countryCodeAlpha2": "MR",
+    "countryCodeAlpha3": "MRT",
+    "currencyCode": "MRO",
+    "currencyName": "Ouguiya",
+    "languages": ["ar-MR","fuc","snk","fr","mey","wo"]
+  },
+  {
+    "countryName": "Mauritius",
+    "countryCodeAlpha2": "MU",
+    "countryCodeAlpha3": "MUS",
+    "currencyCode": "MUR",
+    "currencyName": "Mauritius Rupee",
+    "languages": ["en-MU","bho","fr"]
+  },
+  {
+    "countryName": "Mayotte",
+    "countryCodeAlpha2": "YT",
+    "countryCodeAlpha3": "MYT",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr-YT"]
+  },
+  {
+    "countryName": "Mexico",
+    "countryCodeAlpha2": "MX",
+    "countryCodeAlpha3": "MEX",
+    "currencyCode": "MXN",
+    "currencyName": "Mexican Peso",
+    "languages": ["es-MX"]
+  },
+  {
+    "countryName": "Micronesia",
+    "countryCodeAlpha2": "FM",
+    "countryCodeAlpha3": "FSM",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["en-FM","chk","pon","yap","kos","uli","woe","nkr","kpg"]
+  },
+  {
+    "countryName": "Moldova",
+    "countryCodeAlpha2": "MD",
+    "countryCodeAlpha3": "MDA",
+    "currencyCode": "MDL",
+    "currencyName": "Moldovan Leu",
+    "languages": ["ro","ru","gag","tr"]
+  },
+  {
+    "countryName": "Monaco",
+    "countryCodeAlpha2": "MC",
+    "countryCodeAlpha3": "MCO",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr-MC","en","it"]
+  },
+  {
+    "countryName": "Mongolia",
+    "countryCodeAlpha2": "MN",
+    "countryCodeAlpha3": "MNG",
+    "currencyCode": "MNT",
+    "currencyName": "Tugrik",
+    "languages": ["mn","ru"]
+  },
+  {
+    "countryName": "Montenegro",
+    "countryCodeAlpha2": "ME",
+    "countryCodeAlpha3": "MNE",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["sr","hu","bs","sq","hr","rom"]
+  },
+  {
+    "countryName": "Montserrat",
+    "countryCodeAlpha2": "MS",
+    "countryCodeAlpha3": "MSR",
+    "currencyCode": "XCD",
+    "currencyName": "East Caribbean Dollar",
+    "languages": ["en-MS"]
+  },
+  {
+    "countryName": "Morocco",
+    "countryCodeAlpha2": "MA",
+    "countryCodeAlpha3": "MAR",
+    "currencyCode": "MAD",
+    "currencyName": "Moroccan Dirham",
+    "languages": ["ar-MA","fr"]
+  },
+  {
+    "countryName": "Mozambique",
+    "countryCodeAlpha2": "MZ",
+    "countryCodeAlpha3": "MOZ",
+    "currencyCode": "MZN",
+    "currencyName": "Mozambique Metical",
+    "languages": ["pt-MZ","vmw"]
+  },
+  {
+    "countryName": "Myanmar",
+    "countryCodeAlpha2": "MM",
+    "countryCodeAlpha3": "MMR",
+    "currencyCode": "MMK",
+    "currencyName": "Kyat",
+    "languages": ["my"]
+  },
+  {
+    "countryName": "Namibia",
+    "countryCodeAlpha2": "NA",
+    "countryCodeAlpha3": "NAM",
+    "currencyCode": "ZAR",
+    "currencyName": "Rand",
+    "languages": ["en-NA","af","de","hz","naq"]
+  },
+  {
+    "countryName": "Nauru",
+    "countryCodeAlpha2": "NR",
+    "countryCodeAlpha3": "NRU",
+    "currencyCode": "AUD",
+    "currencyName": "Australian Dollar",
+    "languages": ["na","en-NR"]
+  },
+  {
+    "countryName": "Nepal",
+    "countryCodeAlpha2": "NP",
+    "countryCodeAlpha3": "NPL",
+    "currencyCode": "NPR",
+    "currencyName": "Nepalese Rupee",
+    "languages": ["ne","en"]
+  },
+  {
+    "countryName": "Netherlands",
+    "countryCodeAlpha2": "NL",
+    "countryCodeAlpha3": "NLD",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["nl-NL","fy-NL"]
+  },
+  {
+    "countryName": "New Caledonia",
+    "countryCodeAlpha2": "NC",
+    "countryCodeAlpha3": "NCL",
+    "currencyCode": "XPF",
+    "currencyName": "CFP Franc",
+    "languages": ["fr-NC"]
+  },
+  {
+    "countryName": "New Zealand",
+    "countryCodeAlpha2": "NZ",
+    "countryCodeAlpha3": "NZL",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand Dollar",
+    "languages": ["en-NZ","mi"]
+  },
+  {
+    "countryName": "Nicaragua",
+    "countryCodeAlpha2": "NI",
+    "countryCodeAlpha3": "NIC",
+    "currencyCode": "NIO",
+    "currencyName": "Cordoba Oro",
+    "languages": ["es-NI","en"]
+  },
+  {
+    "countryName": "Niger",
+    "countryCodeAlpha2": "NE",
+    "countryCodeAlpha3": "NER",
+    "currencyCode": "XOF",
+    "currencyName": "CFA Franc BCEAO",
+    "languages": ["fr-NE","ha","kr","dje"]
+  },
+  {
+    "countryName": "Nigeria",
+    "countryCodeAlpha2": "NG",
+    "countryCodeAlpha3": "NGA",
+    "currencyCode": "NGN",
+    "currencyName": "Naira",
+    "languages": ["en-NG","ha","yo","ig","ff"]
+  },
+  {
+    "countryName": "Niue",
+    "countryCodeAlpha2": "NU",
+    "countryCodeAlpha3": "NIU",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand Dollar",
+    "languages": ["niu","en-NU"]
+  },
+  {
+    "countryName": "Norfolk Island",
+    "countryCodeAlpha2": "NF",
+    "countryCodeAlpha3": "NFK",
+    "currencyCode": "AUD",
+    "currencyName": "Australian Dollar",
+    "languages": ["en-NF"]
+  },
+  {
+    "countryName": "North Korea",
+    "countryCodeAlpha2": "KP",
+    "countryCodeAlpha3": "PRK",
+    "currencyCode": "KPW",
+    "currencyName": "North Korean Won",
+    "languages": ["ko-KP"]
+  },
+  {
+    "countryName": "Northern Mariana Islands",
+    "countryCodeAlpha2": "MP",
+    "countryCodeAlpha3": "MNP",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["fil","tl","zh","ch-MP","en-MP"]
+  },
+  {
+    "countryName": "Norway",
+    "countryCodeAlpha2": "NO",
+    "countryCodeAlpha3": "NOR",
+    "currencyCode": "NOK",
+    "currencyName": "Norwegian Krone",
+    "languages": ["no","nb","nn","se","fi"]
+  },
+  {
+    "countryName": "Oman",
+    "countryCodeAlpha2": "OM",
+    "countryCodeAlpha3": "OMN",
+    "currencyCode": "OMR",
+    "currencyName": "Rial Omani",
+    "languages": ["ar-OM","en","bal","ur"]
+  },
+  {
+    "countryName": "Pakistan",
+    "countryCodeAlpha2": "PK",
+    "countryCodeAlpha3": "PAK",
+    "currencyCode": "PKR",
+    "currencyName": "Pakistan Rupee",
+    "languages": ["ur-PK","en-PK","pa","sd","ps","brh"]
+  },
+  {
+    "countryName": "Palau",
+    "countryCodeAlpha2": "PW",
+    "countryCodeAlpha3": "PLW",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["pau","sov","en-PW","tox","ja","fil","zh"]
+  },
+  {
+    "countryName": "Palestine",
+    "countryCodeAlpha2": "PS",
+    "countryCodeAlpha3": "PSE",
+    "currencyCode": "",
+    "currencyName": "No universal currency",
+    "languages": ["ar-PS"]
+  },
+  {
+    "countryName": "Panama",
+    "countryCodeAlpha2": "PA",
+    "countryCodeAlpha3": "PAN",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["es-PA","en"]
+  },
+  {
+    "countryName": "Papua New Guinea",
+    "countryCodeAlpha2": "PG",
+    "countryCodeAlpha3": "PNG",
+    "currencyCode": "PGK",
+    "currencyName": "Kina",
+    "languages": ["en-PG","ho","meu","tpi"]
+  },
+  {
+    "countryName": "Paraguay",
+    "countryCodeAlpha2": "PY",
+    "countryCodeAlpha3": "PRY",
+    "currencyCode": "PYG",
+    "currencyName": "Guarani",
+    "languages": ["es-PY","gn"]
+  },
+  {
+    "countryName": "Peru",
+    "countryCodeAlpha2": "PE",
+    "countryCodeAlpha3": "PER",
+    "currencyCode": "PEN",
+    "currencyName": "Nuevo Sol",
+    "languages": ["es-PE","qu","ay"]
+  },
+  {
+    "countryName": "Philippines",
+    "countryCodeAlpha2": "PH",
+    "countryCodeAlpha3": "PHL",
+    "currencyCode": "PHP",
+    "currencyName": "Philippine Peso",
+    "languages": ["tl","en-PH","fil"]
+  },
+  {
+    "countryName": "Pitcairn Islands",
+    "countryCodeAlpha2": "PN",
+    "countryCodeAlpha3": "PCN",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand Dollar",
+    "languages": ["en-PN"]
+  },
+  {
+    "countryName": "Poland",
+    "countryCodeAlpha2": "PL",
+    "countryCodeAlpha3": "POL",
+    "currencyCode": "PLN",
+    "currencyName": "Zloty",
+    "languages": ["pl"]
+  },
+  {
+    "countryName": "Portugal",
+    "countryCodeAlpha2": "PT",
+    "countryCodeAlpha3": "PRT",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["pt-PT","mwl"]
+  },
+  {
+    "countryName": "Puerto Rico",
+    "countryCodeAlpha2": "PR",
+    "countryCodeAlpha3": "PRI",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["en-PR","es-PR"]
+  },
+  {
+    "countryName": "Qatar",
+    "countryCodeAlpha2": "QA",
+    "countryCodeAlpha3": "QAT",
+    "currencyCode": "QAR",
+    "currencyName": "Qatari Rial",
+    "languages": ["ar-QA","es"]
+  },
+  {
+    "countryName": "Romania",
+    "countryCodeAlpha2": "RO",
+    "countryCodeAlpha3": "ROU",
+    "currencyCode": "RON",
+    "currencyName": "New Romanian Leu",
+    "languages": ["ro","hu","rom"]
+  },
+  {
+    "countryName": "Russia",
+    "countryCodeAlpha2": "RU",
+    "countryCodeAlpha3": "RUS",
+    "currencyCode": "RUB",
+    "currencyName": "Russian Ruble",
+    "languages": ["ru","tt","xal","cau","ady","kv","ce","tyv","cv","udm","tut","mns","bua","myv","mdf","chm","ba","inh","tut","kbd","krc","ava","sah","nog"]
+  },
+  {
+    "countryName": "Rwanda",
+    "countryCodeAlpha2": "RW",
+    "countryCodeAlpha3": "RWA",
+    "currencyCode": "RWF",
+    "currencyName": "Rwanda Franc",
+    "languages": ["rw","en-RW","fr-RW","sw"]
+  },
+  {
+    "countryName": "Réunion",
+    "countryCodeAlpha2": "RE",
+    "countryCodeAlpha3": "REU",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr-RE"]
+  },
+  {
+    "countryName": "Samoa",
+    "countryCodeAlpha2": "WS",
+    "countryCodeAlpha3": "WSM",
+    "currencyCode": "WST",
+    "currencyName": "Tala",
+    "languages": ["sm","en-WS"]
+  },
+  {
+    "countryName": "San Marino",
+    "countryCodeAlpha2": "SM",
+    "countryCodeAlpha3": "SMR",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["it-SM"]
+  },
+  {
+    "countryName": "Saudi Arabia",
+    "countryCodeAlpha2": "SA",
+    "countryCodeAlpha3": "SAU",
+    "currencyCode": "SAR",
+    "currencyName": "Saudi Riyal",
+    "languages": ["ar-SA"]
+  },
+  {
+    "countryName": "Senegal",
+    "countryCodeAlpha2": "SN",
+    "countryCodeAlpha3": "SEN",
+    "currencyCode": "XOF",
+    "currencyName": "CFA Franc BCEAO",
+    "languages": ["fr-SN","wo","fuc","mnk"]
+  },
+  {
+    "countryName": "Serbia",
+    "countryCodeAlpha2": "RS",
+    "countryCodeAlpha3": "SRB",
+    "currencyCode": "RSD",
+    "currencyName": "Serbian Dinar",
+    "languages": ["sr","hu","bs","rom"]
+  },
+  {
+    "countryName": "Seychelles",
+    "countryCodeAlpha2": "SC",
+    "countryCodeAlpha3": "SYC",
+    "currencyCode": "SCR",
+    "currencyName": "Seychelles Rupee",
+    "languages": ["en-SC","fr-SC"]
+  },
+  {
+    "countryName": "Sierra Leone",
+    "countryCodeAlpha2": "SL",
+    "countryCodeAlpha3": "SLE",
+    "currencyCode": "SLL",
+    "currencyName": "Leone",
+    "languages": ["en-SL","men","tem"]
+  },
+  {
+    "countryName": "Singapore",
+    "countryCodeAlpha2": "SG",
+    "countryCodeAlpha3": "SGP",
+    "currencyCode": "SGD",
+    "currencyName": "Singapore Dollar",
+    "languages": ["cmn","en-SG","ms-SG","ta-SG","zh-SG"]
+  },
+  {
+    "countryName": "Sint Maarten",
+    "countryCodeAlpha2": "SX",
+    "countryCodeAlpha3": "SXM",
+    "currencyCode": "ANG",
+    "currencyName": "Netherlands Antillean Guilder",
+    "languages": ["nl","en"]
+  },
+  {
+    "countryName": "Slovakia",
+    "countryCodeAlpha2": "SK",
+    "countryCodeAlpha3": "SVK",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["sk","hu"]
+  },
+  {
+    "countryName": "Slovenia",
+    "countryCodeAlpha2": "SI",
+    "countryCodeAlpha3": "SVN",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["sl","sh"]
+  },
+  {
+    "countryName": "Solomon Islands",
+    "countryCodeAlpha2": "SB",
+    "countryCodeAlpha3": "SLB",
+    "currencyCode": "SBD",
+    "currencyName": "Solomon Islands Dollar",
+    "languages": ["en-SB","tpi"]
+  },
+  {
+    "countryName": "Somalia",
+    "countryCodeAlpha2": "SO",
+    "countryCodeAlpha3": "SOM",
+    "currencyCode": "SOS",
+    "currencyName": "Somali Shilling",
+    "languages": ["so-SO","ar-SO","it","en-SO"]
+  },
+  {
+    "countryName": "South Africa",
+    "countryCodeAlpha2": "ZA",
+    "countryCodeAlpha3": "ZAF",
+    "currencyCode": "ZAR",
+    "currencyName": "Rand",
+    "languages": ["zu","xh","af","nso","en-ZA","tn","st","ts","ss","ve","nr"]
+  },
+  {
+    "countryName": "South Korea",
+    "countryCodeAlpha2": "KR",
+    "countryCodeAlpha3": "KOR",
+    "currencyCode": "KRW",
+    "currencyName": "Won",
+    "languages": ["ko-KR","en"]
+  },
+  {
+    "countryName": "South Sudan",
+    "countryCodeAlpha2": "SS",
+    "countryCodeAlpha3": "SSD",
+    "currencyCode": "SSP",
+    "currencyName": "South Sudanese Pound",
+    "languages": ["en"]
+  },
+  {
+    "countryName": "Spain",
+    "countryCodeAlpha2": "ES",
+    "countryCodeAlpha3": "ESP",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["es-ES","ca","gl","eu","oc"]
+  },
+  {
+    "countryName": "Sri Lanka",
+    "countryCodeAlpha2": "LK",
+    "countryCodeAlpha3": "LKA",
+    "currencyCode": "LKR",
+    "currencyName": "Sri Lanka Rupee",
+    "languages": ["si","ta","en"]
+  },
+  {
+    "countryName": "St. Barthélemy",
+    "countryCodeAlpha2": "BL",
+    "countryCodeAlpha3": "BLM",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr"]
+  },
+  {
+    "countryName": "St. Helena",
+    "countryCodeAlpha2": "SH",
+    "countryCodeAlpha3": "SHN",
+    "currencyCode": "SHP",
+    "currencyName": "Saint Helena Pound",
+    "languages": ["en-SH"]
+  },
+  {
+    "countryName": "St. Kitts & Nevis",
+    "countryCodeAlpha2": "KN",
+    "countryCodeAlpha3": "KNA",
+    "currencyCode": "XCD",
+    "currencyName": "East Caribbean Dollar",
+    "languages": ["en-KN"]
+  },
+  {
+    "countryName": "St. Lucia",
+    "countryCodeAlpha2": "LC",
+    "countryCodeAlpha3": "LCA",
+    "currencyCode": "XCD",
+    "currencyName": "East Caribbean Dollar",
+    "languages": ["en-LC"]
+  },
+  {
+    "countryName": "St. Martin",
+    "countryCodeAlpha2": "MF",
+    "countryCodeAlpha3": "MAF",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr"]
+  },
+  {
+    "countryName": "St. Pierre & Miquelon",
+    "countryCodeAlpha2": "PM",
+    "countryCodeAlpha3": "SPM",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["fr-PM"]
+  },
+  {
+    "countryName": "St. Vincent & Grenadines",
+    "countryCodeAlpha2": "VC",
+    "countryCodeAlpha3": "VCT",
+    "currencyCode": "XCD",
+    "currencyName": "East Caribbean Dollar",
+    "languages": ["en-VC","fr"]
+  },
+  {
+    "countryName": "Sudan",
+    "countryCodeAlpha2": "SD",
+    "countryCodeAlpha3": "SDN",
+    "currencyCode": "SDG",
+    "currencyName": "Sudanese Pound",
+    "languages": ["ar-SD","en","fia"]
+  },
+  {
+    "countryName": "Suriname",
+    "countryCodeAlpha2": "SR",
+    "countryCodeAlpha3": "SUR",
+    "currencyCode": "SRD",
+    "currencyName": "Surinam Dollar",
+    "languages": ["nl-SR","en","srn","hns","jv"]
+  },
+  {
+    "countryName": "Svalbard & Jan Mayen",
+    "countryCodeAlpha2": "SJ",
+    "countryCodeAlpha3": "SJM",
+    "currencyCode": "NOK",
+    "currencyName": "Norwegian Krone",
+    "languages": ["no","ru"]
+  },
+  {
+    "countryName": "Swaziland",
+    "countryCodeAlpha2": "SZ",
+    "countryCodeAlpha3": "SWZ",
+    "currencyCode": "SZL",
+    "currencyName": "Lilangeni",
+    "languages": ["en-SZ","ss-SZ"]
+  },
+  {
+    "countryName": "Sweden",
+    "countryCodeAlpha2": "SE",
+    "countryCodeAlpha3": "SWE",
+    "currencyCode": "SEK",
+    "currencyName": "Swedish Krona",
+    "languages": ["sv-SE","se","sma","fi-SE"]
+  },
+  {
+    "countryName": "Switzerland",
+    "countryCodeAlpha2": "CH",
+    "countryCodeAlpha3": "CHE",
+    "currencyCode": "CHF",
+    "currencyName": "Swiss Franc",
+    "languages": ["de-CH","fr-CH","it-CH","rm"]
+  },
+  {
+    "countryName": "Syria",
+    "countryCodeAlpha2": "SY",
+    "countryCodeAlpha3": "SYR",
+    "currencyCode": "SYP",
+    "currencyName": "Syrian Pound",
+    "languages": ["ar-SY","ku","hy","arc","fr","en"]
+  },
+  {
+    "countryName": "São Tomé & Príncipe",
+    "countryCodeAlpha2": "ST",
+    "countryCodeAlpha3": "STP",
+    "currencyCode": "STD",
+    "currencyName": "Dobra",
+    "languages": ["pt-ST"]
+  },
+  {
+    "countryName": "Taiwan",
+    "countryCodeAlpha2": "TW",
+    "countryCodeAlpha3": "TWN",
+    "currencyCode": "TWD",
+    "currencyName": "New Taiwan Dollar",
+    "languages": ["zh-TW","zh","nan","hak"]
+  },
+  {
+    "countryName": "Tajikistan",
+    "countryCodeAlpha2": "TJ",
+    "countryCodeAlpha3": "TJK",
+    "currencyCode": "TJS",
+    "currencyName": "Somoni",
+    "languages": ["tg","ru"]
+  },
+  {
+    "countryName": "Tanzania",
+    "countryCodeAlpha2": "TZ",
+    "countryCodeAlpha3": "TZA",
+    "currencyCode": "TZS",
+    "currencyName": "Tanzanian Shilling",
+    "languages": ["sw-TZ","en","ar"]
+  },
+  {
+    "countryName": "Thailand",
+    "countryCodeAlpha2": "TH",
+    "countryCodeAlpha3": "THA",
+    "currencyCode": "THB",
+    "currencyName": "Baht",
+    "languages": ["th","en"]
+  },
+  {
+    "countryName": "Timor-Leste",
+    "countryCodeAlpha2": "TL",
+    "countryCodeAlpha3": "TLS",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["tet","pt-TL","id","en"]
+  },
+  {
+    "countryName": "Togo",
+    "countryCodeAlpha2": "TG",
+    "countryCodeAlpha3": "TGO",
+    "currencyCode": "XOF",
+    "currencyName": "CFA Franc BCEAO",
+    "languages": ["fr-TG","ee","hna","kbp","dag","ha"]
+  },
+  {
+    "countryName": "Tokelau",
+    "countryCodeAlpha2": "TK",
+    "countryCodeAlpha3": "TKL",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand Dollar",
+    "languages": ["tkl","en-TK"]
+  },
+  {
+    "countryName": "Tonga",
+    "countryCodeAlpha2": "TO",
+    "countryCodeAlpha3": "TON",
+    "currencyCode": "TOP",
+    "currencyName": "Pa’anga",
+    "languages": ["to","en-TO"]
+  },
+  {
+    "countryName": "Trinidad & Tobago",
+    "countryCodeAlpha2": "TT",
+    "countryCodeAlpha3": "TTO",
+    "currencyCode": "TTD",
+    "currencyName": "Trinidad and Tobago Dollar",
+    "languages": ["en-TT","hns","fr","es","zh"]
+  },
+  {
+    "countryName": "Tunisia",
+    "countryCodeAlpha2": "TN",
+    "countryCodeAlpha3": "TUN",
+    "currencyCode": "TND",
+    "currencyName": "Tunisian Dinar",
+    "languages": ["ar-TN","fr"]
+  },
+  {
+    "countryName": "Turkey",
+    "countryCodeAlpha2": "TR",
+    "countryCodeAlpha3": "TUR",
+    "currencyCode": "TRY",
+    "currencyName": "Turkish Lira",
+    "languages": ["tr-TR","ku","diq","az","av"]
+  },
+  {
+    "countryName": "Turkmenistan",
+    "countryCodeAlpha2": "TM",
+    "countryCodeAlpha3": "TKM",
+    "currencyCode": "TMT",
+    "currencyName": "Turkmenistan New Manat",
+    "languages": ["tk","ru","uz"]
+  },
+  {
+    "countryName": "Turks & Caicos Islands",
+    "countryCodeAlpha2": "TC",
+    "countryCodeAlpha3": "TCA",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["en-TC"]
+  },
+  {
+    "countryName": "Tuvalu",
+    "countryCodeAlpha2": "TV",
+    "countryCodeAlpha3": "TUV",
+    "currencyCode": "AUD",
+    "currencyName": "Australian Dollar",
+    "languages": ["tvl","en","sm","gil"]
+  },
+  {
+    "countryName": "U.S. Outlying Islands",
+    "countryCodeAlpha2": "UM",
+    "countryCodeAlpha3": "UMI",
+    "currencyCode": "",
+    "currencyName": "",
+    "languages": ["en-UM"]
+  },
+  {
+    "countryName": "U.S. Virgin Islands",
+    "countryCodeAlpha2": "VI",
+    "countryCodeAlpha3": "VIR",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["en-VI"]
+  },
+  {
+    "countryName": "United Kingdom",
+    "mainCountryOrder": 3,
+    "countryCodeAlpha2": "GB",
+    "countryCodeAlpha3": "GBR",
+    "currencyCode": "GBP",
+    "currencyName": "Pound Sterling",
+    "languages": ["en-GB","cy-GB","gd"]
+  },
+  {
+    "countryName": "United States",
+    "mainCountryOrder": 1,
+    "countryCodeAlpha2": "US",
+    "countryCodeAlpha3": "USA",
+    "currencyCode": "USD",
+    "currencyName": "US Dollar",
+    "languages": ["en-US","es-US","haw","fr"]
+  },
+  {
+    "countryName": "Uganda",
+    "countryCodeAlpha2": "UG",
+    "countryCodeAlpha3": "UGA",
+    "currencyCode": "UGX",
+    "currencyName": "Uganda Shilling",
+    "languages": ["en-UG","lg","sw","ar"]
+  },
+  {
+    "countryName": "Ukraine",
+    "countryCodeAlpha2": "UA",
+    "countryCodeAlpha3": "UKR",
+    "currencyCode": "UAH",
+    "currencyName": "Hryvnia",
+    "languages": ["uk","ru-UA","rom","pl","hu"]
+  },
+  {
+    "countryName": "United Arab Emirates",
+    "countryCodeAlpha2": "AE",
+    "countryCodeAlpha3": "ARE",
+    "currencyCode": "AED",
+    "currencyName": "UAE Dirham",
+    "languages": ["ar-AE","fa","en","hi","ur"]
+  },
+  {
+    "countryName": "Uruguay",
+    "countryCodeAlpha2": "UY",
+    "countryCodeAlpha3": "URY",
+    "currencyCode": "UYU",
+    "currencyName": "Peso Uruguayo",
+    "languages": ["es-UY"]
+  },
+  {
+    "countryName": "Uzbekistan",
+    "countryCodeAlpha2": "UZ",
+    "countryCodeAlpha3": "UZB",
+    "currencyCode": "UZS",
+    "currencyName": "Uzbekistan Sum",
+    "languages": ["uz","ru","tg"]
+  },
+  {
+    "countryName": "Vanuatu",
+    "countryCodeAlpha2": "VU",
+    "countryCodeAlpha3": "VUT",
+    "currencyCode": "VUV",
+    "currencyName": "Vatu",
+    "languages": ["bi","en-VU","fr-VU"]
+  },
+  {
+    "countryName": "Vatican City",
+    "countryCodeAlpha2": "VA",
+    "countryCodeAlpha3": "VAT",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["la","it","fr"]
+  },
+  {
+    "countryName": "Venezuela",
+    "countryCodeAlpha2": "VE",
+    "countryCodeAlpha3": "VEN",
+    "currencyCode": "VEF",
+    "currencyName": "Bolivar",
+    "languages": ["es-VE"]
+  },
+  {
+    "countryName": "Vietnam",
+    "countryCodeAlpha2": "VN",
+    "countryCodeAlpha3": "VNM",
+    "currencyCode": "VND",
+    "currencyName": "Dong",
+    "languages": ["vi","en","fr","zh","km"]
+  },
+  {
+    "countryName": "Wallis & Futuna",
+    "countryCodeAlpha2": "WF",
+    "countryCodeAlpha3": "WLF",
+    "currencyCode": "XPF",
+    "currencyName": "CFP Franc",
+    "languages": ["wls","fud","fr-WF"]
+  },
+  {
+    "countryName": "Western Sahara",
+    "countryCodeAlpha2": "EH",
+    "countryCodeAlpha3": "ESH",
+    "currencyCode": "MAD",
+    "currencyName": "Moroccan Dirham",
+    "languages": ["ar,mey"]
+  },
+  {
+    "countryName": "Yemen",
+    "countryCodeAlpha2": "YE",
+    "countryCodeAlpha3": "YEM",
+    "currencyCode": "YER",
+    "currencyName": "Yemeni Rial",
+    "languages": ["ar-YE"]
+  },
+  {
+    "countryName": "Zambia",
+    "countryCodeAlpha2": "ZM",
+    "countryCodeAlpha3": "ZMB",
+    "currencyCode": "ZMW",
+    "currencyName": "Zambian Kwacha",
+    "languages": ["en-ZM","bem","loz","lun","lue","ny","toi"]
+  },
+  {
+    "countryName": "Zimbabwe",
+    "countryCodeAlpha2": "ZW",
+    "countryCodeAlpha3": "ZWE",
+    "currencyCode": "ZWL",
+    "currencyName": "Zimbabwe Dollar",
+    "languages": ["en-ZW","sn","nr","nd"]
+  },
+  {
+    "countryName": "Åland Islands",
+    "countryCodeAlpha2": "AX",
+    "countryCodeAlpha3": "ALA",
+    "currencyCode": "EUR",
+    "currencyName": "Euro",
+    "languages": ["sv-AX"]
+  }
+]

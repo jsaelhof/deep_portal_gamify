@@ -1,0 +1,294 @@
+{
+	"000": {
+		"cid": "Etc/GMT+12",
+		"name": "International Date Line West"
+	},
+	"001": {
+		"cid": "Pacific/Pago_Pago",
+		"name": "Midway Island, Samoa"
+	},
+	"002": {
+		"cid": "Pacific/Honolulu",
+		"name": "Hawaii"
+	},
+	"003": {
+		"cid": "America/Anchorage",
+		"name": "Alaska"
+	},
+	"004": {
+		"cid": "America/Vancouver",
+		"name": "Pacific Time (US and Canada), Tijuana"
+	},
+	"010": {
+		"cid": "America/Edmonton",
+		"name": "Mountain Time (US and Canada)"
+	},
+	"013": {
+		"cid": "America/Mazatlan",
+		"name": "Chihuahua, La Paz, Mazatlan"
+	},
+	"015": {
+		"cid": "America/Phoenix",
+		"name": "Arizona"
+	},
+	"020": {
+		"cid": "America/Winnipeg",
+		"name": "Central Time (US and Canada)"
+	},
+	"025": {
+		"cid": "America/Regina",
+		"name": "Saskatchewan"
+	},
+	"030": {
+		"cid": "America/Mexico_City",
+		"name": "Guadalajara, Mexico City, Monterrey"
+	},
+	"033": {
+		"cid": "America/Chicago",
+		"name": "Central America"
+	},
+	"035": {
+		"cid": "America/Toronto",
+		"name": "Eastern Time (US and Canada)"
+	},
+	"040": {
+		"cid": "America/Indiana/Indianapolis",
+		"name": "Indiana (East)"
+	},
+	"045": {
+		"cid": "America/Bogota",
+		"name": "Bogota, Lima, Quito"
+	},
+	"050": {
+		"cid": "America/Halifax",
+		"name": "Atlantic Time (Canada)"
+	},
+	"055": {
+		"cid": "America/Caracas",
+		"name": "Caracas, La Paz"
+	},
+	"056": {
+		"cid": "America/Santiago",
+		"name": "Santiago"
+	},
+	"060": {
+		"cid": "America/St_Johns",
+		"name": "Newfoundland and Labrador"
+	},
+	"065": {
+		"cid": "America/Sao_Paulo",
+		"name": "Brasilia"
+	},
+	"070": {
+		"cid": "America/Argentina/Buenos_Aires",
+		"name": "Buenos Aires, Georgetown"
+	},
+	"075": {
+		"cid": "Atlantic/South_Georgia",
+		"name": "Mid-Atlantic"
+	},
+	"080": {
+		"cid": "Atlantic/Azores",
+		"name": "Azores"
+	},
+	"083": {
+		"cid": "Atlantic/Cape_Verde",
+		"name": "Cape Verde Islands"
+	},
+	"085": {
+		"cid": "Etc/GMT",
+		"name": "Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London"
+	},
+	"090": {
+		"cid": "Africa/Casablanca",
+		"name": "Casablanca, Monrovia"
+	},
+	"095": {
+		"cid": "Europe/Prague",
+		"name": "Belgrade, Bratislava, Budapest, Ljubljana, Prague"
+	},
+	"100": {
+		"cid": "Europe/Belgrade",
+		"name": "Sarajevo, Skopje, Warsaw, Zagreb"
+	},
+	"105": {
+		"cid": "Europe/Madrid",
+		"name": "Brussels, Copenhagen, Madrid, Paris"
+	},
+	"110": {
+		"cid": "Europe/Rome",
+		"name": "Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+	},
+	"113": {
+		"cid": "Africa/Algiers",
+		"name": "West Central Africa"
+	},
+	"115": {
+		"cid": "Europe/Bucharest",
+		"name": "Bucharest"
+	},
+	"120": {
+		"cid": "Africa/Cairo",
+		"name": "Cairo"
+	},
+	"125": {
+		"cid": "Europe/Helsinki",
+		"name": "Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius"
+	},
+	"130": {
+		"cid": "Europe/Istanbul",
+		"name": "Athens, Istanbul, Minsk"
+	},
+	"135": {
+		"cid": "Asia/Jerusalem",
+		"name": "Jerusalem"
+	},
+	"140": {
+		"cid": "Africa/Harare",
+		"name": "Harare, Pretoria"
+	},
+	"145": {
+		"cid": "Europe/Moscow",
+		"name": "Moscow, St. Petersburg, Volgograd"
+	},
+	"150": {
+		"cid": "Asia/Riyadh",
+		"name": "Kuwait, Riyadh"
+	},
+	"155": {
+		"cid": "Africa/Nairobi",
+		"name": "Nairobi"
+	},
+	"158": {
+		"cid": "Asia/Baghdad",
+		"name": "Baghdad"
+	},
+	"160": {
+		"cid": "Asia/Tehran",
+		"name": "Tehran"
+	},
+	"165": {
+		"cid": "Asia/Muscat",
+		"name": "Abu Dhabi, Muscat"
+	},
+	"170": {
+		"cid": "Asia/Baku",
+		"name": "Baku, Tbilisi, Yerevan"
+	},
+	"175": {
+		"cid": "Asia/Kabul",
+		"name": "Kabul"
+	},
+	"180": {
+		"cid": "Asia/Yekaterinburg",
+		"name": "Ekaterinburg"
+	},
+	"190": {
+		"cid": "Asia/Kolkata",
+		"name": "Chennai, Kolkata, Mumbai, New Delhi"
+	},
+	"193": {
+		"cid": "Asia/Kathmandu",
+		"name": "Kathmandu"
+	},
+	"195": {
+		"cid": "Asia/Dhaka",
+		"name": "Astana, Dhaka"
+	},
+	"200": {
+		"cid": "Asia/Bishkek",
+		"name": "Sri Jayawardenepura"
+	},
+	"201": {
+		"cid": "Asia/Almaty",
+		"name": "Almaty, Novosibirsk"
+	},
+	"203": {
+		"cid": "Asia/Rangoon",
+		"name": "Yangon Rangoon"
+	},
+	"205": {
+		"cid": "Asia/Bangkok",
+		"name": "Bangkok, Hanoi, Jakarta"
+	},
+	"207": {
+		"cid": "Asia/Krasnoyarsk",
+		"name": "Krasnoyarsk"
+	},
+	"210": {
+		"cid": "Asia/Hong_Kong",
+		"name": "Beijing, Chongqing, Hong Kong SAR, Urumqi"
+	},
+	"215": {
+		"cid": "Asia/Kuala_Lumpur",
+		"name": "Kuala Lumpur, Singapore"
+	},
+	"220": {
+		"cid": "Asia/Taipei",
+		"name": "Taipei"
+	},
+	"225": {
+		"cid": "Australia/Perth",
+		"name": "Perth"
+	},
+	"227": {
+		"cid": "Asia/Irkutsk",
+		"name": "Irkutsk, Ulaanbaatar"
+	},
+	"230": {
+		"cid": "Asia/Seoul",
+		"name": "Seoul"
+	},
+	"235": {
+		"cid": "Asia/Tokyo",
+		"name": "Osaka, Sapporo, Tokyo"
+	},
+	"240": {
+		"cid": "Asia/Yakutsk",
+		"name": "Yakutsk"
+	},
+	"245": {
+		"cid": "Australia/Darwin",
+		"name": "Darwin"
+	},
+	"250": {
+		"cid": "Australia/Adelaide",
+		"name": "Adelaide"
+	},
+	"255": {
+		"cid": "Australia/Sydney",
+		"name": "Canberra, Melbourne, Sydney"
+	},
+	"260": {
+		"cid": "Australia/Brisbane",
+		"name": "Brisbane"
+	},
+	"265": {
+		"cid": "Australia/Hobart",
+		"name": "Hobart"
+	},
+	"270": {
+		"cid": "Asia/Vladivostok",
+		"name": "Vladivostok"
+	},
+	"275": {
+		"cid": "Pacific/Guam",
+		"name": "Guam, Port Moresby"
+	},
+	"280": {
+		"cid": "Asia/Magadan",
+		"name": "Magadan, Solomon Islands, New Caledonia"
+	},
+	"285": {
+		"cid": "Pacific/Fiji",
+		"name": "Fiji Islands, Kamchatka, Marshall Islands"
+	},
+	"290": {
+		"cid": "Pacific/Auckland",
+		"name": "Auckland, Wellington"
+	},
+	"300": {
+		"cid": "Pacific/Tongatapu",
+		"name": "Nuku'alofa"
+	}
+}

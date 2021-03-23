@@ -1,0 +1,371 @@
+// Custom Variables
+
+/*! --- Main Styles --- */
+html,body {height:100%;}
+body {}
+
+button {
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+}
+
+// #console,
+// #console > div,
+// #react-target { height: 100%; }
+
+#console > .notification-area { height: auto; }
+
+.m-t-0 { margin-top: 0 !important; }
+.m-r-0 { margin-right: 0 !important; }
+.m-b-0 { margin-bottom: 0 !important; }
+.m-l-0 { margin-left: 0 !important; }
+
+.m-t-1 { margin-top: ($spacer * 0.5) !important; }
+.m-r-1 { margin-right: ($spacer * 0.5) !important; }
+.m-b-1 { margin-bottom: ($spacer * 0.5) !important; }
+.m-l-1 { margin-left: ($spacer * 0.5) !important; }
+
+.m-t-2 { margin-top: $spacer !important; }
+.m-r-2 { margin-right: $spacer !important; }
+.m-b-2 { margin-bottom: $spacer !important; }
+.m-l-2 { margin-left: $spacer !important; }
+
+.m-t-3 { margin-top: $spacer * 1.5 !important; }
+.m-r-3 { margin-right: $spacer * 1.5 !important; }
+.m-b-3 { margin-bottom: $spacer * 1.5 !important; }
+.m-l-3 { margin-left: $spacer * 1.5 !important; }
+
+.m-t-4 { margin-top: $spacer * 2 !important; }
+.m-r-4 { margin-right: $spacer * 2 !important; }
+.m-b-4 { margin-bottom: $spacer * 2 !important; }
+.m-l-4 { margin-left: $spacer * 2 !important; }
+
+.m-t-6 { margin-top: $spacer * 3 !important; }
+.m-r-6 { margin-right: $spacer * 3 !important; }
+.m-b-6 { margin-bottom: $spacer * 3 !important; }
+.m-l-6 { margin-left: $spacer * 3 !important; }
+
+.m-t-8 { margin-top: $spacer * 4 !important; }
+.m-r-8 { margin-right: $spacer * 4 !important; }
+.m-b-8 { margin-bottom: $spacer * 4 !important; }
+.m-l-8 { margin-left: $spacer * 4 !important; }
+
+.m-t-10 { margin-top: $spacer * 5 !important; }
+.m-r-10 { margin-right: $spacer * 5 !important; }
+.m-b-10 { margin-bottom: $spacer * 5 !important; }
+.m-l-10 { margin-left: $spacer * 5 !important; }
+
+.m-t-12 { margin-top: $spacer * 6 !important; }
+.m-r-12 { margin-right: $spacer * 6 !important; }
+.m-b-12 { margin-bottom: $spacer * 6 !important; }
+.m-l-12 { margin-left: $spacer * 6 !important; }
+
+.m-t-14 { margin-top: $spacer * 7 !important; }
+.m-r-14 { margin-right: $spacer * 7 !important; }
+.m-b-14 { margin-bottom: $spacer * 7 !important; }
+.m-l-14 { margin-left: $spacer * 7 !important; }
+
+.p-t-0 { padding-top: 0 !important; }
+.p-r-0 { padding-right: 0 !important; }
+.p-b-0 { padding-bottom: 0 !important; }
+.p-l-0 { padding-left: 0 !important; }
+
+.p-t-1 { padding-top: ($spacer * 0.5) !important; }
+.p-r-1 { padding-right: ($spacer * 0.5) !important; }
+.p-b-1 { padding-bottom: ($spacer * 0.5) !important; }
+.p-l-1 { padding-left: ($spacer * 0.5) !important; }
+
+.p-t-2 { padding-top: $spacer !important; }
+.p-r-2 { padding-right: $spacer !important; }
+.p-b-2 { padding-bottom: $spacer !important; }
+.p-l-2 { padding-left: $spacer !important; }
+
+.p-t-3 { padding-top: $spacer * 1.5 !important; }
+.p-r-3 { padding-right: $spacer * 1.5 !important; }
+.p-b-3 { padding-bottom: $spacer * 1.5 !important; }
+.p-l-3 { padding-left: $spacer * 1.5 !important; }
+
+.p-t-4 { padding-top: $spacer * 2 !important; }
+.p-r-4 { padding-right: $spacer * 2 !important; }
+.p-b-4 { padding-bottom: $spacer * 2 !important; }
+.p-l-4 { padding-left: $spacer * 2 !important; }
+
+.w-25 { width: $spacer * 2.5 !important; }
+.w-50 { width: $spacer * 5 !important; }
+.w-100 { width: $spacer * 10 !important; }
+.w-150 { width: $spacer * 15 !important; }
+.w-200 { width: $spacer * 20 !important; }
+.w-250 { width: $spacer * 25 !important; }
+.w-300 { width: $spacer * 30 !important; }
+.w-350 { width: $spacer * 35 !important; }
+.w-400 { width: $spacer * 40 !important; }
+.w-450 { width: $spacer * 45 !important; }
+.w-475 { width: $spacer * 47.5 !important; }
+.w-500 { width: $spacer * 50 !important; }
+.w-600 { width: $spacer * 60 !important; }
+.w-700 { width: $spacer * 70 !important; }
+.w-800 { width: $spacer * 80 !important; }
+.w-900 { width: $spacer * 90 !important; }
+.w-1000 { width: $spacer * 100 !important; }
+
+.bd-l-1 { border-left: 1px solid #000; }
+.bd-r-1 { border-right: 1px solid #000; }
+
+.gap-sm { margin-top: 20px !important; margin-bottom: 30px !important; }
+.gap-md { margin-top: 30px !important; margin-bottom: 40px !important; }
+.gap-lg { margin-top: 40px !important; margin-bottom: 50px !important; }
+.gap-xl { margin-top: 50px !important; margin-bottom: 60px !important; }
+
+.gap-t-sm { margin-top: 20px !important; }
+.gap-t-md { margin-top: 30px !important; }
+.gap-t-lg { margin-top: 40px !important; }
+.gap-t-xl { margin-top: 50px !important; }
+
+.gap-r-sm { margin-right: 20px !important; }
+.gap-r-md { margin-right: 30px !important; }
+.gap-r-lg { margin-right: 40px !important; }
+.gap-r-xl { margin-right: 50px !important; }
+
+.gap-b-sm { margin-bottom: 20px !important; }
+.gap-b-md { margin-bottom: 30px !important; }
+.gap-b-lg { margin-bottom: 40px !important; }
+.gap-b-xl { margin-bottom: 50px !important; }
+
+.gap-l-sm { margin-left: 20px !important; }
+.gap-l-md { margin-left: 30px !important; }
+.gap-l-lg { margin-left: 40px !important; }
+.gap-l-xl { margin-left: 50px !important; }
+
+.center {
+	text-align: center;
+}
+
+.navbar {
+	background: $white;
+	border-radius: 0;
+	margin: 0;
+}
+
+.logo {
+	display: block;
+	img {}
+}
+
+.nav {
+	> li {
+	> a {
+		&:hover,
+		&:focus {}
+	}
+	&.disabled > a {
+	&:hover,
+	&:focus {}
+	}
+	}
+	// Open dropdowns
+	.open > a {
+	&,
+	&:hover,
+	&:focus {}
+	}
+	.nav-divider {}
+	> li > a > img {}
+}
+
+.nav-highlight > li {
+	> a {
+		color: $white;
+		background: lighten($brand-primary,20%);
+		&:hover {
+			background:$brand-primary;
+		}
+	}
+}
+
+.btn {
+	transition: all 0.2s ease-in-out;
+	// text-transform: uppercase;
+	font-weight: 600;
+	// font-size: 0.9em;
+	&:focus,
+	&:active:focus,
+	&.active:focus,
+	&.focus,
+	&:active.focus,
+	&.active.focus {
+		outline: none;
+	}
+	&.btn-sm {
+		padding: 5px 10px;
+	}
+}
+
+.btn-default {
+	color: $dm-gray04;
+	border-color: $dm-gray03;
+	background: $white;
+	&:hover,
+	&:active,
+	&:focus {
+		background: $white;
+		color: $dm-gray05;
+		border-color: $dm-gray05;
+	}
+}
+
+.btn-default-alt {
+	color: $dm-gray04;
+	border-color: $dm-gray03;
+	background: #FBFBFB;
+	&:hover,
+	&:active,
+	&:focus {
+		background: $white;
+		color: $dm-gray05;
+		border-color: $dm-gray05;
+	}
+}
+
+.btn-primary {
+	background-color: #419ded;
+	border-color: #4f8cc1;
+	&:hover,
+	&:active,
+	&:focus {
+		outline: none;
+		color: $white;
+	}
+}
+
+.btn-cta {
+	color: $white;
+	background: $btn-cta-bgd;
+	border-color: darken($btn-cta-bgd, 10%);
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 100px;
+	&:hover {
+		color: $white;
+		background: darken($btn-cta-bgd, 10%);
+	}
+	&.grey {
+		color: #666;
+		background-color: transparent;
+		border: 2px solid #666;
+		padding: 8px 10px;
+		margin: 0;
+		display: block;
+		text-align: center;
+		&:hover,
+		&:focus {}
+	}
+	&.account {}
+	&.spacing-sm {
+		margin: 15px 0 20px;
+	}
+	&.spacing-md {
+		margin: 25px 0 35px;
+	}
+	&.spacing-lg {
+		margin: 40px 0 50px;
+	}
+}
+
+.btn-delete {
+	padding: 2px;
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 1px 0 0 1px;
+	i {
+		display: block;
+		line-height: 14px;
+		margin-left: 0;
+	}
+}
+
+.round {
+	border-radius: 200px;
+}
+
+.rounded {
+	border-radius: 4px;
+}
+
+.btn-paypal {
+	&,
+	&:link,
+	&:hover,
+	&:focus,
+	&:active,
+	&:visited {
+		background: #f9bf37 url(../images/btn-paypal-pay-now.png) 50% no-repeat;
+		width: 106px;
+		height: 26px;
+		border: 0;
+		font: 0/0 a;
+		text-shadow: none;
+		color: transparent;
+		border-radius: 40px;
+	}
+}
+
+.btn-cancel {
+	color: $white;
+	background: darken($btn-cancel-bgd, 10%);
+	border-color: darken($btn-cancel-bgd, 20%);
+	&:hover {
+		color: $white;
+		background: darken($btn-cancel-bgd, 20%);
+	}
+}
+
+.btn-default[disabled]:hover {
+	color: $dm-gray04;
+}
+
+.dropdown {
+	.btn-default {
+		color: $dm-gray03;
+		// background: $dm-gray01;
+		border-color: $dm-gray03;
+		&:hover {
+			color: $dm-gray04;
+			background: #fff;
+			border-color: $dm-gray04;
+		}
+	}
+}
+
+.input-group-addon {
+	color: $dm-green03;
+	background: $dm-gray01;
+}
+
+.alert i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding-right: 25px;
+	float: left;
+}
+
+.svg-option01 {
+	width: 120px;
+}
+
+.svg-option02 {
+	fill:blue;
+	width: 120px;
+	height: 120px;
+}
+
+.svg-option03 {
+	background:transparent url('../../ui-dashboard/img/prize-demo-50-compressed.svg') center no-repeat;
+	width: 120px;
+	height: 120px;
+}
+

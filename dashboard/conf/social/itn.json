@@ -1,0 +1,160 @@
+{
+    "comment": "campaign.features and features are both legacy configurations",
+
+    "campaign": {
+        "features": [
+            "prizes",
+            "leaderboard"
+        ]
+    },
+
+    "features": [ "campaign" ],
+
+    "integration": {
+        "displayName": "ITN",
+        "tag": "xw_3Rk4zb-YZCDyNFkHuTinft3N7RSF6bwIOoq-LEDMT2j5wGdRrwMeZRMJ7gFx6rABnQgCuEIcHEOubBwUmpQ"
+    },
+
+    "product": {
+        "tag": "u0EppP_Mpj9U46jB7tPA2Dpl4GX2A6xyDxai0wKNYOCl-ijbbBlceNVaKOIHKSCi5Ho8rDjzWFxQmz4hEGW6MQ"
+    },
+
+    "topbar": {
+        "nav": {
+            "enabled": true,
+            "menu": {
+                "myaccount": {
+                    "enabled": false
+                },
+                "logout": {
+                    "enabled": false
+                },
+                "subscribe": {
+                    "enabled": false
+                },
+                "integration": {
+                    "enabled": false
+                },
+                "help": {
+                    "enabled": false
+                }
+            },
+            "customMenuItems": {
+                "en-us": [
+                    {
+                        "label": "Help",
+                        "link": "https://deepmarkit.com/itn-faq/",
+                        "target": "_blank"
+                }
+                ]
+            }
+        }
+    },
+
+    "login": {
+        "type": "sso"
+    },
+
+    "components": {
+        "confirm_activation": "default"
+    },
+
+    "preview": {
+        "useExternalSite": false
+    },
+
+    "livehelp": {
+        "enabled": false
+    },
+
+    "permissions": {
+        "campaign": {
+            "create": false,
+            "clone": false,
+            "delete": false
+        }
+    },
+
+    "dashboard": {
+        "leadbar": {
+            "enabled": true,
+            "newleads": true,
+            "last30days": true,
+            "alltime": true,
+            "viewleads": false,
+            "mailintegration": false
+        }
+    },
+
+    "editor": {
+        "project": {
+            "enabled": true
+        },
+        "theme": {
+            "enabled": true,
+            "previewUrlParams": {
+                "lead": "email,customer@domain.com"
+            }
+        },
+        "datacollection": {
+            "enabled": false
+        },
+        "instant": {
+            "enabled": true
+        },
+        "giveaway": {
+            "enabled": true
+        },
+        "draw": {
+            "enabled": true
+        },
+        "prizedisplay": {
+            "enabled": true
+        },
+        "game": {
+            "enabled": true
+        },
+        "socialmedia": {
+            "enabled": true,
+            "visiting": {
+                "enabled": true
+            },
+            "sharing": {
+                "enabled": false
+            }
+        },
+        "tracking": {
+            "enabled": false
+        },
+        "schedule": {
+            "enabled": true
+        },
+        "questions": {
+            "enabled": false
+        }
+    },
+
+    "template": {
+        "defaultTemplate": "template-04",
+        "defaultTheme": "template-04-tradeshow"
+    },
+
+    "winnersPage": {
+        "columns": [ "date", "email", "prize" ]
+    },
+
+    "games": {
+        "pegboard": {
+            "defaultSkin": "shortcircuit"
+        }
+    },
+
+    "prizes": {
+        "messages": {
+            "physicalWinnerMessage": "You've won, please come to our booth to claim your prize!",
+            "couponWinnerMessage": "You've won a discount!",
+            "drawWinnerMessage": "You've won an entry into the draw!"
+        }
+    }
+
+}

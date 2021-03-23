@@ -1,0 +1,1747 @@
+sh_hint_default: "Do we need a hint for this section?"
+sh_label_trigger: "Triggers & Placement"
+sh_label_play_editor: "Branding"
+sh_label_status: "Status"
+sh_label_delay: "Popup Delay"
+sh_label_time_measure_seconds: "Seconds"
+sh_label_time_measure_minutes: "Minutes"
+sh_label_time_measure_hours: "Hours"
+sh_label_time_measure_days: "Days"
+sh_label_time_measure_weeks: "Weeks"
+sh_label_exit_intent: "Exit Intent"
+sh_label_desktop_exit_intent: "Show on Desktop Exit Intent"
+sh_label_mobile_exit_intent: "Show on Mobile Exit Intent"
+sh_label_clickable_tab: "Clickable Tab"
+sh_when_campaign_popup_appears: "Specify when the campaign will appear. You can setup multiple triggers."
+sh_label_show_tab: "Show Tab"
+sh_label_advanced_ui_settings: "Advanced Settings"
+sh_label_cookie_duration: "Cookie Duration"
+sh_label_google_mobile_friendly: "Google Mobile Friendly"
+sh_hint_google_mobile_friendly: "This feature ensures the popup meets Google's 2017 popup guidelines by decreasing the size of the popup when it is initially displayed on mobile devices ..."
+sh_hint_cookie_duration: "This will set how often a game will reappear for the same visitor that sees the popup bud doesn't subscribe... Note: For best results set to at least 1 hours ..."
+sh_label_inject_coupon: "Auto Inject Coupon into Cart"
+sh_label_reset_cookies_all_users: "Reset Cookies for All Users"
+sh_hint_reset_cookies_all_users: "Once you reset cookies for all users, they will be able to play again ..."
+sh_button_label_reset_cookies: "Reset Cookies"
+sh_label_email_integration: "Email Integration"
+sh_label_max_prizes: "You've reached the maximum number of prizes supported by this game"
+sh_label_max_prizes_campaign: "You've reached the maximum number of prizes supported by this type of campaign"
+sh_label_prizes_locked: "Prizes cannot be added or removed once a campaign has been activated the first time, even if the campaign is deactivated later. Prize Name, Coupon Code and Weight may be modified. If you must change the number of prizes, clone the campaign and configure the copy as needed."
+sh_label_social_prizes_locked: "Prizes cannot be added or removed once a campaign has been activated. Prize Name, Coupon Code and Weight may be modified. If you must change the number of prizes, clone the campaign and configure the copy as needed."
+sh_label_social_draw_prizes_locked: "Draw prizes cannot be added or removed once a campaign has been activated. Draw prize names may be modified. If you must change the draw configuration, clone the campaign and configure the copy as needed."
+sh_label_social_draws_locked: "Draws cannot be added or removed once a campaign has been activated. Draw names may be modified. If you must change the draw configuration, clone the campaign and configure the copy as needed."
+sh_label_add_prize: "+ Add Prize"
+sh_label_refreshing_preview: "REFRESHING PREVIEW..."
+sh_label_game_editor: "Customize Your Game"
+sh_label_subtext_game_editor: "Set up your game with fun prizes!"
+sh_label_subtext_social_game_editor: "Create a game that showcases your brand and products!"
+sh_label_prize_row_prize_name: "Prize Name"
+sh_label_prize_row_coupon_code: "Coupon Code"
+sh_label_prize_row_weight: "Weight"
+sh_label_prize_row_win_percent: "Win %"
+sh_label_tooltip_winpercent_title: "Weight / Win %"
+sh_label_tooltip_winpercent_1: "This field sets how often each prize is given away."
+sh_label_tooltip_winpercent_2: "Weight can be any number. The Win Percentage will be calculated automatically."
+sh_label_tooltip_winpercent_3: "Set it to 0 if you want to make sure the prize is never given away."
+sh_label_tooltip_winpercent_4: "The Win % for each prize is calculated as:"
+sh_label_tooltip_winpercent_weight: "Weight"
+sh_label_tooltip_prizeweight: "Prize Weight"
+sh_label_tooltip_total_prizeweight: "Total Prize Weights"
+sh_label_tooltip_prizeweight_example: "Ex. ( 10 / ( 10 + 20 + 0 ) ) * 100 = 33.3%"
+sh_label_theme: "Theme"
+sh_label_theme_change_warning: "Changing the theme will reset your visual customizations. The prizes you have configured will not be affected."
+sh_label_images: "Images"
+sh_label_images_subtext1: "Customize the images in your game. Click on the image to select from our library or upload your own."
+sh_label_images_subtext2: ": Images with this icon may be removed from the game by toggling the visibility control."
+sh_label_images_advanced: "Advanced Images"
+sh_label_deactivate_modal_title: "Do you want to switch your active campaign?"
+sh_label_deactivate_modal_message: "DeepMarkit Free users may only activate one Gamified Display campaign at a time. DeepMarkit Premium subscribers may activate additional Gamified Display campaigns."
+sh_label_deactivate_modal_activate: "Continue activating '{0}'?"
+sh_label_deactivate_modal_deactivate: "Your active Gamified Display '{0}' will be deactivated."
+sh_label_customize_slideout: "Customize your slide-out with your brand and message!"
+sh_label_customize_social: "Customize your campaign with your brand and message!"
+sh_label_prizes: "Prizes"
+sh_label_configure_appear: "Configure how and when your slide-out will appear"
+sh_label_configure_appear_banner: "Configure how and when your Email Collection Display will appear"
+sh_label_banner_position: "Banner Position"
+sh_label_url_filters: "URL Filters"
+sh_label_filter_operator: "Show on pages that"
+sh_label_url: "The following text in the URL"
+sh_label_add_url_filter: "ADD URL FILTER"
+sh_label_advanced_subheading: "Fine-tune your promotion"
+sh_label_active: "Active"
+sh_label_game: "Game"
+sh_label_impressions: "Impressions"
+sh_label_conversion_rate: "Conversion Rate"
+sh_label_days: "Days"
+sh_label_view: "View"
+sh_label_preview: "Preview"
+sh_label_live_view: "Live View"
+sh_label_view_config: "View Config"
+sh_label_delete: "Delete"
+sh_label_clone: "Clone"
+sh_label_activate: "Activate"
+sh_label_subscribe_to_activate: "Subscribe To Activate"
+sh_label_cancel_campaign: "Cancel Campaign"
+sh_label_edit: "Edit"
+sh_label_game_select: "Select Game"
+sh_label_winners: "Winners"
+sh_label_prize_instant: "Instant Win prize"
+sh_label_prize_giveaway: "Everyone Wins prize"
+sh_label_prize_draw: "Draw prize"
+sh_label_prize: "Prize"
+sh_label_instant: "Instant Win"
+sh_label_giveaway: "Everyone Wins"
+sh_label_draw: "Draw"
+sh_label_mail_integration_setup: "Automatically connect the emails you collect with your favorite email service"
+sh_loading_title_campaigns: "Just one moment..."
+sh_loading_message_campaigns: "We're gathering all your projects"
+sh_label_validation_errors_title: "Let's fix a few things..."
+sh_label_validation_errors_body_activate: "Some information is incomplete and is preventing us from activating your campaign."
+sh_label_validation_errors_body_preview: "Some information is incomplete and is preventing us from previewing your campaign."
+sh_label_validation_fix_action: "Take Me There"
+sh_label_validation_cancel: "Cancel"
+sh_label_validation_subheading: "What's wrong?"
+sh_error_gameeditor_missing_coupon_code: "{1} #{0} will be given away but has no coupon code set."
+sh_error_gameeditor_invalid_win_precent: "All of your prizes have a 0% chance to win. At least one prize must have a weight greater than 0."
+sh_error_gameeditor_invalid_prize_title: "{1} #{0} has no name."
+sh_error_gameeditor_invalid_draw_title: "Draw #{0} has no name."
+sh_error_gameeditor_draw_date_missing: "The Draw Date for Draw #{0} is missing. Set the date when the draw should be made."
+sh_error_gameeditor_draw_start_date_missing: "The Start Date for Draw #{0} is missing. Set the date when the draw should begin."
+sh_error_gameeditor_draw_date_past: "The Draw Date for Draw #{0} occurs in the past."
+sh_error_gameeditor_draw_start_date_invalid: "The Start Date ({1}) for Draw #{0} must occur before the Draw Date ({2})."
+sh_error_end_date_missing: "The campaign end date is missing. Set the date when the campaign should end."
+sh_error_start_date_missing: "The campaign start date is missing. Set the date when the campaign should begin."
+sh_error_end_date_past: "The campaign end date occurs in the past."
+sh_error_start_date_past: "The campaign start date occurs in the past."
+sh_error_start_date_invalid: "The campaign start date ({0}) must occur before the campaign end date ({1})."
+sh_error_triggereditor_invalid_url_filter: "URL Filter #{0} has no URL set."
+sh_leaddash_download: "Download Your Lead Data"
+sh_leaddash_download_button: "Download"
+sh_leaddash_view: "View Your Lead Data"
+sh_leaddash_view_button: "View Leads"
+sh_leaddash_leads_connected: "Your leads are connected to"
+sh_leaddash_edit_integration: "Edit Integration"
+sh_leaddash_configure_integration: "Configure"
+sh_leaddash_mailintegration: "Mail Integration:"
+sh_leaddash_mailintegration_not_setup: "Not Setup"
+sh_leaddash_today: "New Leads Today"
+sh_leaddash_month: "Last 30 Days"
+sh_leaddash_alltime: "All Time"
+sh_options_url: "Option"
+sh_label_mailintegration_connecting_progress: "Connecting..."
+sh_label_mailintegration_desc: "Automatically connect the email addresses you collect with your favorite email service"
+sh_tooltip_min_prizes: "This game requires at least {0} prize(s)"
+sh_tooltip_min_draw_prizes: "A draw requires at least one prize"
+sh_tooltip_locked_prize: "Once activated, prizes cannot be removed from the game"
+sh_delete_prize: "Remove Prize"
+sh_delete_tracking_link: "Remove Link"
+sh_clone_this_campaign: "Clone This Campaign"
+sh_delete_this_campaign: "Delete This Campaign"
+label_logging_in_title: "Logging In"
+label_logging_in: "We are logging you in. This will only take a moment."
+label_subscription_status: "Subscription"
+label_trial_ends: "Trial Ends"
+label_trial_ends_today: "Your trial ends today"
+label_trial_days_remaining: "{0} days remaining in your trial"
+label_subscription_account_status: "Membership Status"
+label_subscription_membership: "Membership"
+label_subscription_payment: "Payment"
+label_subscription_subscribed: "Subscribed"
+label_subscription_not_subscribed: "Not Subscribed"
+label_theme_not_initialized_for_mailing_list: "Please select a Campaign Theme first."
+sh_label_campaign_activated_title: "Campaign Activated!"
+sh_label_campaign_activated_message: "Your campaign is now active."
+sh_label_campaign_activated_message2: "Remember to install your DeepMarkit app code on your website!"
+sh_label_campaign_activated_message_store: "Your campaign is now live on your store"
+sh_label_campaign_activated_message_site: "Your campaign is now live on your site"
+sh_label_campaign_activated_message_social: "Your campaign is scheduled to begin on {0} at {1}."
+sh_label_campaign_activating: "Activating Your Campaign"
+sh_label_confirm_activation_title: "Activating Your Campaign"
+sh_label_confirm_activation_message: "'{0}' will be activated. Continue?"
+sh_label_new_campaign_button: "Create New Campaign"
+sh_label_campaign_cancel_title: "Cancel Campaign"
+sh_label_campaign_cancel_message: "Are you sure you want to cancel '{0}'?"
+sh_label_campaign_cancel_draw_message: "This campaign contains one or more draws. Winners will be drawn immediately for each draw with one or more entries."
+sh_label_campaign_cancelled_title: "Campaign Cancelled"
+sh_label_campaign_cancelled_message: "'{0}' has been cancelled."
+
+label_social_network_facebook: "Facebook"
+label_social_network_twitter: "Twitter"
+label_social_network_instagram: "Instagram"
+label_social_network_linkedin: "LinkedIn"
+label_social_network_youtube: "YouTube"
+label_social_network_pinterest: "Pinterest"
+
+#
+# Integrations > Code Snippet Page
+#
+# label_snippet_main_header: "Installing Gamify On Your Site"
+# label_snippet_sub_header: "You'll be up and running in 2 easy steps!"
+# label_snippet_step_one: "Step 1 : Add your Gamify Code to your site"
+# label_snippet_step_one_desc: "Copy the code above and paste it within the webpages on your site.  Add it anywhere within your &lt;body&gt; tag."
+# label_snippet_step_one_note: "You can either paste the code on only the pages you wish the slide-out to appear on, or paste it on all your webpages and use the URL filters when setting up your campaign to decide where it should appear."
+# label_snippet_step_two: "Step 2 : Activating your Slide-Out"
+# label_snippet_step_two_desc: "After you have finished configuring your slide-out, go to the dashboard and click the Active toggle button to activate your campaign. Your campaign is live!"
+label_code_integration_code_header: "Your DeepMarkit Code"
+label_code_integration_code_desc: "Add this code to your page's &lt;body&gt; tag, then activate your campaign! You only need to add this code to your page(s) once to operate all your DeepMarkit campaigns."
+label_code_integration_guide_header: "Need some help? We've got you covered!"
+label_code_integration_guide_desc1: "Not using one of these services? No problem! Our custom installation guide will have your campaign live on virtually any website in no time!"
+label_code_integration_guide_desc2: "Easily install the DeepMarkit app on one or more pages of your site. We have installation guides to help get you up and running using one of these popular website building platforms!"
+label_code_integration_guide_desc3: "Easily install the DeepMarkit app on one or more pages of your site. We have an installation guide to help get you up and running quickly!"
+label_code_integration_help_header: "Having Trouble? Let Us Help!"
+label_code_integration_button_copy: "Copy To Clipboard"
+label_code_integration_button_copied: "Copied!"
+label_code_integration_button_contact: "Contact Us"
+
+# Gamify Login
+label_login_integration_header : "Use the DeepMarkit app on one of these popular services"
+label_login_integration_coming_soon : "More Coming Soon!"
+label_login_header : "How do you want to acquire more customers?"
+label_login_gamify_header : "Log in in to your DeepMarkit account"
+label_login_need_account : "Need an account?"
+label_login_sign_up : "Sign Up"
+label_login_login : "Login"
+label_login_register: "Create an account and add the DeepMarkit app to ANY website"
+label_login_or: "OR"
+
+#
+# Integrations > Subscription > Modal
+#
+label_subscription_modal_title: "Subscription Tiers"
+label_days_trial: "Days Free Trial"
+
+#
+# Integration > Editor > TriggerPlacement
+#
+
+sh_trigger_method_pulltab: "Pull Tab Trigger"
+sh_trigger_method_auto: "Timed Slide-Out Trigger"
+sh_trigger_method_auto_display: "Timed Display Trigger"
+sh_trigger_method_exitintent: "Exit Intent Trigger"
+
+sh_label_trigger_header: "There are 3 ways your campaign can be triggered. You can choose between 1, 2 or all 3 ways. We recommend using all 3 for maximum exposure."
+sh_label_trigger_header_banner: "There are 2 ways your campaign can be triggered. You can choose either one or both. We recommend using both for maximum exposure."
+sh_label_slideout_header: "If your visitor has not viewed your campaign within a specific timeframe, we can show it to them automatically."
+sh_label_exitintent_header: "If your visitor has not yet seen your campaign and tries to leave your store, we detect this and show it to them immediately."
+sh_label_pulltab_header: "A small tab will appear on the side of the screen. It will wiggle to encourage your visitors to click it. When they do, your campaign will slide into view."
+sh_label_prizebar_header: "The prize banner displays on your page after a visitor has won. The countdown timer encourages them to make a purchase."
+sh_label_urlfiltering_header: "By default, the campaign is shown on all pages of your site. If you don't want the campaign to appear on all pages, you can customize the pages it appears on below."
+sh_label_all_disabled_warning: "Uh Oh! By disabling all the triggers, your campaign will never appear on your site!"
+
+sh_label_show_on_desktop: "Show On Desktop Computers"
+sh_label_show_on_mobile:  "Show On Mobile Devices"
+sh_label_on_leave_intent_header_desktop: "On Exit Intent"
+sh_label_after: "After"
+
+
+sh_label_show_pull_out_tab: "Show Pull Out Tab"
+sh_label_tab_icon: "Tab Icon"
+
+
+sh_label_show_prize_banner: "Show Coupon Banner"
+
+sh_label_on_leave_intent_sub_header_desktop: "When Mouse Leaves The Browser"
+
+sh_label_on_leave_intent_header_mobile: "User's Leave Intent"
+sh_label_on_leave_intent_sub_header_mobile: "When User Leaves The App"
+
+sh_label_countdown_time: "Countdown Timer"
+sh_label_countdown_sub_header: "If you set the time to 0, countdown will not be shown"
+
+sh_label_positon_pageTop: "Page Top"
+sh_label_positon_pageBottom: "Page Bottom"
+sh_label_slideout_desktop: ""
+sh_label_slideout_mobile: ""
+
+
+#
+# Integration > Editor > CampaignDetails > Text
+#
+sh_label_player_pages_header: "Winner Page"
+sh_label_campaign_title:      "Title"
+sh_label_campaign_message:    "Message"
+sh_label_play_button:         "Play Button Text"
+sh_label_close_button:        "Close Button Text"
+sh_label_campaign_footer:     "Footer Text"
+sh_label_winner_title_message: "Winner Page Title"
+sh_label_winner_subtitle_message: "Winner Page Subtitle"
+sh_label_winner_code_label: "Discount Code Label"
+sh_label_winner_cta: "Winner Call-To-Action Button"
+sh_label_winner_page_call_to_action_button: "Call to Action"
+sh_label_winner_page_reject_prize: "Reject Prize Button"
+sh_label_winner_page_footer: "Footer"
+sh_label_playprompt_title: "Play Game Prompt Title"
+sh_label_playprompt_message: "Play Game Prompt Message"
+sh_label_email_placeholder: "Email Address Placeholder"
+label_email_placeholder: "Email Address"
+
+
+#
+# Shopify > Editor > CampaignDetails > Campaign Prizes
+#
+sh_label_prize_index: "Slot"
+sh_label_prize_code: "Code"
+sh_label_prize_weight: "Weight"
+sh_label_prize_type: "Type"
+sh_label_prize_name: "Name"
+sh_label_prize_quantity: "Quantity"
+sh_label_options: "Options"
+sh_label_prize_weight_percentage: "%"
+
+sh_label_unsaved_changes: "You have unsaved changes. Do you really want to leave and discard your changes?"
+sh_label_saved: "All Changes Saved!"
+sh_label_unsaved: "You have unsaved changes"
+
+sh_label_nogame: "No Game Selected"
+
+#
+# Shopify > Editor > CampaignDetails > CampaignDesign
+#
+sh_label_campaign_design: "Design"
+sh_label_campaign_name:   "Campaign Name"
+sh_label_campaign_theme:  "Background"
+sh_label_theme_selector:  "Background/Theme"
+sh_label_font_selector:   "Font"
+sh_label_color_section:   "Colors"
+sh_label_images_section:   "Images"
+sh_label_create_campaign_label: "Creating Your Promotion"
+sh_label_change_game_label: "Changing Your Game"
+sh_label_create_campaign_subtext: "We're setting up a few things. It won't be long!"
+sh_label_title_text_color: "Title Text"
+sh_label_message_text_color: "Message Text"
+sh_label_button_color: "Button"
+sh_label_background_color: "Background"
+sh_label_background_image: "Background"
+sh_label_logo_image: "Logo / Top Image"
+
+#
+# Integrations > Editor > Project Setup
+#
+sh_label_project_name: "Project Name"
+
+#
+# Shopify > Ediotr > CampaignDetails > Email Services
+#
+sh_label_email_services: "Email Services"
+
+
+
+label_the_basics: "Campaign Setup"
+label_slogan: "Campaign Slogan"
+label_website_url: "Your Website URL"
+label_setup_header: "To get things started, your Campaign Name and Slogan, your logo and your website link will be automatically added to the campaign pages. You can always edit any of these items later."
+label_setup_logo: "A PNG file with a transparent background works best."
+label_drop_image_bad_or_corrupt_data: "The selected image is invalid or corrupt. Please try another image."
+label_planned_start_and_end: "Set Campaign Dates"
+label_unscheduled_campaigns: "Draft Campaigns"
+label_scheduled_campaigns: "Scheduled Campaigns"
+label_active_campaigns: "Active Campaigns"
+label_completed_campaigns: "Completed Campaigns"
+label_cancelled_campaigns: "Cancelled Campaigns"
+label_prize_awarded_status: "% Of Prizes Awarded"
+label_login_modal_header: "Please log in to the DeepMarkit portal or create your account. NO PAYMENT REQUIRED until you're ready to launch your campaign."
+hint_prize_name: "Give each prize a different name. Tell people what they're playing for in a few words. (i.e. Cedar Compost Bin)."
+hint_prize_desc: "Get people excited! Highlight your prize's important features and how it improves your customers' lives. <br /> (i.e. Prize name: Cedar Compost Bin. <br /> Description: Start eating healthier. This cedar compost bin turns kitchen scraps into organic fertilizer for your vegetable garden.)"
+hint_prize_approx_value: "What is your prize worth? The approximate retail value appears in the Official Rules."
+label_prize_instantwin_lose: "No Instant Prize"
+label_prize_win_percent: "Win %"
+label_prize_weight: "Prize Weight"
+contextual_prize_type: "Is it a prize you can hold in your hand or store on your hard drive, or a coupon for something great?"
+contextual_upload_picture: "Show a picture of your prize to get participants excited. Square images work best. If you do not have an image you wish to use, the default image shown below will be displayed in your campaign."
+contextual_prize_promotion_type: "These are the four different ways you can give away your prizes or coupons. You can select a different give away style for each prize."
+label_odds_of_winning: "Odds of Winning"
+label_odds_auto: "Auto"
+label_odds_manual: "Custom"
+contextual_additional_prize_configuration: "Is your prize available online? Giving participants a link to the website will give them more information about the prize, and may convince them to purchase the product."
+hint_product_code: "The product code/SKU appears beside the prize on your campaign. You can use it to differentiate products that look similar to one another."
+hint_prize_external_link: "Participants who click on the button will be directed to an external website with more information about this prize."
+hint_prize_external_link_text: "This text appears on the button beside your prize on the campaign. Clicking the button will take participants to the URL you enter below."
+label_available_fields: "Available Fields"
+label_filter: "Filter"
+label_all_themes: "Campaign Themes"
+label_themeselector_subheading: "Select The Theme For Your Campaign Pages"
+label_theme_selector_prompt_change_title: "Confirm Theme Reset"
+label_theme_selector_prompt_change_body: "By changing your campaign theme, you will lose ALL changes you have made to your previously selected theme. This action cannot be undone. Do you wish to reset your theme?"
+label_selected: "Selected"
+label_change_theme: "Reset Theme"
+contextual_all_themes: "Select a theme below that fits your campaign and brand. This will be the starting point for your campaign. You can leave it as is, or you can make any changes using the built-in customization options in the Page Builder section."
+label_email_to_participants_settings: "Emails to Participants"
+label_notifications_subtitle: "Setup the Emails We Send to Your Participants"
+label_disable_participant_emails: "Send Campaign Emails to Participants"
+contextual_disable_participant_emails: "By disabling this feature, all of the campaign emails that would normally be sent to your participants from the DeepMarkit system will be disabled. This will allow you to manually follow up with your participants directly or via any email marketing platform, such as MailChimp. It is very important to ensure that you email all prize winners and provide them with the prize claim link to ensure the claim process is completed. This claim link can be found within the details screen for any player within the Winners list of your campaign. If players do not complete the claim process, the system will expire the prize claim after 48 hours and return the prize to the pool to be potentially awarded to another participant."
+contextual_emails_to_participants_settings: "If Enabled, your participants will receive all your campaign emails from this address."
+label_email_claim_your_win: "Email for Prize Winners"
+label_mailing_list: "Follow Up With Participants Directly By Email"
+label_notification_test_email_prompt_title: "Save Your Draft?"
+label_notification_test_email_prompt_body: "If you send a test of this draft email, it will be saved. You can continue to make any other changes you like, but will not be able to revert to the default email."
+label_save_and_send: "Save & Send"
+label_notification_test_email_sent_title: "Test Email Sent"
+label_send_preview_email: "Send Preview Email"
+label_notification_test_email_sent_body: "Please check the Email address associated with your DeepMarkit account."
+hint_mailchimp_api_key: "If you cannot find your API key, go to mailchimp.com and log in to your account."
+hint_mailchimp_unique_id: "If you cannot find your List Unique ID key, go to mailchimp.com and log in to your account."
+hint_mailchimp_subscription: "1. Subscribed - this address is on your list and ready to receive email.<br /> 2. Unsubscribed - This address isn't on your list anymore.<br /> 3. Pending - This address hasn't confirmed their subscription yet.<br /> 4. Cleaned - This address bounced and was removed from your list."
+label_send_email_notification: "When do you want DeepMarkit to notify you?"
+label_coupon_code: "Coupon Code"
+label_editor_nav_pre_launch: "Coming Soon"
+label_editor_nav_entry: "Enter to Win"
+label_editor_nav_game: "Play Game"
+label_editor_nav_win: "Winner"
+label_editor_nav_claim: "Claim Prize"
+label_editor_nav_thank_you: "Thank You"
+label_editor_nav_ended: "Promo Over"
+label_sponsor_information: "Sponsor Information"
+contextual_legal_eligible_geography: "For the Official Rules of the campaign you need to select the eligible countries and states, provinces or regions. If you make no changes or leave this section disabled, entrants from all countries and regions will be allowed to enter the campaign. Please ensure your campaign is legally compliant in all jurisdictions where you intend to offer the campaign."
+contextual_official_rules: "Campaigns of any type are subject to local laws, rules and regulations. We cannot give you legal advice about your specific campaign but we have made every effort to make the DeepMarkit platform comply with the legal requirements which may affect your campaign. We encourage you to seek legal advice where you are uncertain as to the applicable laws or rules. The advice we can give is be legal, honest and truthful."
+contextual_campaign_summary: "This is your opportunity to double-check all this information. Make sure your campaign name, time zone, and start and end dates are correct and that all the prizes you set up for your campaign are shown here and that your legal details are correct."
+label_legal_summary: "Legal Details"
+label_preview_options: "Preview Your Campaign"
+contextual_preview_options: "Review your campaign. You can see how the game and win page will look on different devices. If you want to take a closer look at the background image, hide the prizes."
+label_prizes_and_incentives: "Winner Page Prizes"
+label_device: "Device View"
+label_load_preview: "Preview"
+label_load_preview_if_computer: " (New Tab)" #completes a sentence generated by a React Component
+label_prize_type_prefix_text: "No " #completes a sentence generated by a React Component
+label_coupon_download_url: "Coupon URL (Link to a webpage or a PDF File)"
+hint_prize_coupon_url: "Provide the URL where the participant can download and/or print their coupon. A link to a webpage or a PDF File with the coupon works best. They can then bring the coupon in to your physical store to redeem for something great."
+label_preview: "Preview"
+contextual_preview: "Make sure you're happy with everything before you go to the purchase page. Now is the time to make changes."
+contextual_billing_information: "Fill in all the billing information below."
+label_payment_details: "Purchase"
+label_subscription_payment_details: "Subscription Payment Plan"
+label_payment: "Choose a Campaign Package"
+label_payment_request_cancelled: "The payment has not been processed."
+label_one_time_payment: "One-Time Payment"
+label_benefits: "Benefits:"
+label_billing_options: "Choose a Campaign Package"
+label_billing_error: "Billing Information Required"
+label_billing_information_incomplete: "In order to process your payment, we require complete billing information including full address. This information will be placed on your receipt. The total amount charged may also vary due to differing tax rates."
+label_lead_limit: "Leads Included"
+label_duration_in_days: "Maximum Campaign Length (Days)"
+label_lead_exceed_amount: "Cost Per Additional Lead"
+label_total: "Total"
+label_total_draw_winners: "Total Draw Prize Winners"
+label_fetchbot_coupon_code: "Coupon Code"
+label_apply: "Apply"
+label_processing: "Processing..."
+label_schedule_campaign: "Start the Countdown"
+label_in: "in"
+contextual_winners: "Here you will find out what prizes are won and who won them."
+label_game_suggestion: "Recommended"
+label_themes: "Themes"
+label_reset_all: "Reset Game"
+contextual_choose_game_to_customize: "Choose the game that fits with your campaign theme."
+contextual_traffic_and_participation: "This graph shows how your links performed relative to each other. Roll over the lines for more information."
+contextual_traffic_by_link: "Here's a nice summary of how many participants clicked each of your links."
+label_reset_filters: "Reset"
+hint_billing_company_name: "The company paying for the campaign. This will appear on the receipt for the campaign."
+hint_billing_industry: "Industry in which the company paying for the campaign does business."
+label_game_preview_modal_header: "Preview Game"
+contextual_winner_details_overview: "On this page, you will find all of the information DeepMarkit collected about this participant."
+contextual_winner_details_actions: "Here you can write notes to yourself about each winner, and track and cancel prize claims."
+contextual_winner_details_history: "Here's a list of this participant's campaign activity."
+label_mailchimp_status_subscribed: "Subscribed"
+label_mailchimp_status_unsubscribed: "Unsubscribed"
+label_mailchimp_status_cleaned: "Cleaned"
+label_mailchimp_status_pending: "Pending"
+contextual_participants: "Here's a list of everyone who participated in your campaign. Using the button below, you can export all of the available participant data into a CSV file. You can then import the file into Excel to sort through, or import the data into your mailing list service provider, such as MailChimp, AWeber, Klaviyo or others, so you can market to your new customers."
+label_game_reset_prompt_modal_header: "Are you sure want to reset your game?"
+label_game_reset_prompt_modal_body: "You will lose any game changes you made."
+hint_klaviyo_unique_id: "The email addresses collected from your slide-out will be added to the Klaviyo list you select from the list below."
+hint_klaviyo_api_key: "If you do not know your API Key, log into your Klaviyo account and navigate to Account -> Settings -> API Keys."
+hint_aweber_unique_id: "The email addresses collected from your slide-out will be added to the AWeber list you select from the list below."
+label_aweber_confirm_title: "Login To AWeber"
+label_aweber_confirm_message: "You will now be redirected to the AWeber login page. Once you have logged in to AWeber, you will be returned here to configure your mailing list."
+label_recommended: "Recommended"
+label_others: "All"
+label_library: "Library"
+label_custom_image: "Custom Image"
+label_uncaught_error_details_modal: "Something went wrong"
+label_filtered_themes: "Recommended"
+label_change_password: "Change Password"
+label_new_password: "New Password"
+label_reset_password: "Reset Password"
+label_change_password_warning: "After you click Reset Password, your current password will be unusable. This action cannot be undone."
+hint_new_password: "Your password must be at least 8 characters, and we recommend that it contains at least one capital letter, one number and one special character."
+label_confirm_new_password: "Confirm New Password"
+hint_confirm_new_password: "Simply type in your new password again."
+label_13_or_older: "13 years of age or older"
+label_age_of_majority: "Age of majority or older"
+label_atleast_age: "At least "
+label_minimum_years_of_age: " years of age or older"
+label_win_status: "Status"
+label_billing_history: "Review Receipts"
+contextual_billing_history: "Right here, you will find all of your DeepMarkit payments since the beginning of time. Payment question? Email support@deepmarkit.com."
+label_billing_date: "Billing Date"
+label_amount: "Amount"
+hint_winners_win_status: "1. Awarded – These are prizes that have been awarded to a participant.<br /> 2. Cancelled –  These are historical prizes that were awarded but were never given to the participant."
+hint_chance_to_win: "Odds are calculated based on the estimated number of participants and prizes. You can customize the odds to give away your prizes faster or slower."
+label_lead_id: "Participant ID"
+label_lead_notification_title: "It's Nice to See You Again"
+label_lead_email_already_used: "You already used that email address. Thanks for playing."
+label_lead_claim_email_sent: "You already won! We'll send a link, so you can claim your prize."
+label_lead_claim_processed: "You already won and claimed your prize. Thanks for playing."
+label_lead_claim_code_already_used: "You already claimed your prize. Thanks for playing."
+label_search_results: "Results"
+label_postalCode: "Postal Code"
+label_customField: "Custom Field"
+label_phoneNumber: "Phone Number"
+label_customSelect: "Custom Select"
+label_customCheckbox: "Custom Checkbox"
+label_ipaddress: "IP Address"
+label_channel: "Entry Link"
+label_gameRulesConfirmed: "Agreed to Official Rules"
+label_banner_intro_lose: "Loss and no draw prize"
+label_banner_intro_lose_draw: "Loss but entered to win draw prize"
+label_banner_intro_claim: "Prize Claimed. No Draw Prize."
+label_banner_intro_claim_draw: "Prize Claimed. Draw Entered."
+label_lead_claim_cancelled: "Oh, no! This claim link has expired."
+label_lead_claim_code_error: "Oh, no! This claim link is broken."
+contextual_all_games: "Below is a list of all the games available in the DeepMarkit system. Choose the one that works best for you. Then, customize it any way you like."
+label_date: "Date"
+contextual_traffic_by_day: "Here you can see how many people visited your campaign pages versus how many people actually participated."
+hint_prize_coupon_code: "If you have an online store that supports coupon codes, you can generate a coupon code in the store's system and provide it here. Winners will see your coupon code after claiming their prize. You can also provide a link directly to your store where winners can redeem the coupon."
+hint_share_title: "We recommend the format: Play (Your Campaign Name goes here)."
+hint_share_details: "Get People excited! Tell participants about the Grand Prize or what they're playing for."
+hint_share_image: "This image appears with your social post. Just use an image that matches your site theme and/or game. Do not include any text on your social image."
+hint_customize_social_sharing: "Set up the text and image to go with the social posts that promote your game."
+contextual_social_enable_visit_us: "By enabling Social Media visiting, you will be able to add links to your own social media channels for participants to view, increasing your ability to reach your audience in the future." 
+contextual_social_enable_share: "By enabling Social Media sharing, participants will be given the opportunity to share your campaign with their own social circle with the click of a button. You can choose which social media channels will be available for participants to select from to share."
+label_facebook_page_link: "Your Facebook Page URL"
+label_linkedin_page_link: "Your LinkedIn Page URL"
+label_pinterest_page_link: "Your Pinterest Page URL"
+label_instagram_page_link: "Your Instagram Page URL"
+label_google_plus_link: "Your Google+ Page URL"
+label_youtube_link: "Your YouTube Page URL"
+label_twitter_page_link: "Your Twitter Page URL"
+label_open_graph_preview: "Preview Your Social Media Posts"
+contextual_datacollection_custom_prize_fields: "Use these fields to request any information that has not been covered by the already available fields. You may need to request an account ID, loyalty account ID, or maybe how the consumer heard about you. With these fields, you can obtain all information that is valuable to you."
+label_advanced: "Advanced"
+label_game_library: "Game Library"
+label_upload: "Upload"
+label_discard: "Discard"
+hint_prize_virtual_download_url: "This link directs winners to an external website where they can download their prize. It will be shown to the winners after they provide all the required information to claim their prize."
+label_mailchimp_merge_field_mapping: "Field Mapping"
+label_mailchimp_field_optional: "Optional"
+label_mailchimp_field_required: "Required"
+label_mailchimp_option_nomap: "Do not collect"
+hint_mailchimp_field_mapping: "Match the fields from your campaign to the corresponding MailChimp fields."
+label_aweber_redirect_title: "Redirecting you to AWeber"
+label_aweber_redirect_body: "This will only take a moment."
+label_is_not_collected: "Not Collected"
+label_prize_redemption_link: "Add Redeem Coupon Link" 
+label_prize_redemption_button: "Redeem Coupon Button Text"
+label_prize_exclusive_giveaways: "Only award this prize to players if no other prize is won"
+placeholder_prize_redemption_button_text: "Use Coupon Code"
+hint_prize_redemption_link: "Clicking the redeem coupon button will take participants to a page (i.e. your company homepage) where they can enter their coupon code. Enter the URL for the page below." 
+label_select_option: "Select"
+label_traffic_total: "Total Traffic"  
+label_emailOptIn: "Email Opt-in"
+label_select_lang: "Language"
+label_languages: "Preferred Language"
+hint_enter_language: "Choose the language in which you would like the DeepMarkit console to appear. You will be able to specify the language for each of your campaigns separately as well."
+label_campaign_lang: "Campaign Language"
+hint_enter_campaign_lang: "Each campaign you create is presented in a single language only. Select the language in which you would like this campaign to be presented to all participants. This setting will have no effect on how information is presented to you within the control panel."
+label_registration_date: "Registration Date"
+label_new_promotion_title: "Untitled Campaign"
+label_connect_to_mailchimp: "MailChimp"
+label_connect_to_email_platform: "Integrate with an Email Marketing Platform"
+label_error_application: "Temporary Difficulties"
+label_campaign_clone_notify_header: "Cloning Campaign"
+label_campaign_clone_notify_body: "Please wait while we clone your campaign."
+label_open_campaign_preview: "Preview Campaign"
+label_pick_social_links: "Pick your Social Media Networks"
+label_pick_social_links_subheading: "Click to enable/disable your social media"
+
+### General Global Labels
+label_default: "Default"
+link_click_here: "Click here"
+label_upload_img: "Upload Image"
+label_null: "Unknown"
+
+### User Management Invitation Labels
+label_user_invitation: "User Inivitation"
+label_invite: "Invite"
+label_invite_email_placeholder: "Enter the email address of the user you want to invite"
+hint_invite: "Invite users to view and make changes to this campaign."
+
+#### Panel Labels
+modal_label_confirm: "Confirmation"
+label_tracking_links: "Links to Your Campaign"
+label_choose_mailing_provider: "Mailing List Options"
+label_skill_testing_question: "Skill Testing Question (Canada Only)"
+label_eligible_geography: "Select Eligible Countries and States/Provinces"
+label_official_rules: "Official Rules"
+label_game_audio_duration: "Duration: "
+label_tracking_google_analytics: "Set Up Google Analytics"
+label_prize_define: "Describe Your Prize"
+label_prize_product_type: "Select Prize Type"
+label_prize_promotion_type: "Select How Participants Win"
+label_prize_additional_configuration: "Additional Prize Information"
+label_notifications_your_notifications: "Select Your Email Notifications"
+label_notifications_consumer_email_scheduled_win: "Email to Draw Prize Winners"
+label_notifications_consumer_email_abandoned_claim: "Claim Prize Reminder Email"
+contextual_links_to_your_promotion: "Here are the links you created for your campaign."
+label_or_select_another_game: "Change Game"
+label_game_change_modal_header: "Are you sure you want to select another game?"
+label_game_change_modal_body: "You will lose any game changes you made."
+label_choose_game_to_customize: "Filter"
+label_all_games: "Games"
+label_game_selector_subheading: "Select Your Game and Theme"
+label_discard_changes_modal_header: "Do you want to save your changes?"
+label_discard_changes_modal_body: "Before you leave this page, remember to save your changes."
+hint_prize_notes: "Participants will not see what you write here. Use this section to leave yourself a note about the prize, such as shipping instructions, supplier information, etc."
+label_traffic_by_day: "Show by Day"
+label_export_invoice_title: "Export Invoice to PDF"
+label_download_pdf_file: "Your invoice has been generated. Click the link to download."
+label_generating_pdf_file: "Your invoice is being generated. Please wait a moment."
+label_delete: "Delete"
+
+#### Theme Editor Labels
+label_page_title: "Page Title"
+label_page_introduction: "Page Text"
+label_prelaunch_title: "Page Title"
+label_prelaunch_introduction: "Introduction"
+label_entry_title: "Page Title"
+label_entry_introduction: "Introduction"
+label_entry_form: "Entry Form"
+label_entry_prizes-firstPlay: "First Come Prizes"
+label_entry_prizes-instant: "Instant Win Prizes"
+label_entry_prizes-draw: "Draw Prizes"
+label_entry_prizes-giveaway: "Everyone Wins Prizes"
+label_win_title: "Winner Page Title"
+label_win_introduction: "Introduction"
+label_win_prizes: "Prizes Won"
+label_claim_title: "Claim Page Title"
+label_claim_form: "Claim Form"
+label_claim_prizes: "Prizes Won"
+label_thankyou_header: "Thank You Message to Participants"
+label_thankyou_title: "Thank You Message"
+label_thankyou_introduction: "Messages to Participants"
+label_thankyou_wins: "Digital Prizes"
+label_digital_wins: "Digital Prize Heading"
+label_ended_title: "Promo Over Title"
+label_ended_introduction: "Introduction"
+label_ended_winners: "Winners List"
+label_ended_header: "Promo Over Message"
+label_ended_subtitle: "Promo Over Subtitle"
+label_common_footer: "Footer"
+label_common_social: "Social Media"
+label_banner_title: "Text"
+label_banner_introduction: "Text"
+label_banner_heading: "Heading"
+label_play_button: "Button"
+label_claim_button: "Claim Button"
+label_social_share: "Let participants share with:"
+label_social_custom: "Sharing preview:"
+label_social_links: "Link to these company accounts:"
+label_text: "Text"
+label_text_editor_heading_1: "Heading 1"
+label_text_editor_heading_2: "Heading 2"
+label_background: "Background"
+label_logo_image: "Upload your logo"
+label_field_postalCode: "Postal/Zip Code"
+hint_background_image: "Standard image file types are supported. The maximum file size is 5MB."
+hint_logo_image: "Standard image file types are supported. The maximum file size is 500KB."
+hint_show_winners_list: "This list may be a legal requirement in some jurisdictions. It will only display information for the winners of odds-based prizes, including Instant Win and Draw Prizes. It will not display information for First Come or Everyone Wins prizes."
+
+#### Page Labels
+label_user_register: "Create your DeepMarkit account."
+label_dashboard: "Dashboard"
+label_user_details: "Account Details"
+label_go_to_dashboard: "Go To Dashboard"
+
+#### Navigation Labels
+label_save_and_continue: "Save and Continue"
+label_details: "Details"
+label_list: "List"
+
+#### Campaign Nav Labels
+label_nav_edit: "Setup"
+label_nav_prizes: "Prizes"
+label_nav_data: "Data Collection"
+label_nav_theme: "Campaign Theme"
+label_nav_site: "Page Builder"
+label_nav_game: "Game"
+label_nav_tracking: "Tracking"
+label_nav_notifications: "Campaign Emails"
+label_nav_communication: "Mailing List"
+label_nav_legal: "Legal"
+label_nav_summary: "Summary"
+label_nav_preview: "Preview"
+label_nav_purchase: "Purchase"
+label_nav_winners: "Winners"
+label_nav_participants: "Participants"
+label_nav_analytics: "Campaign Traffic"
+label_analytics_header: "The graph below is generated using Google Analytics. In some cases, the total numbers of participants may not match the numbers shown in the Campaigns Dashboard. The number of participants shown in the Campaigns Dashboard will be the correct number who have entered the promotion."
+label_nav_links: "Links"
+label_my_account: "My Account"
+label_nav_billing: "My Payments"
+label_nav_changepassword: "My Password"
+label_nav_invites: "User Invites"
+label_nav_image_edit: "Game Images"
+label_nav_color_edit: "Colors"
+label_nav_audio_edit: "Sounds"
+label_nav_property_edit: "Settings"
+label_nav_loader_edit: "Game Loader"
+label_nav_show_advanced: "Show Advanced Items"
+label_nav_social: "Social Media"
+label_campaign_settings: "Campaign Features"
+label_features: "Campaign Features"
+label_leaderboard: "Leaderboard"
+label_nav_logout: "Logout"
+label_leaderboard_prompt: "Do you want your campaign to include a leaderboard?"
+label_prizes_prompt: "Do you want to give away Prizes in your campaign?"
+hint_feature_leaderboard: "Participants' scores will be shown on a Leaderboard and they will be encouraged to share the campaign with their friends to try to move up the leaderboard."
+hint_feature_prizes: "Prizes give the participants extra incentive to provide the requested information and to share the campaign with their friends so they can receive the prizes as well. We have many different prize types and award methods to choose from."
+
+label_tooltip_edit: "Edit"
+label_tooltip_settings: "Settings"
+label_tooltip_schedule: "Un-Schedule"
+label_tooltip_links: "Links"
+label_tooltip_winners: "Winners"
+label_tooltip_participants: "Participants"
+label_tooltip_analytics: "Campaign Traffic"
+label_tooltip_duplicate: "Clone"
+label_tooltip_delete: "Delete"
+label_tooltip_cancel: "Delete"
+label_tooltip_clone: "Clone"
+contextual_theme_filters: "The theme you select becomes the template for your campaign pages. You can add your logo, customize the background image, select a different font and more."
+
+label_nav_questions_edit: "Questions"
+label_add_question: "Save Question"
+label_add_new_question: "Create New Question"
+label_question: "Question"
+label_create_question: "Create New Question"
+label_question_type: "Question Type"
+label_question_type_multi: "Multiple Choice"
+label_question_type_multi_square: "Multiple Choice - Square Answers"
+label_question_type_truefalse: "True or False"
+label_question_type_q_image: "Trivia Question with Image"
+label_question_type_survey: "Survey"
+label_question_type_survey_image: "Survey Question with Image"
+label_question_image: "Image"
+label_optional: "optional"
+label_answer_style: "Answer Display Style"
+label_answer_style_square: "Square Boxes - 2x2"
+label_answer_style_rectangle: "Rectangular Boxes"
+label_answer_style_image: "Squares with Images"
+label_add_answer: "Add Answer"
+label_answers: "Answer Options"
+label_answer: "Option"
+label_correct_answer: "Correct Answer"
+label_characters_left: "Characters Left:"
+label_answers_subheading: "Blank answers will not appear and cannot be selected as the correct answer"
+label_question_survey_flag: " This is a survey question. Any answer is correct."
+label_add_question_and_add_new: "Save & Create New"
+hint_game_image_sprite: "This game element is a collection of images which combine to make the character animate. You may select alternate characters from our library, but creating your own character is only recommended for very advanced users. To do this, we recommend downloading one of the existing files (sprite sheets) to use as a template, and creating your character using the exact dimensions and positioning as the downloaded file. Any inconsistencies in image sizes or placement may cause the animation to display poorly. "
+
+
+
+#### Section - Contextual Help
+
+## Dashboard
+
+## The Basics
+contextual_the_basics: "This is the official name of your campaign. It appears on many pages of your campaign site, plus the dashboard, Official Rules and receipts."
+
+## Prizes - Settings
+contextual_configuration: "What are people playing for? In this section, you will tell people all about the prizes up for grabs. Your campaign can include multiple prizes and prize types. Each prize is set up separately."
+## Data Collection
+contextual_mailing_list_alert: "You have linked a mailing list to this campaign. Data that is collected is automatically sent to the mailing list you configured. Any changes to the data collection can impact the mailing list configuration. If you make changes to the data collection, double check the mailing list configuration."
+
+## Game Selection & Editor
+contextual_customize_game: "You can customize every part of your promogame right down to the pixel."
+
+## Notifications
+contextual_your_notifications: "Not too many emails. Not too few. Pick just the right number of notifications to stay in the loop."
+contextual_email_claim_your_win: "This email is sent to participants who win something. It contains the claim link."
+contextual_email_abandoned_claim: "This email is sent to participants who received an \"Email for Prize Winners\", but haven't completed the claim process. It contains a claim link and a reminder that the prize must be claimed by the deadline. From the time the prize is awarded, the reminder email is sent after 24 hours and the prize expires after 48 hours."
+contextual_email_scheduled_win: "This email is sent to participants who win a draw prize. It contains the claim link."
+contextual_email_notify_claimed: "This email is sent to all participants after completing their prize claim. In the case of digital prizes, a URL to download their prize will be included. For coupon prizes, the coupon code will be provided."
+
+## Mailing List
+contextual_mailing_list_providers: "<b>Download Excel file. </b><br>Available to download at any time, once your campaign has launched.<br><br><b>Connect to MailChimp</b>"
+
+## Legal
+contextual_legal_sponsor_information: "Provide this information for the person or Company who is sponsoring the campaign. All this information will be automatically added to the Official Rules of the campaign"
+contextual_legal_skilltesting_question: "If you are accepting participants from Canada, you should enable the Skill Testing Question (STQ). If you are allowing participants from Canada and other countries, we recommend you ask participants for their country and enable the STQ. That way Canadian participants will see the STQ, while participants in other countries will not."
+contextual_legal_age_requirements: "We can not collect data from participants under the age of 13 in compliance with the Children's Online Privacy Protection Act of 1998 (COPPA)."
+contextual_legal_alert: "Campaigns of any type are subject to local laws, rules and regulations. We can't give you legal advice about your specific campaign but we have endeavored to make the DeepMarkit platform as flexible as necessary to allow you to comply with the legal requirements which may affect your campaign. We encourage you to get specific legal advice where you are uncertain as to the applicable laws or rules. The advice we can give is: be legal, decent and truthful."
+
+#### Dashboard Nav Labels
+label_nav_home: "My Campaigns"
+label_nav_user: "My Account"
+label_nav_support: "FAQs"
+
+#### Game Editor Nav Labels
+label_game_loader_play: "Play Button"
+label_game_loader_play_description: "This image is a button the players click on to start the game."
+label_game_loader_progress: "Game Loading Bar"
+label_game_loader_progress_description: "This image appears behind the Game Loading Progress Meter during game loading."
+label_game_loader_progressFill: "Game Loading Progress Meter"
+label_game_loader_progressFill_description: "This image is used to show the progress of the game loading to the player."
+label_game_loader_logo: "Logo"
+label_game_loader_logo_description: "This image is shown in the game loading screen over top of the background."
+label_game_loader_background: "Background"
+label_game_loader_background_description: "This image will appear in the background of the game loading screen."
+label_game_loader_rotation: "Device Rotation Warning"
+label_game_loader_rotation_description: "This message is shown to players only on mobile devices to indicate that they are trying to play the game with the wrong orientation (portrait vs. landscape)."
+
+#### Theme Customization Labels
+label_select_theme: "Select"
+label_body: "Body"
+label_link: "URL"
+label_banner_text: "Banner Text"
+label_winners_list: "Winners list"
+label_page_background: "Page Background"
+label_background_image: "Background Image"
+label_background_color: "Background"
+label_input_field: "Form Fields"
+label_buttons: "Buttons"
+label_heading: "Heading"
+label_show_winners_list: "Show list of winners"
+label_name_display_options: "Name display options"
+label_location_display_options: "Location display options"
+label_first_and_last: "First & last name"
+label_first_and_initial: "First & Initial of last name"
+label_state: "State"
+label_city_state: "City, State"
+label_city_state_country: "City, State, Country"
+label_logo: "Logo"
+label_page-background: "Page Background"
+label_buttons-and-forms: "Buttons & Forms"
+label_fonts: "Fonts"
+label_game-loader: "Game Loading Screen"
+label_custom_css_panel_header: "Custom CSS"
+label_custom_css_description: "Custom CSS allows you to further customize your pages. Any CSS that is added in this section will be loaded on all pages. We do not provide any support for this feature."
+label_edit_custom_css: "Edit Custom CSS"
+
+#### Social Sharing
+label_setup_sharing: "Select Social Media Sharing Options"
+label_customize_sharing: "Social Sharing Link Preview"
+label_custom_sharing: "Set Up Social Posts"
+label_setup_links: "Set Up Follow Us links"
+
+label_share_title: "Sharing Link Title"
+label_share_details: "Sharing Link Description"
+label_share_image: "Sharing Link Preview Image"
+
+label_enable_share: "Enable sharing"
+label_enable_visit_us: "Enable visting"
+
+label_share_on_facebook: "Facebook"
+label_share_on_twitter: "Twitter"
+label_share_on_linkedin: "LinkedIn"
+label_share_on_pinterest: "Pinterest"
+label_share_on_google_plus: "Google Plus"
+
+label_facebook_page_link: "Facebook page link"
+label_twitter_page_link: "Twitter page link"
+label_linkedin_page_link: "LinkedIn page link"
+label_pinterest_page_link: "Pinterest page link"
+label_google_plus_link: "Google Plus page link"
+label_share_youtube_channel: "Share YouTube channel"
+label_youtube_link: "YouTube channel link"
+label_instagram_page_link: "Instagram page link"
+label_common_external_link: "Add Link to your Website"
+label_calltoaction_title: "Call to Action Title"
+label_calltoaction_description: "Call to Action Text"
+
+
+#### Notifications Checkboxes
+label_notifications_onaward: "Notify me each time a participant wins an Instant Win or Draw Prize"
+
+#### CSS labels
+label_font_family: "Font"
+label_color: "Text Color"
+label_font_size: "Size"
+label_font_weight: "Weight"
+label_shown: "Show Prize (uncheck to hide)"
+label_not_shown: "Hidden"
+label_no_prizes: "You have not set up any prizes of this type."
+
+#### Data Collection Labels
+label_personal: "Personal"
+label_contact: "Contact"
+label_custom: "Custom"
+label_landing_page: "Enter to Win Page"
+label_prize_claim_page: "Claim Prize Page"
+message_claim_info_per_prize: "Select the required fields to claim each prize below."
+label_custom_prize_fields: "Customize by Prize"
+label_border_color: "Border Color"
+label_buttons_hover: "Buttons Hover"
+label_is_pre-checked: "is pre-checked"
+label_is_required: "is required field"
+label_field_label: "Field Label"
+
+#### Game Selector Labels
+label_select_game: "Select"
+label_customize_game: "Customize Your Game"
+label_industry: "Industry"
+label_any: "any"
+label_scratchcard: "Scratch Card"
+label_bigwheel: "Big Wheel"
+label_match3: "Match 3"
+label_freethrow: "Free Throw"
+label_high: "High"
+label_low: "Low"
+
+
+#### Theme Editor Labels
+label_left: "Left"
+label_right: "Right"
+label_even: "Even"
+label_odd: "Odd"
+label_prizes_won_title: "Heading"
+label_play_again: "Play Again Button Text"
+label_footer_text: "Text"
+label_share: "Ask participants to share"
+label_visit_us: "Ask participants to connect"
+label_customize: "Customize"
+label_submit_button: "Submit Button"
+label_desktop_view: "Desktop View"
+label_tablet_view: "Tablet View"
+label_mobile_view: "Mobile View"
+label_rotate: "Rotate"
+label_theme_editor_prompt_save_title: "Save Changes to Your Theme?"
+label_theme_editor_prompt_save_body: "In order to switch device views, you will need to save your changes."
+label_open_preview_game: "Preview Game"
+label_save_and_preview: "Save & Preview"
+
+
+### Award Status Labels
+label_award_cancelled: "Cancelled"
+label_awarded: "Awarded"
+
+#### Element Labels
+label_login: "Sign in"
+label_logout: "Logout"
+label_register: "Create My Account"
+label_account: "Account"
+label_api_key: "API Key"
+label_email: "Email"
+label_update_password_button: "Update Password"
+label_password: "Password"
+label_password_confirm: "Confirm Password"
+label_password_reset_completed: "Your password has been changed successfully!"
+label_forgot_password: "Forgot?"
+label_forgot_password_full: "Forgot Your Password?"
+label_already_have_account: "Already have an account?"
+label_need_account: "Create a new account"
+label_first_name: "First Name"
+label_firstName: "First Name"
+label_history: "History"
+label_last_name: "Last Name"
+label_lastName: "Last Name"
+label_name: "Campaign Name"
+label_company_name: "Company Name"
+label_prizes: "Prizes"
+label_prizes_awarded: "Prizes Awarded"
+label_prizes_not_awarded: "Prizes Not Awarded"
+label_title: "Title"
+label_position: "Job Title"
+label_timezone: "Timezone"
+label_back: "Back"
+label_reset: "Reset"
+label_reset_to_default: "Reset to Default"
+label_cancel: "Cancel"
+label_add: "Add"
+label_yes: "Yes"
+label_no: "No"
+label_close: "Close"
+label_continue: "Continue"
+label_update: "Update"
+label_add_note: "Add Note"
+label_no_winner: "No Winner"
+label_alternate_winner: "Alternate Winner"
+label_submit: "Submit"
+label_save: "Save"
+label_saving: "Saving..."
+label_saved: "Saved"
+label_save_error: "Error Saving"
+label_internal: "Internal"
+label_external: "External"
+label_website: "Website"
+label_website_address: "Your Website Address"
+label_embed_code: "Your Custom Code"
+label_edit: "Edit"
+label_address: "Address"
+label_address2: "Address Line 2"
+label_city: "City"
+label_province: "State/Province"
+label_country: "Country"
+label_postal_code: "Postal/Zip Code"
+label_status: "Status"
+label_on: "On"
+label_off: "Off"
+label_enabled: "Enabled"
+label_disabled: "Disabled"
+label_enable: "Enable"
+label_disable: "Disable"
+label_confirm: "Confirm"
+label_confirm_cancel_campaign_title: "Are you sure you wish to delete this campaign?"
+label_confirm_cancel_campaign_body: "Click Confirm below to delete this campaign. This action cannot be undone."
+label_remove: "Remove"
+label_restore_default: "Restore Default"
+label_select_image: "Select Image"
+label_upload_image: "Upload {{imageType}} Image"
+label_remove_image: "Remove {{imageType}} Image"
+label_configure_mailchimp: "Set Up MailChimp"
+label_configure_aweber: "Set Up Aweber"
+label_age_requirement: "Set Minimum Participant Age"
+label_restricted_to: "Restricted To"
+label_campaign_title: "Name"
+label_campaign_list: "Campaigns"
+label_campaign_add: "Create New Campaign"
+label_campaign_name: "Campaign Name"
+label_campaign_desc: "Notes"
+label_campaign_actions: "Actions"
+label_email_address: "Email Address"
+label_date_and_time: "Date and Time"
+label_email_search: "Email Search"
+label_show_all: "Show All"
+label_claimed_fulfilled: "Claimed"
+label_email_optin: "Email Opt-in"
+label_email_subject: "Subject Line"
+label_email_body: "Text"
+label_phone_number: "Phone Number"
+label_custom_field: "Custom Field"
+label_custom_select: "Custom Select"
+label_custom_options: "Add Selections"
+hint_option_select: "This field is used to add items to your custom Select field. For each new selection option, just hit the Enter key. You can also preview how your Select menu will appear below."
+label_custom_preview: "Menu Preview"
+label_custom_text: "Custom Field"
+label_custom_checkbox: "Custom Checkbox"
+label_gender: "Gender"
+label_age: "Age"
+label_number: "Custom Number Entry"
+label_checkbox: "Custom Checkbox"
+label_emailoptin: "Email Opt-In"
+label_lead_fields: "Collected User Data"
+label_custom_label: "Custom Label"
+label_error_validation: "A few corrections are needed..."
+label_error_uncaught: "Oops! Something went wrong."
+label_error_ajax: "Oops! Something went wrong."
+label_error_application: "Oops! Something went wrong."
+label_play_game: "Play Game"
+label_thank_you: "Thanks For Playing"
+label_start_datetime: "Start Date/Time"
+label_start_date: "Start Date"
+label_start_date_time: "Start Time"
+label_end_datetime: "End Date/Time"
+label_end_date: "End Date"
+label_end_date_time: "End Time"
+label_participants: "Participants"
+label_expected_participants: "Estimated Participants"
+label_accept: "Accept"
+label_decline: "Decline"
+label_skill_test: "Skill Question"
+label_user_register_desc: "Absolutely no payment required until you are ready to launch your first campaign!"
+label_user_register_free_desc: "Absolutely no payment required!"
+label_portal_terms_conditions: "By clicking this button, you agree to our <br><a href='{{terms_URL}}' target='_blank'>Terms of Service</a> and <a href='{{policy_URL}}' target='_blank'>Privacy Policy</a>."
+label_example_rules: "Example Official Rules"
+label_play_button_text: "Play Game Button Text"
+label_edit_game_image_drop_hint: "Click or Drag and Drop"
+label_edit_game_audio_drop_hint: "Click or Drag and Drop"
+label_edit_game_select_image: "Select Image"
+label_edit_game_select_audio: "Select Sound"
+label_upload_audio: "Upload Your Audio"
+label_prize_chance_win: "Estimated Odds"
+label_prize_summary: "Campaign Prizes"
+label_prize_name: "Prize Name"
+label_prize_won_list: "Prizes Won List"
+label_prize_won_details: "Prizes Won Details"
+label_prize_desc: "Description"
+label_prize_notes: "Notes"
+label_prize_quantity: "Quantity"
+error_participants_not_defined: "Please enter the expected number of participants"
+label_prize_approx_value: "Approximate Value"
+label_progress: "Progress"
+label_product_code: "Product Code/SKU"
+label_prize_redemption_url: "URL"
+placeholder_prize_redemption_link: "Redemption Link"
+label_prize_product_link: "Prize Link"
+label_prize_external_link: "Link"
+label_prize_external_link_text: "Button Text"
+label_prize_promotion_style: " "
+label_prize_promotion_style_giveaway: "All participants will receive this prize after game play."
+label_prize_promotion_style_instant: "One of these prizes will be awarded at random using odds of 1 in {{OddsToWin}}. The winner will be notified after game play."
+label_prize_promotion_style_firstplay: "The first {{quantity}} {{participant}} will receive this prize."
+label_prize_promotion_style_draw: "Prizes awarded at random. Odds are based on the actual number of participants in the campaign. Winners notified after the draw on {{endDate}} {{timezone}}."
+label_prize_type_giveaway: "Everyone Wins"
+label_prize_type_giveaway_desc: "All participants get this prize."
+label_prize_type_firstPlay: "First Come"
+label_prize_type_firstPlay_desc: "The first participant(s) to enter the campaign win, based on the Quantity specified."
+label_prize_type_instant: "Instant Win"
+label_prize_type_instant_desc: "Prizes awarded randomly based on odds."
+label_prize_type_draw: "Draw Prize"
+label_prize_type_draw_desc: "Prizes awarded randomly after campaign ends."
+label_prize_odds: "Odds"
+label_prize_type: "Prize Type"
+label_prize_physical_product: "Physical"
+label_prize_physical_product_info: "A prize that will be shipped to the customer (T-shirt, coffee mug, etc.)"
+label_prize_virtual_product: "Digital"
+label_prize_virtual_product_info: "A prize the customer can download, like an E-Book, brochure or song."
+label_prize_incentive_product: "Online Coupon Code"
+label_prize_incentive_product_info: "A code customers can use for a discount at your online store."
+label_prize_print_coupon_product: "Printable Coupon"
+label_prize_print_coupon_product_info: "A coupon the customer can print and bring to your store."
+label_edit_prize: "Edit Prize Details"
+label_add_new_prize: "Add Prize"
+label_loading: "Loading..."
+label_authenticating: "Verifying..."
+label_checking: "Checking..."
+label_select: "Select"
+label_campaign_summary: "Review {{campaignName}} Summary"
+label_account_details: "Account Summary"
+label_legal: "Legal"
+label_legal_information: "Terms and Conditions"
+label_legal_participants_minimum: "Participants must be"
+label_primary_user: "Primary Contact"
+label_currency: "Currency"
+label_prize_currency: "Prize Currency"
+label_prize_unclaimed: "Prize unclaimed"
+label_prize_award: "Prize awarded"
+label_prize_awarded: "Prize awarded"
+label_prize_award_status: "Prize award status"
+label_prize_claim: "Prize claimed"
+label_prize_claim_award: "Claim Awarded"
+label_prize_skill_test: "Answered skill-testing question"
+label_prize_status_campaign_id: "Campaign ID"
+label_prize_award_id: "Prize award ID"
+label_prize_id: "Prize ID"
+label_prize_status: "Status"
+label_prize_status_unclaimed: "Unclaimed"
+label_prize_status_claim_pending: "Pending"
+label_prize_claim_unfulfilled: "Unfulfilled"
+label_prize_claim_fulfilled: "Fulfilled"
+label_prize_award_cancelled: "Award Cancelled"
+label_prize_skill_test_requirement: "Required skill testing question"
+label_currency_usd: "US Dollar"
+label_currency_cad: "Canadian Dollar"
+label_create_tracking_link: "Add New Link"
+label_tracking_link_name: "Tracking Link Title"
+label_tracking_link_name_main: "Main"
+label_tracking_link: "Link"
+label_list_unique_id: "List Unique ID"
+label_subscription_type: "Subscription Process"
+label_test_integration: "Connect"
+label_go_to_aweber: "Go to AWeber"
+label_enable_mailing_list: "Connect to Mailing Service"
+label_company_phone: "Company Phone Number"
+label_company_address: "Company Address"
+label_company_email: "Company Email"
+label_the_question: "The Question"
+label_the_answer: "The Answer"
+label_tracking_google_analytics_tracking_id: "Google Analytics Tracking ID"
+label_manual: "Manual"
+label_auto_generated: "Auto Generated"
+label_countdown: "Countdown"
+label_upload_picture: "Prize Image"
+label_required: "*"
+label_optional: "Optional"
+label_preview_game: "Save & Preview"
+label_dynamic_fields: "Click below to add auto-fill fields. These will appear as boxes in the email preview to the left, and will be filled in with the participant's own information in the actual email. Use backspace to remove these fields."
+label_notifications_fields_body_and_subject: "Insert Auto-Filled Fields"
+label_notifications_fields_body_only: "Text Only"
+label_claim_link: "Claim Link"
+label_support_email: "Support Email Address"
+label_eligible: "Eligible"
+label_ineligible: "Ineligible"
+label_ineligible_provinces: "Ineligible States/Provinces"
+label_scheduled_start: "Scheduled Start"
+label_scheduled_end: "Scheduled End"
+label_game_filter_type: "Game Type"
+label_game_feature_leaderboard_not_supported: "Game not available for Campaigns with Leaderboards"
+label_game_required_feature_prizes_missing: "Game only available for Campaigns with Prizes"
+label_device_computer: "Computer"
+label_device_tablet: "Tablet"
+label_device_phone: "Phone"
+label_billing_information: "Enter your billing information and schedule your campaign."
+label_subscription_billing_information: "Enter your billing information."
+label_po_number: "Purchase Order Number"
+label_prize_draw_date: "Draw Date"
+label_fields_title: "Entry Form Label"
+label_form_submit: "Form Submit Button Label"
+label_first_come: "First Come Prizes"
+label_instant_win: "Instant Win Prizes"
+label_everyone_wins: "Everyone Wins Prizes"
+label_options: "Options"
+label_prize_fulfillment_status: "Prizes Claimed %"
+label_company_name_or_your_name: "Company Name or Your Name"
+label_support_phone: "Your Customer Support Phone Number"
+label_physical_address: "Physical Address"
+label_participation: "Entry Date"
+label_entry_page: "Entry Page"
+label_game_page: "Game Page"
+label_postgame_page: "Post-Game Page"
+label_claim_page: "Claim Page"
+label_skilltest_page: "Skill Test Page"
+label_game_rules_confirmed: "Official Rules Accepted"
+label_download_url: "Download Link"
+label_define_geography: "Restrictions will automatically be added to the Official Rules"
+label_system_generated_rules: "System Generated Official Rules"
+label_addition_to_game_rules: "Additional Rules"
+label_preview_official_rules: "Preview Official Rules"
+label_schedule_for_launch: "Schedule Campaign for Launch"
+label_preview_before_schedule: "Review Campaign Before Scheduling"
+label_new_campaign_get_started: "New Campaign"
+label_new_account_cta_header: "Campaigns Dashboard"
+label_welcome_back_subheader: "Create, Manage and Review All Your Campaigns"
+label_new_account_cta_body: "You have no campaigns yet.<br>Get started by adding one now!"
+label_welcome_back: "Campaigns Dashboard"
+label_no_participants_message: "Before you add a prize, you must enter the estimated number of participants."
+label_traffic_and_participation: "Traffic and Participation"
+label_traffic_by_link: "Traffic by Link"
+label_visitors: "Visitors"
+label_links_to_your_promotion: "Links to Your Campaign"
+label_prize: "Prize"
+label_winner: "Winner"
+label_winners: "Winners"
+label_overview: "Overview"
+label_current_status: "Current Status"
+label_collected_data: "Collected Data"
+label_type: "Type"
+label_data: "Data"
+label_actions: "Actions"
+label_activity: "Activity"
+label_currency_symbol: "$"
+label_claim_deadline: "Claim Deadline"
+label_choose_prize_type: "Choose how you want to give away this prize from the options above."
+label_fulfillment_status: "Fulfillment Status"
+label_note_comment: "Note / Comment"
+label_remove_connection: "Remove Connection"
+label_link_duplicate_heading: "Link Already Exists"
+label_link_duplicate_body: "A link with this name already exists."
+label_remove_link_heading: "Remove Link"
+label_remove_link_body: "Are you sure you want to remove this link?"
+label_show_options: "Review and Edit"
+label_insert_link_heading: "Insert Link"
+label_insert_link_text: "Link Text"
+label_insert_link_url: "URL"
+label_insert_link_help_block: "Enter the destination URL"
+label_insert_link_add_link: "Add Link"
+label_notifications_from_name: "From Name"
+label_notifications_from_email_address: "From Email Address"
+label_game_editor_no_color_settings: "No color settings available for this game."
+label_game_editor_no_basic_color_settings: "No basic color settings available for this game."
+label_game_editor_no_basic_settings: "No basic settings available for this game."
+label_game_editor_no_settings: "No settings available for this game."
+label_game_editor_not_defined: "Editor not defined"
+label_game_editor_no_audio_files: "No audio files available for this component."
+label_game_editor_no_images_found: "No image files available for this component."
+label_game_editor_delete_question_header: "Delete Question"
+label_game_editor_delete_question_body: "Are you sure you wish to delete this question? This action cannot be undone."
+label_winner_details_comment_note: "Comment / Note"
+label_winner_details_cancel_win: "Cancel Win"
+label_winner_details_fulfillment_status_update: "Fulfillment Status Update"
+label_change: "Change"
+label_upload: "Upload"
+label_library_select_image: "Select Image"
+label_no_images_found: "No Images found for" #this message is completed by a prop in a React component
+label_scheduled_and_active_campaigns: "The following campaigns are Scheduled or Active"
+label_country_and_province: "Country and State/Province"
+label_participant: "Participant"
+label_menu_default: "Menu"
+
+#### Billing
+label_deepmarkit_name: "DeepMarkit Corp."
+label_deepmarkit_address1: "Suite 202, 615 - 15th Ave SW"
+label_deepmarkit_city_prov_postal: "Calgary, AB T2R 0R4"
+label_deepmarkit_country: "Canada"
+label_deepmarkit_gst: "85994 4399 RT0001"
+label_invoice: "Invoice"
+label_gst: "GST"
+label_coupon: "Enter a DeepMarkit Coupon"
+label_payment_redirect_to_paypal_message: "Click the button below to be directed to PayPal to process your payment."
+label_description: "Campaign Type:"
+label_invoice_number: "Invoice Number"
+label_invoice_date: "Invoice Date"
+label_due_date: "Due Date"
+label_transaction_id: "Transaction ID"
+label_account_information: "Account Information"
+label_purchase_order_number: "Purchase Order Number"
+label_purchase_incomplete_sections_link: "Go to..."
+label_charge_summary: "Charge Summary"
+label_charge_billable_type_promotion: "CAMPAIGN"
+label_discount: "Discount"
+label_price: "Price:"
+label_service_description: "Service Description"
+label_rate: "Rate"
+label_quantity: "Quantity"
+label_subtotal: "Subtotal"
+label_invoice_total: "Invoice Total"
+label_invoice_coupon_type: "COUPON"
+label_confirm_payment: "Confirm"
+label_make_payment: "Make Payment"
+label_payment_failed: "Payment Failed"
+label_payment_processed_before_link: "Payment Successful."
+label_payment_processed_after_link: "to download your receipt."
+label_ok: "OK"
+label_icon_format_modal_header: "Invalid file format"
+label_icon_format_modal_body: "Please only use files that are in .PNG, .JPG or .JPEG format."
+label_foreground_color: "Foreground Color"
+label_notifications_consumer_email_notify_claimed: "Email to Confirm Claimed Prizes"
+label_participants_csv_export_all: "Export to CSV"
+label_export_csv_title: "Export data to CSV"
+label_download_csv_file: "Your file has been created. To download "
+label_loading_csv_file: "Loading..."
+labal_activating_subscription: "Activating Your Subscription"
+label_canceling_subscription: "Canceling Your Subscription"
+label_subscription_thank_you: "Thank You! Your subscription has been activated."
+label_subscription_processing_title: "Processing..."
+label_subscription_processing_message: "This may take a few seconds"
+label_subscription_cancel_confirm_title: "Payment Not Completed"
+label_subscription_cancel_confirm_message: "We have cancelled the processing of your payment. You will not be charged."
+
+label_campaign_type_pro: "Professional"
+message_invoice_notes: "Thank you for using DeepMarkit"
+message_invoice_terms_conditions: "For a list of our Terms of Service, please visit our Website at www.deepmarkit.com."
+message_invoice_lead_overages: "Sign-up Overages"
+message_invoice_tax: "Tax"
+message_payment_description: "DeepMarkit Campaign"
+label_delete_prize_body: "Are you sure you want to delete {{title}} prize?"
+label_payment_request_failed: "Unable to process payment"
+label_subscription_activation_failed: "Unable to activate subscription"
+label_subscription_cancelation_failed: "Unable to cancel subscription"
+label_no_prizes_defined: ""
+label_new_prize_cta: "Please define"
+
+#### Hint Messages
+hint_legal_company_name: "Either a company name or a company representative name meets the legal requirements."
+hint_prize_redemption_url: "This link directs winners to an external website where they can enter their coupon code."
+hint_enter_campaign_desc: "You can enter reminders, comments or anything you want in this textbox. Only you see what you write here."
+hint_custom_tracking_links: "Setup a separate link to share your campaign on Facebook, Twitter, your Blog, etc., and track where your Campaign Site traffic is coming from. Once your campaign is live, you can copy and share the Link URL from the list below onto each of those channels so you can see where each participant found out about your campaign."
+hint_legal_company_email: "This email address goes on the Official Rules. List the email address to which participants should send their questions."
+hint_paste_contest_rules: "If you would like to add to the Official Rules, please paste the text below."
+hint_edit_system_generated_rules: "See a mistake? Go to the Setup page to edit the Campaign Name. Prize description, value or currency can be changed in the Prizes page. Any references to eligibility can be changed in the Legal page."
+hint_select_prize_currency: "Choose the currency in which your prize or coupon is valued. This information will be displayed in the Official Rules."
+hint_enter_expected_participants: "How many people do you anticipate participating? This is purely an estimation, but the actual odds of winning depends on the estimated participants. This value is used across all prizes. Any changes will be reflected on all prizes."
+hint_purchase_incomplete_sections: "Before you can schedule your campaign for launch, please complete the following sections"
+hint_email_required: "You will need to email winners of any physical prize to get delivery details. You may also want to email other prize winners for more information."
+hint_mailing_list: "Once your campaign is complete, it's great to follow up your DeepMarkit campaign with an email campaign to participants. DeepMarkit collects participant email addresses and related data. The email addresses can be saved and downloaded as an Excel file to be used manually or imported into any online emailing system."
+hint_configure_mailing_provider: "You can request explicit consent to add participants to your mailing list by adding an 'Email Opt-In' checkbox to the entry page of your campaign. Go to the Page Builder section of your campaign to add this feature."
+hint_connect_to_email_platform: "You can also integrate your campaign to one of the email marketing platforms below."
+label_connect_to_mailing_list: "Connect to a Mailing List"
+hint_editor_drag_show_prize_on_entry_page: "Drag here to show prize on entry page"
+hint_editor_drag_hide_prize: "Drag here to hide prize"
+hint_banner_intro_claim: "Participants see this text after they claim their prizes if there is no draw prize."
+hint_banner_intro_claim_draw: "Participants see this text after they claim their prizes if there is a draw prize."
+hint_banner_intro_lose: "Participants see this text if they do not win a prize and there is no draw prize."
+hint_banner_intro_lose_draw: "Participants see this text if they do not win First Come or Instant Win prizes, but could win a draw prize."
+
+review_dialog_title: "Let's Review..."
+review_dialog_ok: "Continue Activation"
+review_dialog_cancel: "Go Back"
+review_dialog_message1: "Once you activate your campaign, certain details will no longer be editable. Before you activate, please review the following and make sure that you are satisfied with your configuration."
+review_dialog_message2: "Instant Win and Everyone Wins prizes cannot be added or removed."
+review_dialog_message3: "Draw dates cannot be changed."
+review_dialog_message4: "Draw prizes cannot be added or removed."
+review_dialog_message5: "Start and End dates of your campaign cannot be changed."
+review_dialog_message6: "Prizes cannot be added or removed."
+review_dialog_message7: "Timezone cannot be changed."
+
+editor_cta_title: "Ready to Go?"
+editor_cta_message: "If everything looks good, Go ahead and activate your campaign!"
+editor_cta_button: "Activate Campaign"
+editor_cts_button: "Subscribe To Activate"
+
+field_input_email: "Text"
+field_input_number: "Number"
+field_input_text: "Text"
+field_input_checkbox: "Checkbox"
+field_input_select: "Dropdown Menu"
+field_input_state: "State / Province Menu"
+field_input_country: "Country Menu"
+
+label_theme_page_entry: "Entry Page"
+label_theme_page_summary: "Summary Page"
+label_theme_page_game: "Game Play Page"
+label_theme_page_comingsoon: "Coming Soon Page"
+label_theme_page_winner: "Winner Page"
+label_theme_page_ended: "Campaign Ended Page"
+label_theme_page_prizebanner: "Prize Banner"
+
+#### General Messages
+message_user_updated: "Your profile was updated."
+message_password_reset: "We sent a password reset link to: {{email}}."
+message_campaign_empty: "You do not have any right now."
+message_password_updated: "Password Updated"
+
+
+message_campaign_summary: |
+    The {{campaign_name}} campaign starts on {{&start_date}} and ends on {{&end_date}}.
+    The expected number of participants: {{expected_participants}}.
+message_campaign_summary_giveaways: |
+    There are {{quantity}} {{title}} giveaways worth ${{value}}.
+message_campaign_summary_instant_prizes: |
+    There are {{quantity}} {{title}} worth ${{value}} each available to win with a
+    1 in {{oneInNumber}} chance of winning.
+message_campaign_summary_draw_prizes: |
+    There are {{quantity}} {{title}} worth ${{value}} each available to win with a
+    chance of winning based on the number of entries.
+message_copy_text: |
+    Copy this link to your clipboard by pressing Ctrl+C and then Enter.
+
+    Paste the URL into an "incognito" or "private" browser window to appear as a new consumer.
+message_drag_drop_files: "Try dropping some files here, or click to select files to upload."
+
+placeholder_description: "Optional prize description"
+placeholder_winmessage: "Optional message to winner"
+placeholder_prizename: "Prize Name"
+placeholder_couponcode: "Coupon Code"
+draw_winner_message: "You've won an entry into the draw!"
+physical_winner_message: "You've won a prize!"
+coupon_winner_message: "You've won a discount!"
+
+#### Error Messages
+error_invalid_email_entry:
+    error_code: E0001
+    error_desc: "Email address is invalid."
+error_invalid_phone_number_entry:
+    error_code: E0002
+    error_desc: "Phone number is invalid or incorrectly formatted."
+error_invalid_birthdate_entry:
+    error_code: E0003
+    error_desc: "Birthday must be yyyy/mm/dd."
+error_invalid_password_entry:
+    error_code: E0004
+    error_desc: "Password must be at least 8 characters."
+error_passwords_not_match:
+    error_code: E0004
+    error_desc: "Passwords must match."
+error_portal_terms_conditions_not_accepted:
+    error_code: E0005
+    error_desc: "You must accept the terms and conditions."
+error_invalid_field_value_entry:
+    error_code: E0006
+    error_desc: "Please fill in the missing information."
+error_invalid_currency_entry:
+    error_code: E0007
+    error_desc: "Currency value is invalid."
+error_invalid_integer_entry:
+    error_code: E0008
+    error_desc: "Numbers only, please."
+error_invalid_checkbox_entry:
+    error_code: E0009
+    error_desc: "Checkbox must be checked or unchecked."
+error_invalid_date_entry:
+    error_code: E0010
+    error_desc: "Date must be yyyy/mm/dd."
+error_user_invalid_email_reg:
+    error_code: E0011
+    error_desc: "The registration email didn't work."
+error_user_invalid_email:
+    error_code: E0012
+    error_desc: "Email address is invalid."
+error_user_missing_token:
+    error_code: E0013
+    error_desc: "Your session has expired. Please login again."
+error_user_invalid_token:
+    error_code: E0014
+    error_desc: "Temporary difficulties. Please try again."
+error_user_invalid_login:
+    error_code: E0015
+    error_desc: "Double-check your log-in info and try again."
+error_user_invalid_password:
+    error_code: E0016
+    error_desc: "Double-check your password and try again."
+error_user_invalid_password_reg:
+    error_code: E0017
+    error_desc: "Password must be between 8 and 128 characters."
+error_user_invalid_field:
+    error_code: E0018
+    error_desc: "Something is missing. Fill in the blank."
+error_user_not_found:
+    error_code: E0019
+    error_desc: "The email address and/or password are incorrect."
+error_user_exists:
+    error_code: E0020
+    error_desc: "An account with this email address already exists."
+error_user_invalid_creds:
+    error_code: E0021
+    error_desc: "The email address and/or password are incorrect."
+error_user_account_locked:
+    error_code: E0022
+    error_desc: "Your account is locked. Please check your email for reset instructions."
+error_lead_missing_campaign:
+    error_code: E0029
+    error_desc: "Please fill in the missing information."
+error_lead_missing_details:
+    error_code: E0030
+    error_desc: "Please fill in the missing information."
+error_lead_key_not_exist:
+    error_code: E0031
+    error_desc: "Temporary difficulties. Please try again."
+error_lead_signature_error:
+    error_code: E0032
+    error_desc: "Temporary difficulties. Please try again."
+error_lead_signature_expiry:
+    error_code: E0033
+    error_desc: "Temporary difficulties. Please try again."
+error_lead_not_exist:
+    error_code: E0034
+    error_desc: "Temporary difficulties. Please try again."
+error_lead_missing_hash:
+    error_code: E0035
+    error_desc: "Temporary difficulties. Please try again."
+error_campaign_missing_campaign_details:
+    error_code: E0037
+    error_desc: "Temporary difficulties. Please try again."
+error_campaign_missing_pregame:
+    error_code: E0038
+    error_desc: "Temporary difficulties. Please try again."
+error_campaign_missing_postgame:
+    error_code: E0039
+    error_desc: "Temporary difficulties. Please try again."
+error_campaign_missing_pregame_key:
+    error_code: E0040
+    error_desc: "Temporary difficulties. Please try again."
+error_campaign_form_key_more_than_one:
+    error_code: E0041
+    error_desc: "Temporary difficulties. Please try again."
+error_campaign_not_exist:
+    error_code: E0042
+    error_desc: "We can not locate the requested campaign."
+error_campaign_not_exists:
+    error_code: E1042
+    error_desc: "We can not locate the requested campaign."
+error_campaign_missing_hash:
+    error_code: E0043
+    error_desc: "Campaign information is incomplete or incorrect. Please try again."
+error_page_not_found:
+    error_code: E0044
+    error_desc: "We can not find that page anywhere."
+error_lead_invalid_field_value:
+    error_code: E0045
+    error_desc: "Invalid entry. Please try again."
+error_lead_missing_required_field:
+    error_code: E0046
+    error_desc: "Something is missing. Fill in the blank."
+error_campaign_already_exist:
+    error_code: E0047
+    error_desc: "Another campaign has that name."
+error_invalid_field_value_not_empty:
+    error_code: E0048
+    error_desc: "Please fill in the missing information."
+error_invalid_descriptor:
+    error_code: E0049
+    error_desc: "Campaign site info is missing."
+error_signature_missing_campaign:
+    error_code: E0050
+    error_desc: "Campaign information is incomplete or incorrect. Please try again."
+error_signature_missing_hash:
+    error_code: E0051
+    error_desc: "Temporary difficulties. Please try again."
+error_signature_missing_expiry:
+    error_code: E0052
+    error_desc: "Temporary difficulties. Please try again."
+error_signature_missing:
+    error_code: E0053
+    error_desc: "Temporary difficulties. Please try again."
+error_prize_not_assigned:
+    error_code: E0054
+    error_desc: "Prize type is missing. Please select one."
+error_invalid_skilltest_entry:
+    error_code: E0055
+    error_desc: "Skill testing question is invalid. Please try another one."
+error_invalid_skill_answer:
+    error_code: E0056
+    error_desc: "Incorrect answer. Please try again."
+error_uncaught:
+    error_code: E0057
+    error_desc: "Temporary difficulties. Please try again."
+error_lead_skill_answer_invalid:
+    error_code: E0058
+    error_desc: "Invalid answer. Please try again."
+error_minimum_age_not_met:
+    error_code: E0059
+    error_desc: "You are not old enough to play."
+error_number_minimum_not_met_or_limit_exceeded:
+    error_code: E0060
+    error_desc: "Number too big. Please try again."
+error_character_minimum_not_met_or_limit_exceeded:
+    error_code: E0061
+    error_desc: "Invalid entry. Please try again."
+error_payment_id_invalid:
+    error_code: E0062
+    error_desc: "Payment ID is invalid. Please try again."
+error_payment_token_invalid:
+    error_code: E0063
+    error_desc: "Payment token is invalid. Please try again."
+error_system:
+    error_code: E0064
+    error_desc: "Try refreshing your browser."
+error_invalid_word_entry:
+    error_code: E0065
+    error_desc: "Invalid Entry. Please try again."
+error_invalid_field_value:
+    error_code: E0066
+    error_desc: "Invalid entry. Please try again."
+error_coupon_has_not_started:
+    error_code: E0067
+    error_desc: "Coupon invalid."
+error_coupon_expired:
+    error_code: E0068
+    error_desc: "Coupon expired."
+error_coupon_usage_limit:
+    error_code: E0069
+    error_desc: "Coupon invalid."
+error_coupon_user_usage_limit:
+    error_code: E0070
+    error_desc: "Coupon invalid."
+error_coupon_invalid:
+    error_code: E0071
+    error_desc: "Coupon invalid."
+error_ajax:
+    error_code: E0072
+    error_desc: "Try refreshing your browser."
+error_campaign_invalid_startdate:
+    error_code: E0073
+    error_desc: "Start Date is invalid or occurs in the past."
+error_campaign_invalid_enddate:
+    error_code: E0074
+    error_desc: "End Date is invalid or occurs in the past."
+error_passwords_do_not_match:
+    error_code: E0075
+    error_desc: "Passwords do not match."
+error_mail_list_invalid_credentials:
+    error_code: E0076
+    error_desc: "API Key cannot be found. Please try again."
+error_campaign_status_does_not_allow_edits:
+    error_code: E0077
+    error_desc: "Edits to the campaign are not allowed."
+error_select_mailing_list_provider:
+    error_code: E0078
+    error_desc: "Select a mailing list provider"
+error_localstorage_failed:
+    error_code: E0079
+    error_desc: "An error has occurred. Try these three things: allow cookies, turn on local storage (Android) and turn off incognito mode."
+error_tracking_links_limit:
+    error_code: E0080
+    error_desc: "You have reached your maximum of 25 links"
+error_site_editor_no_theme_selected:
+    error_code: E0081
+    error_desc: "You have not yet selected your theme on the Campaign Theme page."
+error_library_assets_invalid_image:
+    error_code: E0082
+    error_desc: "The selected image does not meet the requirements."
+error_invalid_export_builder:
+    error_code: E0083
+    error_desc: "Unable to export the document."
+error_unable_export_data:
+    error_code: E0084
+    error_desc: "Unable to export the document."
+error_unable_to_export_leads:
+    error_code: E0085
+    error_desc: "Unable to export the data"
+error_user_session_expired:
+    error_code: E0086
+    error_desc: "Your session has expired. Please login again."
+error_user_session_expired_sso:
+    error_code: E0086
+    error_desc: "Your session has expired. Please refresh the page or login to {{integrationDisplayName}} again."
+error_mailchimp_nolists:
+    error_code: E0087
+    error_desc: "A connection was made, but no lists could be found. Sign into your MailChimp account and create a list."
+error_mailchimp_map_required_fields:
+    error_code: E0088
+    error_desc: "Some required fields still need to be mapped."
+error_mailchimp_address_mapping:
+    error_code: E0089
+    error_desc: "The Address section requires certain fields. Go to Data Collection and add Address, City, Province, Postal Code and Country to the Enter to Win section."
+error_session_expired_password_reset:
+    error_code: E0090
+    error_desc: "Reset link has expired."
+error_duplicate_tracking_link:
+    error_code: E0091
+    error_desc: "Tracking link name is already in use."
+error_site_editor_failed_to_load_files:
+    error_code: E0092
+    error_desc: "Failed to load required files for theme, try refreshing your browser or reselecting the theme."
+error_application:
+    error_code: E0093
+    error_desc: "Temporary difficulties. Please try again."
+error_write_directory_to_bucket:
+    error_code: E0094
+    error_desc: "Temporary difficulties saving data. Please try again."
+error_lead_claim_no_longer_available:
+    error_code: E0095
+    error_desc: "Sorry, this claim link is no longer valid"
+error_campaign_version_mismatch:
+    error_code: E0096
+    error_desc: "The details of this campaign have changed since the last time you loaded this page. Please refresh the page and try again."
+error_failed_to_load_game:
+    error_code: E0097
+    error_desc: "Failed to load all required game resources"
+error_correct_answer_required: 
+    error_code: E0098
+    error_desc: "Please indicate which answer is correct."
+error_minimum_answers_required: 
+    error_code: E0099
+    error_desc: "Please provide at least 2 answer options."
+error_duplicate_answer: 
+    error_code: E0100
+    error_desc: "This answer already exists."
+error_loading_integration_config:
+    error_code: E0101
+    error_desc: "Error loading integration configuration file."
+error_campaign_invalid_schedule: 
+    error_code: E0102
+    error_desc: "End Date must be after the Start Date."
+error_campaign_not_selected: 
+    error_code: E0103
+    error_desc: "Please select the campaign you wish to share."
+error_saving_game_data:
+    error_code: E0104
+    error_desc: "Failed to save game data. Please try reloading the game editor or reselect this game and try again."
+error_cannot_upload_asset: 
+    error_code: E0105
+    error_desc: "Could not upload asset to remote server. Please try again."
+error_saving_questions_data:
+    error_code: E0106
+    error_desc: "Failed to save game questions list."
+error_campaign_invalid_enddate_exceeds_max_duration:
+    error_code: E0108
+    error_desc: "Maximum length for a campaign is 30 days. Please adjust your dates accordingly."
+error_invalid_decimal_entry:
+    error_code: E0109
+    error_desc: "Decimal number only, please."
+error_invalid_prize_win_percent_total:
+    error_code: E0110
+    error_desc: "Prize awards exceed 100%."
+error_missing_document: 
+    error_code: E0111
+    error_desc: "An error occurred loading the Official Rules. Please try again or contact us for assistance."
+error_unable_to_clone_campaign:
+    error_code: E0112
+    error_desc: "An error occurred cloning the campaign. Please try again or contact us for assistance."
+error_prizes_win_percent_total_loss: 
+    error_code: E0113
+    error_desc: "Please assign a weight value to each of your prizes, as well as the 'No Prize' scenario. These weights will be used to determine how frequently each prize will be awarded to participants."
+error_prizes_invalid_weight: 
+    error_code: E0114
+    error_desc: "Your Win Percent values must total 100%. Please try again."
+error_campaign_payment_not_complete: 
+    error_code: E0115
+    error_desc: "You do not currently have an active subscription. Please setup your payment info and then activate your campaign."
+error_drop_image_bad_or_corrupt_data: 
+    error_code: E0116
+    error_desc: "Unable to load logo image, or the file may be corrupt. Please upload a new logo."
+error_user_hash_invalid: 
+    error_code: E0117
+    error_desc: "Unable to validate user account."
+error_tag_hash_invalid: 
+    error_code: E0118
+    error_desc: "Unable to validate user tag."
+error_maillist_has_no_fields:
+    error_code: E0119
+    error_desc: "This mailing list has no fields."
+error_subscription_already_ative:
+    error_code: E0120
+    error_desc: "An active subscription currently exists."
+error_integration_login_fail:
+    error_code: E0121
+    error_desc: "We were unable to log you in to the DeepMarkit app. You can try logging in again or send us a message to let us know."

@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <script>
+            // Get the query string and split it by &'s
+            var params = window.location.search.substring(1);
+            params = params.split("&");
+
+            // Store the route attached in the query if one exists
+            let route;
+
+            // Build the response
+            let request = {
+                id: "123",
+                method: "webhook/integration/generic/login",
+                headers: null,
+                params: {}
+            }
+
+            // Loop over the params and add them to the request
+            for (var i=0; i<params.length; i++) {
+                var key = params[i].split("=")[0];
+                var value = decodeURIComponent(params[i].split("=")[1]);
+                if (key === "route") {
+                    route = value
+                } else {
+                    request.params[key] = value;
+                }
+            }
+
+            // Post the request to the server to login
+            var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            xhr.onreadystatechange = function() {
+                if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+                    // Request finished. Do processing here.
+                    try {
+                        var response = JSON.parse(xhr.responseText);
+                        if (response.result && response.result.redirect) {
+                            // Extract the token so we know the user's new session
+                            var tokenRE = /t=(\w*)/g;
+                            let token = tokenRE.exec(response.result.redirect)[1];
+                            
+                            // Write their session to the prestashopHeaders so the app will find it when loaded and log them in
+                            window.localStorage.setItem("prestashopHeaders",JSON.stringify( { "session-token": token } ))
+
+                            // Go to the app. Strip the t=BLAH key so that it doesn't try to login with it once it gets there.
+                            var redirect = response.result.redirect.replace(/t=\w*/,"");
+                            if (route) redirect = redirect.replace("/prestashop","/prestashop" + route);
+                            window.location = redirect;
+                        } else {
+                            throw "Error";
+                        }
+                    } catch (err) {
+                        document.getElementsByTagName("body")[0].innerHTML = "An error occurred while redirecting to the DeepMarkit application. Please contact support if the problem persists.";
+                    }
+                }
+            };
+            xhr.open("POST", '/portal/api/webhook/integration/generic/login', true );
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify(request));
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

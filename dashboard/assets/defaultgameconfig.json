@@ -1,0 +1,619 @@
+{
+    "slideout": {
+        "prizewheel": {
+            "defaultSkin": "calm",
+            "displayOrder": 1,
+            "skins": {
+                "gameshow": {
+                    "displayOrder": 0,
+                    "tags": []
+                },
+                "neon": {
+                    "displayOrder": 19,
+                    "tags": []
+                },
+                "shiny": {
+                    "displayOrder": 20,
+                    "tags": []
+                },
+                "basicblackwhite": {
+                    "displayOrder": 21,
+                    "tags": []
+                },
+                "basicblue": {
+                    "displayOrder": 22,
+                    "tags": []
+                },
+                "basicgreen": {
+                    "displayOrder": 23,
+                    "tags": []
+                },
+                "basicorange": {
+                    "displayOrder": 24,
+                    "tags": []
+                },
+                "basicpink": {
+                    "displayOrder": 25,
+                    "tags": []
+                },
+                "basicpurple": {
+                    "displayOrder": 26,
+                    "tags": []
+                },
+                "basicred": {
+                    "displayOrder": 27,
+                    "tags": []
+                },
+                "basicyellow": {
+                    "displayOrder": 28,
+                    "tags": []
+                },
+                "gameshowblue": {
+                    "displayOrder": 13,
+                    "tags": []
+                },
+                "gameshowgold": {
+                    "displayOrder": 14,
+                    "tags": []
+                },
+                "gameshowgreen": {
+                    "displayOrder": 15,
+                    "tags": []
+                },
+                "gameshowpurple": {
+                    "displayOrder": 16,
+                    "tags": []
+                },
+                "gameshowred": {
+                    "displayOrder": 17,
+                    "tags": []
+                },
+                "gameshowsilver": {
+                    "displayOrder": 18,
+                    "tags": []
+                },
+                "simplesilver": {
+                    "displayOrder": 29,
+                    "tags": []
+                },
+                "simplegold": {
+                    "displayOrder": 30,
+                    "tags": []
+                },
+                "calm": {
+                    "displayOrder": 1,
+                    "tags": []
+                },
+                "autumn01": {
+                    "displayOrder": 11,
+                    "tags": ["autumn"]
+                },
+                "blackfriday01": {
+                    "displayOrder": 2,
+                    "tags": ["blackfriday"]
+                },
+                "celebration01": {
+                    "displayOrder": 5,
+                    "tags": ["newyears"]
+                },
+                "easter01": {
+                    "displayOrder": 8,
+                    "tags": ["easter"]
+                },
+                "halloween01": {
+                    "displayOrder": 12,
+                    "tags": ["halloween"]
+                },
+                "independence01": {
+                    "displayOrder": 10,
+                    "tags": ["independence"]
+                },
+                "spring01": {
+                    "displayOrder": 7,
+                    "tags": ["spring"]
+                },
+                "summer01": {
+                    "displayOrder": 9,
+                    "tags": ["summer"]
+                },
+                "valentines01": {
+                    "displayOrder": 6,
+                    "tags": ["valentines"]
+                },
+                "winter01": {
+                    "displayOrder": 4,
+                    "tags": ["winter","christmas"]
+                },
+                "christmas01": {
+                    "displayOrder": 3,
+                    "tags": ["christmas"]
+                }
+            }
+        },
+        "litescratchcard": {
+            "defaultSkin": "simpleteal",
+            "displayOrder": 2,
+            "skins": {
+                "scratchnwin": {
+                    "displayOrder": 0,
+                    "tags": []
+                },
+                "simplemystery": {
+                    "displayOrder": 16,
+                    "tags": []
+                },
+                "simplestars": {
+                    "displayOrder": 17,
+                    "tags": []
+                },
+                "scratchnwinstarsgreen": {
+                    "displayOrder": 13,
+                    "tags": []
+                },
+                "scratchnwinstarsorange": {
+                    "displayOrder": 14,
+                    "tags": []
+                },
+                "scratchnwinstarspurple": {
+                    "displayOrder": 15,
+                    "tags": []
+                },
+                "simpleteal": {
+                    "displayOrder": 1,
+                    "tags": []
+                },
+                "autumn01": {
+                    "displayOrder": 11,
+                    "tags": ["autumn"]
+                },
+                "blackfriday01": {
+                    "displayOrder": 2,
+                    "tags": ["blackfriday"]
+                },
+                "celebration01": {
+                    "displayOrder": 5,
+                    "tags": ["newyears"]
+                },
+                "easter01": {
+                    "displayOrder": 8,
+                    "tags": ["easter"]
+                },
+                "halloween01": {
+                    "displayOrder": 12,
+                    "tags": ["halloween"]
+                },
+                "independence01": {
+                    "displayOrder": 10,
+                    "tags": ["independence"]
+                },
+                "spring01": {
+                    "displayOrder": 7,
+                    "tags": ["spring"]
+                },
+                "summer01": {
+                    "displayOrder": 9,
+                    "tags": ["summer"]
+                },
+                "valentines01": {
+                    "displayOrder": 6,
+                    "tags": ["valentines"]
+                },
+                "winter01": {
+                    "displayOrder": 4,
+                    "tags": ["winter","christmas"]
+                },
+                "christmas01": {
+                    "displayOrder": 3,
+                    "tags": ["christmas"]
+                }
+            }
+        },
+        "litepegboard": {
+            "defaultSkin": "midnight",
+            "displayOrder": 3,
+            "skins": {
+                "balance": {
+                    "displayOrder": 17,
+                    "tags": []
+                },
+                "celebration": {
+                    "displayOrder": 1,
+                    "tags": ["newyears"]
+                },
+                "energy": {
+                    "displayOrder": 16,
+                    "tags": []
+                },
+                "nebula": {
+                    "displayOrder": 18,
+                    "tags": []
+                },
+                "renewal": {
+                    "displayOrder": 19,
+                    "tags": ["spring"]
+                },
+                "shortcircuit": {
+                    "displayOrder": 20,
+                    "tags": []
+                },
+                "spaday": {
+                    "displayOrder": 21,
+                    "tags": []
+                },
+                "simple": {
+                    "displayOrder": 13,
+                    "tags": []
+                },
+                "simplesquares": {
+                    "displayOrder": 14,
+                    "tags": []
+                },
+                "simplecircles": {
+                    "displayOrder": 15,
+                    "tags": []
+                },
+                "midnight": {
+                    "displayOrder": 0,
+                    "tags": []
+                },
+                "autumn01": {
+                    "displayOrder": 11,
+                    "tags": ["autumn"]
+                },
+                "blackfriday01": {
+                    "displayOrder": 2,
+                    "tags": ["blackfriday"]
+                },
+                "celebration02": {
+                    "displayOrder": 5,
+                    "tags": ["newyears"]
+                },
+                "easter01": {
+                    "displayOrder": 8,
+                    "tags": ["easter"]
+                },
+                "halloween01": {
+                    "displayOrder": 12,
+                    "tags": ["halloween"]
+                },
+                "independence01": {
+                    "displayOrder": 10,
+                    "tags": ["independence"]
+                },
+                "spring01": {
+                    "displayOrder": 7,
+                    "tags": ["spring"]
+                },
+                "summer01": {
+                    "displayOrder": 9,
+                    "tags": ["summer"]
+                },
+                "valentines01": {
+                    "displayOrder": 6,
+                    "tags": ["valentines"]
+                },
+                "winter01": {
+                    "displayOrder": 4,
+                    "tags": ["winter","christmas"]
+                },
+                "christmas01": {
+                    "displayOrder": 3,
+                    "tags": ["christmas"]
+                }
+            }
+        }
+    },
+    "social": {
+        "memorymatch": {
+            "defaultSkin": "antiquewhite",
+            "displayOrder": 5,
+            "skins": {
+                "antiquewhite": {
+                    "displayOrder": 0
+                },
+                "geometric": {
+                    "displayOrder": 1
+                },
+                "rustic": {
+                    "displayOrder": 2
+                },
+                "taupe": {
+                    "displayOrder": 3
+                },
+                "blackglass": {
+                    "displayOrder": 4
+                },
+                "brightwhite": {
+                    "displayOrder": 5
+                },
+                "candymatch": {
+                    "displayOrder": 6
+                },
+                "cartoon": {
+                    "displayOrder": 7
+                }
+            }
+        },
+        "scratchcard": {
+            "defaultSkin": "scratchnwin",
+            "displayOrder": 7,
+            "skins": {
+                "scratchgolfer": {
+                    "displayOrder": 0
+                },
+                "scratchnmatch": {
+                    "displayOrder": 1
+                },
+                "scratchnwin": {
+                    "displayOrder": 2
+                },
+                "scratchnwincelebration": {
+                    "displayOrder": 3
+                },
+                "scratchnwingolds": {
+                    "displayOrder": 4
+                },
+                "scratchnwinsilvers": {
+                    "displayOrder": 5
+                },
+                "scratchnwinstars": {
+                    "displayOrder": 6
+                }
+            }
+        },
+        "spacecommander": {
+            "defaultSkin": "classic",
+            "displayOrder": 3,
+            "skins": {
+                "classic": {
+                    "displayOrder": 0
+                },
+                "modern": {
+                    "displayOrder": 1
+                },
+                "oceanattack": {
+                    "displayOrder": 2
+                },
+                "valentinesday": {
+                    "displayOrder": 3
+                }
+            }
+        },
+        "racer": {
+            "defaultSkin": "speeddemons",
+            "displayOrder": 9,
+            "skins": {
+                "rapidriver": {
+                    "displayOrder": 0
+                },
+                "speeddemons": {
+                    "displayOrder": 1
+                }
+            }
+        },
+        "doodle": {
+            "defaultSkin": "kingdomdraw",
+            "displayOrder": 6,
+            "skins": {
+                "kingdomdraw": {
+                    "displayOrder": 0
+                }
+            }
+        },
+        "match3": {
+            "defaultSkin": "primary",
+            "displayOrder": 12,
+            "skins": {
+                "bluelights": {
+                    "displayOrder": 0
+                },
+                "candystore": {
+                    "displayOrder": 1
+                },
+                "fruits": {
+                    "displayOrder": 2
+                },
+                "happyholidays": {
+                    "displayOrder": 3
+                },
+                "neons": {
+                    "displayOrder": 4
+                },
+                "primary": {
+                    "displayOrder": 5
+                }
+            }
+        },
+        "runner": {
+            "defaultSkin": "metrodash",
+            "displayOrder": 1,
+            "skins": {
+                "chinesenewyear": {
+                    "displayOrder": 0
+                },
+                "farmingfrenzy": {
+                    "displayOrder": 1
+                },
+                "homesweethome": {
+                    "displayOrder": 2
+                },
+                "jumpingjupiter": {
+                    "displayOrder": 3
+                },
+                "lanternfestival": {
+                    "displayOrder": 4
+                },
+                "metrodash": {
+                    "displayOrder": 5
+                },
+                "pirateplunder": {
+                    "displayOrder": 6
+                },
+                "shoppingspree": {
+                    "displayOrder": 7
+                },
+                "urbanadventure": {
+                    "displayOrder": 8
+                }
+            }
+        },
+        "dropper": {
+            "defaultSkin": "socialbrown",
+            "displayOrder": 2,
+            "skins": {
+                "antiquewhite": {
+                    "displayOrder": 0
+                },
+                "geometric": {
+                    "displayOrder": 1
+                },
+                "rustic": {
+                    "displayOrder": 2
+                },
+                "taupe": {
+                    "displayOrder": 3
+                },
+                "socialblue": {
+                    "displayOrder": 4
+                },
+                "socialbrown": {
+                    "displayOrder": 5
+                },
+                "backtoschool": {
+                    "displayOrder": 8
+                },
+                "beachvacation": {
+                    "displayOrder": 9
+                },
+                "chinesenewyear": {
+                    "displayOrder": 12
+                },
+                "coffeeshop": {
+                    "displayOrder": 10
+                },
+                "dropnshop": {
+                    "displayOrder": 6
+                },
+                "mysteryshopper": {
+                    "displayOrder": 7
+                },
+                "thebigcatch": {
+                    "displayOrder": 11
+                }
+            }
+        },
+        "bigwheel": {
+            "defaultSkin": "basic",
+            "displayOrder": 11,
+            "skins": {
+                "basic": {
+                    "displayOrder": 0
+                },
+                "caribbeanvacation": {
+                    "displayOrder": 1
+                },
+                "flat": {
+                    "displayOrder": 2
+                },
+                "neons": {
+                    "displayOrder": 3
+                },
+                "supersale": {
+                    "displayOrder": 4
+                },
+                "threestars": {
+                    "displayOrder": 5
+                }
+            }
+        },
+        "pegboard": {
+            "defaultSkin": "celebration",
+            "displayOrder": 8,
+            "skins": {
+                "balance": {
+                    "displayOrder": 0
+                },
+                "celebration": {
+                    "displayOrder": 1
+                },
+                "energy": {
+                    "displayOrder": 2
+                },
+                "nebula": {
+                    "displayOrder": 3
+                },
+                "renewal": {
+                    "displayOrder": 4
+                },
+                "shortcircuit": {
+                    "displayOrder": 5
+                },
+                "spaday": {
+                    "displayOrder": 6
+                }
+            }
+        },
+        "freethrow": {
+            "defaultSkin": "basketball",
+            "displayOrder": 10,
+            "skins": {
+                "basketball": {
+                    "displayOrder": 0
+                },
+                "holeinone": {
+                    "displayOrder": 1
+                },
+                "laundryday": {
+                    "displayOrder": 2
+                },
+                "partytime": {
+                    "displayOrder": 3
+                },
+                "witchesbrew": {
+                    "displayOrder": 4
+                },
+                "workinglate": {
+                    "displayOrder": 5
+                }
+            }
+        },
+        "whackamole": {
+            "defaultSkin": "generic",
+            "displayOrder": 4,
+            "skins": {
+                "anightatthemovies": {
+                    "displayOrder": 0
+                },
+                "footballchampions": {
+                    "displayOrder": 1
+                },
+                "generic": {
+                    "displayOrder": 2
+                },
+                "santaslam": {
+                    "displayOrder": 3
+                },
+                "spacesmash": {
+                    "displayOrder": 4
+                },
+                "wildwest": {
+                    "displayOrder": 5
+                },
+                "monsterbash": {
+                    "displayOrder": 6
+                }
+            }
+        }
+    },
+    "survey": {
+        "trivia": {
+            "defaultSkin": "generic",
+            "displayOrder": 1,
+            "skins": {
+                "generic": {
+                    "displayOrder": 0
+                }
+            }
+        }
+    }
+}
